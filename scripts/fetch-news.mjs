@@ -26,8 +26,17 @@ if (!NAVER_CLIENT_ID || !NAVER_CLIENT_SECRET) {
 const HTML_PATH = path.resolve('competitor_map.html');
 const OUTPUT_PATH = path.resolve('data/news.json');
 const MAX_PER_STORE = 6;      // 매장당 최대 저장 기사 수
-const WINDOW_DAYS = 30;       // 이 기간(일)보다 오래된 기사는 저장하지 않음
+const WINDOW_DAYS = 60;       // 이 기간(일)보다 오래된 기사는 저장하지 않음
 const REQUEST_DELAY_MS = 150; // 네이버 API 과호출 방지용 호출 간 대기 시간
+
+// 매장별 별칭: 기사에서 정식 상호명 대신 줄여서/다르게 쓰는 경우를 위한 보조 이름입니다.
+// 검색(Naver 쿼리)과 매칭(제목·요약에 실제로 포함됐는지 검증) 양쪽 모두에 함께 쓰입니다.
+// store id는 competitor_map.html의 REGIONS에 있는 id와 동일해야 합니다.
+// 필요한 매장만 추가하면 되고, 없는 매장은 원래 상호명(name)만 그대로 사용합니다.
+const STORE_ALIASES = {
+  'hd-muyeok': ['현대 무역센터점', '현대백화점 무역점'],
+  // 예) 'ikea-gangdong': ['이케아 강동', '이케아 강동구'],
+};
 
 function stripHtml(s) {
   return String(s || '')
@@ -61,6 +70,22 @@ function isWithinWindow(pubDate, days) {
   return d.getTime() >= Date.now() - days * 24 * 60 * 60 * 1000;
 }
 
+// 네이버 뉴스 검색은 정확한 구문 일치 검색이 아니라 "관련도" 기반 검색이라서,
+// "현대백화점 무역센터점"처럼 검색해도 기사 수가 적으면 다른 지점(킨텍스점 등) 기사가
+// 섞여 나올 수 있습니다. 그래서 검색 결과 중 "실제로 이 매장 이름이 제목/요약에
+// 그대로 들어있는" 기사만 남기는 재검증 필터를 둡니다(공백 차이는 무시).
+function compact(s) {
+  return String(s || '').replace(/\s+/g, '');
+}
+function matchesStore(title, description, storeName) {
+  const haystack = compact(title) + compact(description);
+  return haystack.includes(compact(storeName));
+}
+// names 배열(정식 상호명 + 별칭) 중 하나라도 제목/요약에 포함되면 그 매장의 기사로 인정합니다.
+function matchesAnyName(title, description, names) {
+  return names.some((n) => matchesStore(title, description, n));
+}
+
 function extractStores(html) {
   const startMarker = 'var REGIONS = ';
   const startIdx = html.indexOf(startMarker);
@@ -85,7 +110,9 @@ function extractStores(html) {
 }
 
 async function fetchNewsFor(storeName) {
-  const url = `https://openapi.naver.com/v1/search/news.json?query=${encodeURIComponent(storeName)}&display=10&sort=date`;
+  // display를 넉넉히 받아온 뒤(아래에서 매장명 재검증 필터로 걸러내므로),
+  // 필터를 통과하는 기사 수가 줄어도 MAX_PER_STORE를 최대한 채울 수 있게 합니다.
+  const url = `https://openapi.naver.com/v1/search/news.json?query=${encodeURIComponent(storeName)}&display=30&sort=date`;
   const res = await fetch(url, {
     headers: {
       'X-Naver-Client-Id': NAVER_CLIENT_ID,
@@ -117,9 +144,23 @@ async function main() {
 
   let doneCount = 0;
   for (const store of stores) {
-    const items = await fetchNewsFor(store.name);
+    const names = [store.name, ...(STORE_ALIASES[store.id] || [])];
+
+    // 별칭이 있는 매장은 이름별로 각각 검색해서 합칩니다(같은 기사는 링크로 중복 제거).
+    const itemsByLink = new Map();
+    for (const name of names) {
+      const items = await fetchNewsFor(name);
+      for (const it of items) {
+        const key = it.originallink || it.link;
+        if (key && !itemsByLink.has(key)) itemsByLink.set(key, it);
+      }
+      if (names.length > 1) await sleep(REQUEST_DELAY_MS);
+    }
+    const items = [...itemsByLink.values()];
+
     const alerts = items
       .filter((it) => isWithinWindow(it.pubDate, WINDOW_DAYS))
+      .filter((it) => matchesAnyName(stripHtml(it.title), stripHtml(it.description), names))
       .slice(0, MAX_PER_STORE)
       .map((it) => {
         const title = stripHtml(it.title);
