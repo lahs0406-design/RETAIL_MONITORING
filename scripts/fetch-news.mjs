@@ -36,6 +36,30 @@ const REQUEST_DELAY_MS = 150; // 네이버 API 과호출 방지용 호출 간 �
 const STORE_ALIASES = {
   'hd-muyeok': ['현대 무역센터점', '현대백화점 무역점'],
   // 예) 'ikea-gangdong': ['이케아 강동', '이케아 강동구'],
+
+  // 갤러리아 (기사에서 "갤러리아백화점"만 쓰거나 지점명을 줄여 쓰는 경우가 많음)
+  'ga-apgujeong':  ['갤러리아 명품관', '갤러리아백화점 압구정'],
+  'ga-timeworld':  ['갤러리아백화점 타임월드'],
+  'ga-centercity': ['갤러리아백화점 센터시티', '갤러리아 천안'],
+  'ga-jinju':      ['갤러리아백화점 진주점'],
+  'ga-gwanggyo':   ['갤러리아백화점 광교'],
+
+  // AK플라자 (백화점형/AK& 몰형 모두 "AK플라자"로 통칭되는 경우가 많음)
+  'ak-bundang':      ['AK플라자 분당'],
+  'ak-suwon':        ['AK플라자 수원'],
+  'ak-pyeongtaek':   ['AK플라자 평택'],
+  'ak-giheung':      ['AK플라자 기흥', 'AK 기흥'],
+  'ak-gwangmyeong':  ['AK플라자 광명', 'AK 광명'],
+  'ak-geumjeong':    ['AK플라자 금정', 'AK 금정', 'AK 군포'],
+  'ak-sejong':       ['AK플라자 세종', 'AK 세종'],
+  'ak-hongdae':      ['AK플라자 홍대', 'AK 홍대'],
+  'ak-airport':      ['AK플라자 인천공항'],
+
+  // 다이소 (플래그십/대형매장은 보통 "다이소 OO점"으로 정식 표기됨)
+  'daiso-myeongdong': ['다이소 명동'],
+  'daiso-gangnam':    ['다이소 강남역'],
+  'daiso-hongdae':    ['다이소 홍대'],
+  'daiso-seongsu':    ['다이소 성수'],
 };
 
 function stripHtml(s) {
