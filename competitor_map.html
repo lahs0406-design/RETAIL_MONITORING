@@ -498,24 +498,6 @@
         { id:'daiso-seongsu',company:'daiso',          name:'다이소 성수점',           district:'성수',          x:725, y:260 }
       ]
     },
-    incheon: {
-      label:'인천',
-      geo:{
-        type:'coast', edge:'left',
-        fill:'M0,0 L95,0 C55,90 135,190 78,300 C35,410 125,510 65,620 L0,620 Z',
-        edge:'M95,0 C55,90 135,190 78,300 C35,410 125,510 65,620',
-        tribs:[],
-        labels:[ {text:'서해', x:130, y:60} ]
-      },
-      districts:[ {name:'인천 관교·터미널', x:500, y:320}, {name:'인천 연수·송도', x:420, y:400}, {name:'인천공항·영종', x:80, y:200} ],
-      landmarks:[ {name:'인천대교', x:140, y:540}, {name:'송도 센트럴파크', x:460, y:470}, {name:'소래포구', x:640, y:470} ],
-      stores:[
-        { id:'lt-incheon',  company:'lotte',         name:'롯데백화점 인천점',        district:'인천 미추홀구 관교동(인천터미널)', x:500, y:320 },
-        { id:'hd-songdo',   company:'hyundai_outlet',name:'현대프리미엄아울렛 송도점', district:'인천 연수구',  x:420, y:400 },
-        { id:'ikea-songdo', company:'ikea',          name:'이케아 플래닝스튜디오 송도점', district:'인천 연수구(현대프리미엄아울렛 송도 내)', x:445, y:415 },
-        { id:'ak-airport',  company:'ak',            name:'AK플라자 인천공항점',       district:'인천 중구 영종도(인천국제공항)', x:80, y:210 }
-      ]
-    },
     gg_east: {
       label:'경기 동부',
       geo:{
@@ -550,7 +532,7 @@
       ]
     },
     gg_west: {
-      label:'경기 서부',
+      label:'경기 서부·인천',
       geo:{
         type:'river',
         fill:'M1000,140 C800,115 600,155 400,135 C250,125 120,110 0,100 L0,230 C120,210 250,230 400,205 C600,190 800,190 1000,190 Z',
@@ -558,14 +540,19 @@
         tribs:[ 'M150,0 C155,40 150,75 150,110' ],
         labels:[ {text:'한강 하류', x:830, y:110} ]
       },
-      landmarks:[ {name:'임진각', x:180, y:40}, {name:'행주산성', x:150, y:280} ],
+      landmarks:[ {name:'임진각', x:180, y:40}, {name:'행주산성', x:150, y:280}, {name:'인천대교', x:140, y:540}, {name:'송도 센트럴파크', x:460, y:470}, {name:'소래포구', x:640, y:470} ],
       districts:[
         {name:'부천 중동', x:320,y:310}, {name:'고양 일산', x:260,y:150}, {name:'파주', x:230,y:70},
         {name:'안산', x:140,y:410}, {name:'시흥', x:120,y:335}, {name:'광명', x:225,y:395},
         {name:'안양 평촌', x:360,y:440}, {name:'화성 동탄', x:520,y:490}, {name:'안성', x:470,y:565}, {name:'수원', x:440,y:445},
-        {name:'평택', x:480,y:565}, {name:'군포·금정', x:300,y:400}
+        {name:'평택', x:480,y:565}, {name:'군포·금정', x:300,y:400},
+        {name:'인천 관교·터미널', x:500, y:320}, {name:'인천 연수·송도', x:420, y:400}, {name:'인천공항·영종', x:80, y:200}
       ],
       stores:[
+        { id:'lt-incheon',  company:'lotte',         name:'롯데백화점 인천점',        district:'인천 미추홀구 관교동(인천터미널)', x:500, y:320 },
+        { id:'hd-songdo',   company:'hyundai_outlet',name:'현대프리미엄아울렛 송도점', district:'인천 연수구',  x:420, y:400 },
+        { id:'ikea-songdo', company:'ikea',          name:'이케아 플래닝스튜디오 송도점', district:'인천 연수구(현대프리미엄아울렛 송도 내)', x:445, y:415 },
+        { id:'ak-airport',  company:'ak',            name:'AK플라자 인천공항점',       district:'인천 중구 영종도(인천국제공항)', x:80, y:210 },
         { id:'hd-jungdong', company:'hyundai',        name:'현대백화점 중동점',        district:'부천 중동',    x:300, y:300 },
         { id:'lt-jungdong', company:'lotte',          name:'롯데백화점 중동점',        district:'부천 중동',    x:345, y:325 },
         { id:'hd-kintex',   company:'hyundai',        name:'현대백화점 킨텍스점',      district:'고양 일산서구', x:250, y:150 },
@@ -714,8 +701,10 @@
     }
   };
 
-  var REAL_REGION_KEYS = ['seoul','incheon','gg_east','gg_west','daejeon','daegu','ulsan','busan','gwangju'];
-  var REGION_ORDER = ['all'].concat(REAL_REGION_KEYS);
+  var REAL_REGION_KEYS = ['seoul','gg_east','gg_west','daejeon','daegu','ulsan','busan','gwangju'];
+  // 지역 탭 목록에는 "전체"를 더 이상 넣지 않습니다 — 유통사를 (다시) 선택하면 항상 전국(all) 기준으로
+  // 초기화되므로, 전국 보기로 돌아가려면 상단의 현재 선택된 유통사 버튼을 다시 누르면 됩니다.
+  var REGION_ORDER = REAL_REGION_KEYS.slice();
 
   var SOURCES = ['조선비즈','한국경제','이데일리','뉴시스','매일경제','헤럴드경제','아시아경제','서울경제','파이낸셜뉴스','연합뉴스'];
   var POPUP_BRANDS = ['아더에러','메종 마르지엘라','르라보','디올 뷰티','젠틀몬스터','탬버린즈','무신사 스탠다드','스탠리'];
@@ -1208,6 +1197,9 @@
       center: new kakao.maps.LatLng(36.35, 127.8), // 대한민국 중앙 근처, 초기값(곧 매장 범위로 재조정됨)
       level: 13
     });
+    // 마우스 스크롤로 실수로 확대/축소되는 것을 막고, 대신 지도 우측 상단에 +/- 버튼을 둡니다.
+    kakaoMap.setZoomable(false);
+    kakaoMap.addControl(new kakao.maps.ZoomControl(), kakao.maps.ControlPosition.TOPRIGHT);
     kakaoPlaces = new kakao.maps.services.Places();
     kakaoReady = true;
     renderMap();
