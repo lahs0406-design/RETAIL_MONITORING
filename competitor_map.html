@@ -1,4 +1,28 @@
 <title>경쟁 유통 동향 지도</title>
+<script>
+  // 카카오 디벨로퍼스에서 발급받은 "JavaScript 키" (REST API 키/Admin 키가 아님).
+  // 이 키는 사이트 도메인 등록으로 보호되는 공개용 키라 코드에 그대로 넣어도 안전합니다.
+  var KAKAO_APP_KEY = 'bea29ce45b959ddf76372d82b434875e';
+  window.__onKakaoReady = null; // 지도 렌더 스크립트가 뜬 뒤 실제 콜백으로 채워집니다.
+  window.__kakaoReadyPending = false;
+  window.__KAKAO_KEY_MISSING = false;
+  (function(){
+    if(!KAKAO_APP_KEY){ window.__KAKAO_KEY_MISSING = true; return; }
+    var s = document.createElement('script');
+    s.src = 'https://dapi.kakao.com/v2/maps/sdk.js?appkey=' + KAKAO_APP_KEY + '&autoload=false&libraries=services';
+    s.onload = function(){
+      if(window.kakao && window.kakao.maps){
+        kakao.maps.load(function(){
+          if(window.__onKakaoReady){ window.__onKakaoReady(); } else { window.__kakaoReadyPending = true; }
+        });
+      } else {
+        window.__KAKAO_KEY_MISSING = true;
+      }
+    };
+    s.onerror = function(){ window.__KAKAO_KEY_MISSING = true; };
+    document.head.appendChild(s);
+  })();
+</script>
 <style>
   :root{
     --bg:#eef1f6;
@@ -173,46 +197,36 @@
   .card-head .hint{ font-size:11.5px; color:var(--ink-faint); }
 
   .map-wrap{ padding:0 14px 14px; }
-  svg.map{ width:100%; height:auto; display:block; border-radius:12px; background:var(--paper-2); }
-  .water{ fill:var(--river); }
-  .water-edge{ fill:none; stroke:var(--river-line); stroke-width:2; }
-  .water-trib{ fill:none; stroke:var(--river-line); stroke-width:1.6; opacity:.75; }
-  .water-label{ fill:var(--river-line); font-size:13px; font-weight:700; letter-spacing:.02em; opacity:.85; }
-  .landmark-mark{ fill:none; stroke:var(--ink-faint); stroke-width:1.4; opacity:.55; }
-  .landmark-label{ fill:var(--ink-faint); font-size:10.5px; font-style:italic; opacity:.65; }
-  .district-label{ fill:var(--ink-faint); font-size:13px; font-weight:600; }
-  .foot-ring{ fill:var(--accent); opacity:.10; }
-  .foot-ring-edge{ fill:none; stroke:var(--accent); stroke-opacity:.35; stroke-width:1.4; stroke-dasharray:3 3; }
-
-  .all-overview{ display:grid; grid-template-columns:repeat(3,1fr); gap:10px; padding:6px 2px; }
-  @media (max-width: 700px){ .all-overview{ grid-template-columns:repeat(2,1fr); } }
-  .region-card{
-    border:1px solid var(--line); border-radius:14px; padding:14px; cursor:pointer; background:var(--paper);
-    display:flex; flex-direction:column; gap:8px; transition:border-color .12s ease, transform .12s ease;
+  .map-kakao-wrap{ position:relative; }
+  .map{ width:100%; height:520px; border-radius:12px; background:var(--paper-2); }
+  .map-loading, .map-fallback-note{
+    position:absolute; left:12px; bottom:12px; z-index:20; max-width:calc(100% - 24px);
+    background:var(--paper); border:1px solid var(--line); border-radius:10px;
+    padding:7px 12px; font-size:12px; color:var(--ink-dim); box-shadow:var(--shadow);
   }
-  .region-card:hover{ border-color:var(--accent); transform:translateY(-1px); }
-  .rc-top{ display:flex; align-items:baseline; justify-content:space-between; gap:6px; }
-  .rc-top b{ font-size:15px; }
-  .rc-cnt{ font-size:11.5px; color:var(--ink-faint); }
-  .rc-stats{ display:flex; gap:8px; flex-wrap:wrap; font-size:11.5px; color:var(--ink-dim); }
+  .map-fallback-note{ color:var(--warn); border-color:color-mix(in srgb, var(--warn) 35%, var(--line)); }
 
-  .pin{ cursor:pointer; }
-  .pin-halo{ fill:none; opacity:0; }
-  .pin[data-alerts="1"] .pin-halo{ fill:var(--pin-cat, var(--cat-etc)); opacity:.18; animation:pulse 2.6s ease-in-out infinite; }
+  .pin{ position:relative; width:32px; height:32px; cursor:pointer; }
+  .pin-halo{ position:absolute; inset:-15px; border-radius:50%; opacity:0; background:var(--pin-cat, var(--cat-etc)); }
+  .pin-halo[data-active="1"]{ opacity:.18; animation:pulse 2.6s ease-in-out infinite; }
   @keyframes pulse{ 0%,100%{ transform:scale(1); opacity:.20; } 50%{ transform:scale(1.32); opacity:.04; } }
-  .pin-own-ring{ fill:none; stroke:var(--good); stroke-width:1.6; stroke-dasharray:2.5 3; opacity:.85; }
-  .pin-body{ stroke:var(--paper); stroke-width:2.5; }
-  .pin-label{ fill:#fff; font-size:9px; font-weight:700; text-anchor:middle; pointer-events:none; letter-spacing:-.3px; }
-  .pin-badge-ring{ fill:var(--paper); }
-  .pin-badge{ stroke:var(--paper); stroke-width:1.6; }
-  .pin-badge-count{ fill:#fff; font-weight:700; text-anchor:middle; pointer-events:none; }
-  .pin.dimmed{ opacity:.26; }
+  .pin-own-ring{ position:absolute; inset:-4px; border-radius:50%; border:1.6px dashed var(--good); opacity:.85; }
+  .pin-body{
+    position:absolute; inset:0; border-radius:50%; display:flex; align-items:center; justify-content:center;
+    color:#fff; font-size:10.5px; font-weight:700; letter-spacing:-.3px; border:2.5px solid var(--paper); box-shadow:var(--shadow);
+  }
+  .pin-badge{
+    position:absolute; top:-7px; right:-7px; min-width:17px; height:17px; padding:0 3px; box-sizing:border-box;
+    border-radius:9px; display:flex; align-items:center; justify-content:center;
+    font-size:10px; font-weight:700; color:#fff; border:1.6px solid var(--paper);
+  }
+  .pin.dimmed{ opacity:.3; }
   .pin.dimmed .pin-halo{ animation:none; opacity:0; }
-  .pin.selected .pin-body{ stroke:var(--accent); stroke-width:3.5; }
-  .pin.ping .pin-halo{ animation:pingOnce 900ms ease-out; opacity:.4; }
-  @keyframes pingOnce{ 0%{ transform:scale(.6); opacity:.5; } 100%{ transform:scale(2.1); opacity:0; } }
+  .pin.selected .pin-body{ outline:3px solid var(--accent); outline-offset:1px; }
+  .pin.ping .pin-body{ animation:pingOnce 900ms ease-out; }
+  @keyframes pingOnce{ 0%{ transform:scale(.55); } 55%{ transform:scale(1.4); } 100%{ transform:scale(1); } }
   @media (prefers-reduced-motion: reduce){
-    .pin-halo, .pin.ping .pin-halo{ animation:none !important; }
+    .pin-halo, .pin.ping .pin-body{ animation:none !important; }
   }
 
   .side{ display:flex; flex-direction:column; }
@@ -311,8 +325,11 @@
         <span class="hint">진하게 표시된 핀 = 선택된 유통사 · 배지 색상·크기 = 이슈 건수 · 점선 링 = 자사(현대)</span>
       </div>
       <div class="map-wrap">
-        <svg class="map" id="mapSvg" viewBox="0 0 1000 620" role="img" aria-label="권역별 경쟁 유통 매장 지도" hidden></svg>
-        <div class="all-overview" id="allOverview"></div>
+        <div class="map-kakao-wrap">
+          <div class="map" id="mapKakao" role="img" aria-label="권역별 경쟁 유통 매장 지도"></div>
+          <div class="map-loading" id="mapLoading" hidden>지도 좌표 불러오는 중… (처음 한 번만 걸리고, 이후엔 저장돼서 빨라집니다)</div>
+          <div class="map-fallback-note" id="mapFallbackNote" hidden></div>
+        </div>
       </div>
     </div>
 
@@ -846,6 +863,11 @@
         tileTotalLabelEl.textContent = '전국 매장';
         renderAll();
         updateDemoBadge();
+        if(window.__KAKAO_KEY_MISSING){
+          mapLoadingEl.hidden = true;
+          mapFallbackNoteEl.hidden = false;
+          mapFallbackNoteEl.textContent = '카카오맵을 불러오지 못했습니다 — 파일 상단의 KAKAO_APP_KEY 값과, 카카오 디벨로퍼스에 등록한 사이트 도메인을 확인해주세요.';
+        }
       });
   }
 
@@ -866,8 +888,9 @@
   var nationwideLineEl = document.getElementById('nationwideLine');
   var categoryChipsEl = document.getElementById('categoryChips');
   var footToggleEl = document.getElementById('footToggle');
-  var svg = document.getElementById('mapSvg');
-  var allOverviewEl = document.getElementById('allOverview');
+  var mapKakaoEl = document.getElementById('mapKakao');
+  var mapLoadingEl = document.getElementById('mapLoading');
+  var mapFallbackNoteEl = document.getElementById('mapFallbackNote');
   var mapTitleEl = document.getElementById('mapTitle');
   var tileTotalLabelEl = document.getElementById('tileTotalLabel');
   var sideBody = document.getElementById('sideBody');
@@ -1037,137 +1060,159 @@
 
   function filteredAlerts(store){ return store.alerts.filter(function(a){ return state.categories.has(a.category); }); }
 
-  function svgEl(tag, attrs){
-    var el = document.createElementNS('http://www.w3.org/2000/svg', tag);
-    for(var k in attrs) el.setAttribute(k, attrs[k]);
-    return el;
+  // ── 카카오맵 연동 ─────────────────────────────────────────────
+  // 매장의 실제 위경도는 좌표를 따로 관리하지 않고, 카카오맵 키워드 검색(장소명 검색)으로
+  // "매장 이름"을 그대로 검색해서 얻습니다. 한 번 찾은 좌표는 브라우저에 저장해두고 재사용합니다.
+  var kakaoMap = null;
+  var kakaoReady = false;
+  var kakaoPlaces = null;
+  var kakaoOverlays = []; // 현재 지도 위에 올라간 CustomOverlay/Circle 목록 (다시 그릴 때 정리용)
+  var mapRenderToken = 0;
+  var LATLNG_CACHE_KEY = 'competitorMap.storeLatLng.v1';
+  var storeLatLngCache = loadLatLngCache();
+
+  function loadLatLngCache(){
+    try {
+      var raw = localStorage.getItem(LATLNG_CACHE_KEY);
+      return raw ? JSON.parse(raw) : {};
+    } catch(e){ return {}; }
+  }
+  function saveLatLngCache(){
+    try { localStorage.setItem(LATLNG_CACHE_KEY, JSON.stringify(storeLatLngCache)); } catch(e){}
   }
 
-  function renderAllOverview(){
-    var cards = REAL_REGION_KEYS.map(function(rk){
-      var region = REGIONS[rk];
-      var stores = region.stores.filter(function(s){ return state.companies.has(s.company); });
-      var activeCount = 0, alertCount = 0;
-      stores.forEach(function(s){
-        var a = filteredAlerts(s);
-        if(a.length > 0) activeCount++;
-        alertCount += a.length;
-      });
-      return '' +
-        '<div class="region-card" data-key="' + rk + '">' +
-          '<div class="rc-top"><b>' + region.label + '</b><span class="rc-cnt">' + stores.length + '개 매장</span></div>' +
-          '<div class="rc-stats"><span>이슈 ' + alertCount + '건</span><span>발생매장 ' + activeCount + '</span></div>' +
-        '</div>';
-    }).join('');
-    allOverviewEl.innerHTML = cards;
-    Array.prototype.forEach.call(allOverviewEl.querySelectorAll('.region-card'), function(el){
-      el.addEventListener('click', function(){ goToRegion(el.dataset.key); });
+  // 같은 매장에 대해 여러 렌더링 요청이 겹쳐도(예: 필터를 빠르게 여러 번 클릭) 중복으로
+  // API를 호출하지 않도록, 이미 조회 중인 매장은 대기열에만 콜백을 추가합니다.
+  var inFlightLookups = {};
+  function resolveStoreLatLng(store, onDone){
+    if(storeLatLngCache[store.id]){ onDone(storeLatLngCache[store.id]); return; }
+    if(inFlightLookups[store.id]){ inFlightLookups[store.id].push(onDone); return; }
+    if(!kakaoPlaces){ onDone(null); return; }
+    inFlightLookups[store.id] = [onDone];
+    kakaoPlaces.keywordSearch(store.name, function(data, status){
+      var found = null;
+      if(status === kakao.maps.services.Status.OK && data && data[0]){
+        found = { lat: parseFloat(data[0].y), lng: parseFloat(data[0].x) };
+        storeLatLngCache[store.id] = found;
+        saveLatLngCache();
+      }
+      var waiters = inFlightLookups[store.id] || [];
+      delete inFlightLookups[store.id];
+      waiters.forEach(function(fn){ fn(found); });
     });
   }
 
-  // 서울의 한강처럼, 각 권역도 실제 지형 대신 물길(강/바다) 하나만 단순화해서 배경에 표시합니다.
-  // 권역마다 실제 지리(방향·지류)를 반영해 각도와 형태를 다르게 구성했습니다.
-  function drawWater(region){
-    var geo = region.geo;
-    if(!geo) return;
-    svg.appendChild(svgEl('path', { d: geo.fill, class:'water' }));
-    svg.appendChild(svgEl('path', { d: geo.edge, class:'water-edge' }));
-    (geo.tribs || []).forEach(function(t){
-      svg.appendChild(svgEl('path', { d:t, class:'water-trib' }));
-    });
-    (geo.labels || []).forEach(function(lb){
-      var t = svgEl('text', { x:lb.x, y:lb.y, class:'water-label', 'text-anchor':'middle' });
-      t.textContent = lb.text;
-      svg.appendChild(t);
-    });
-  }
-
-  // 매장이 적어 휑해 보이는 권역에 실존 랜드마크를 배경 요소로 표시합니다(클릭 불가, 장식용).
-  function drawLandmarks(region){
-    (region.landmarks || []).forEach(function(lm){
-      var g = svgEl('g', { transform:'translate(' + lm.x + ',' + lm.y + ')' });
-      g.appendChild(svgEl('path', { d:'M0,-6 L6,0 L0,6 L-6,0 Z', class:'landmark-mark' }));
-      var t = svgEl('text', { x:0, y:17, class:'landmark-label', 'text-anchor':'middle' });
-      t.textContent = lm.name;
-      g.appendChild(t);
-      svg.appendChild(g);
-    });
-  }
-
-  function renderMap(){
-    if(state.region === 'all'){
-      svg.hidden = true;
-      allOverviewEl.hidden = false;
-      renderAllOverview();
-      return;
+  // 아직 좌표를 못 찾은 매장만 찾되, 처음 로딩 시(수십~백여 개) 너무 오래 걸리지 않도록
+  // 동시에 몇 건씩(LATLNG_LOOKUP_CONCURRENCY) 병렬로 조회합니다.
+  var LATLNG_LOOKUP_CONCURRENCY = 4;
+  function resolveMissingLatLngs(stores, callback){
+    var missing = stores.filter(function(s){ return !storeLatLngCache[s.id]; });
+    if(missing.length === 0){ callback(); return; }
+    mapLoadingEl.hidden = false;
+    var idx = 0, active = 0, doneCount = 0;
+    function settle(){
+      doneCount++;
+      if(doneCount >= missing.length){ mapLoadingEl.hidden = true; callback(); }
     }
-    svg.hidden = false;
-    allOverviewEl.hidden = true;
-
-    svg.innerHTML = '';
-    var region = REGIONS[state.region];
-
-    drawWater(region);
-
-    (region.districts || []).forEach(function(d){
-      var t = svgEl('text', { x:d.x, y:d.y, class:'district-label', 'text-anchor':'middle' });
-      t.textContent = d.name;
-      svg.appendChild(t);
-    });
-
-    drawLandmarks(region);
-
-    if(state.showFoot){
-      region.stores.forEach(function(store){
-        if(!state.companies.has(store.company)) return;
-        var r = 24 + (store.foot / 41000) * 42;
-        var g = svgEl('g', { transform:'translate(' + store.x + ',' + store.y + ')' });
-        g.appendChild(svgEl('circle', { r:r, class:'foot-ring' }));
-        g.appendChild(svgEl('circle', { r:r, class:'foot-ring-edge' }));
-        svg.appendChild(g);
-      });
+    function pump(){
+      while(active < LATLNG_LOOKUP_CONCURRENCY && idx < missing.length){
+        var store = missing[idx++];
+        active++;
+        resolveStoreLatLng(store, function(){ active--; settle(); pump(); });
+      }
     }
+    pump();
+  }
 
-    region.stores.forEach(function(store){
-      var co = COMPANIES[store.company];
-      var alerts = filteredAlerts(store);
-      var companyOn = state.companies.has(store.company);
-      var sev = Math.min(alerts.length, 4);
-      var badgeR = 8.5 + sev * 1.5;
-      var haloR = 22 + sev * 4;
+  function clearMapOverlays(){
+    kakaoOverlays.forEach(function(ov){ ov.setMap(null); });
+    kakaoOverlays = [];
+  }
 
-      var g = svgEl('g', {
-        class:'pin' + (companyOn ? '' : ' dimmed') + (state.selected === store.id ? ' selected' : ''),
-        transform:'translate(' + store.x + ',' + store.y + ')',
-        'data-id': store.id,
-        'data-alerts': alerts.length > 0 ? '1' : '0'
+  function renderMap(pingStoreId){
+    if(!kakaoReady) return; // 카카오맵 SDK가 아직 준비 전이면, 준비되는 시점에 다시 호출됩니다.
+    var myToken = ++mapRenderToken;
+    var stores = currentStores();
+
+    resolveMissingLatLngs(stores, function(){
+      if(myToken !== mapRenderToken) return; // 그 사이 다른 필터 클릭으로 더 최신 렌더가 시작된 경우 무시
+      clearMapOverlays();
+
+      var bounds = new kakao.maps.LatLngBounds();
+      var plotted = 0;
+      var skippedNames = [];
+
+      stores.forEach(function(store){
+        var pos = storeLatLngCache[store.id];
+        if(!pos){ skippedNames.push(store.name); return; }
+
+        var latlng = new kakao.maps.LatLng(pos.lat, pos.lng);
+        bounds.extend(latlng);
+        plotted++;
+
+        var co = COMPANIES[store.company];
+        var alerts = filteredAlerts(store);
+        var companyOn = state.companies.has(store.company);
+        var badgeCat = topPriorityCategory(alerts);
+
+        var el = document.createElement('div');
+        el.className = 'pin' + (companyOn ? '' : ' dimmed') + (state.selected === store.id ? ' selected' : '');
+        el.dataset.id = store.id;
+        if(badgeCat){ el.style.setProperty('--pin-cat', CATEGORIES[badgeCat].color); }
+        el.title = store.name + ' · ' + co.label + (alerts.length ? ' · 이슈 ' + alerts.length + '건' : ' · 이슈 없음');
+        el.innerHTML = '' +
+          '<span class="pin-halo"' + (alerts.length > 0 ? ' data-active="1"' : '') + '></span>' +
+          (co.own ? '<span class="pin-own-ring"></span>' : '') +
+          '<span class="pin-body" style="background:' + co.color + '">' + escapeHtml(co.short) + '</span>' +
+          (alerts.length > 0 ? '<span class="pin-badge" style="background:' + CATEGORIES[badgeCat].color + '">' + alerts.length + '</span>' : '');
+        el.addEventListener('click', function(){ selectStore(store.id); });
+
+        var overlay = new kakao.maps.CustomOverlay({
+          position: latlng, content: el, yAnchor: 0.5, xAnchor: 0.5, clickable: true, zIndex: companyOn ? 10 : 1
+        });
+        overlay.setMap(kakaoMap);
+        kakaoOverlays.push(overlay);
+
+        if(state.showFoot && companyOn){
+          var circle = new kakao.maps.Circle({
+            center: latlng,
+            radius: 300 + (store.foot / 41000) * 1800,
+            strokeWeight: 1.4, strokeColor: '#3454d1', strokeOpacity: .45, strokeStyle: 'shortdash',
+            fillColor: '#3454d1', fillOpacity: .1
+          });
+          circle.setMap(kakaoMap);
+          kakaoOverlays.push(circle);
+        }
       });
-      var badgeCat = topPriorityCategory(alerts);
-      if(badgeCat){ g.style.setProperty('--pin-cat', CATEGORIES[badgeCat].color); }
 
-      g.appendChild(svgEl('circle', { class:'pin-halo', r:haloR }));
-      if(co.own){ g.appendChild(svgEl('circle', { class:'pin-own-ring', r:20 })); }
-      g.appendChild(svgEl('circle', { class:'pin-body', r:16, fill:co.color }));
-      var label = svgEl('text', { class:'pin-label', y:3.5 });
-      label.textContent = co.short;
-      g.appendChild(label);
+      if(plotted > 0){ kakaoMap.setBounds(bounds, 40); }
 
-      if(alerts.length > 0){
-        g.appendChild(svgEl('circle', { class:'pin-badge-ring', cx:12, cy:-12, r:badgeR + 1.5 }));
-        g.appendChild(svgEl('circle', { class:'pin-badge', cx:12, cy:-12, r:badgeR, fill:CATEGORIES[badgeCat].color }));
-        var cnt = svgEl('text', { class:'pin-badge-count', x:12, y:-8.4, style:'font-size:' + (9 + sev * 0.6) + 'px' });
-        cnt.textContent = String(alerts.length);
-        g.appendChild(cnt);
+      if(skippedNames.length){
+        mapFallbackNoteEl.hidden = false;
+        mapFallbackNoteEl.textContent = '지도에서 좌표를 찾지 못한 매장 ' + skippedNames.length + '개: ' +
+          skippedNames.slice(0, 5).join(', ') + (skippedNames.length > 5 ? ' 등' : '');
+      } else {
+        mapFallbackNoteEl.hidden = true;
       }
 
-      var titleEl = svgEl('title', {});
-      titleEl.textContent = store.name + ' · ' + co.label + (alerts.length ? ' · 이슈 ' + alerts.length + '건' : ' · 이슈 없음');
-      g.appendChild(titleEl);
-
-      g.addEventListener('click', function(id){ return function(){ selectStore(id); }; }(store.id));
-      svg.appendChild(g);
+      if(pingStoreId){
+        var pinEl = mapKakaoEl.querySelector('.pin[data-id="' + pingStoreId + '"]');
+        if(pinEl){ pinEl.classList.add('ping'); setTimeout(function(){ pinEl.classList.remove('ping'); }, 950); }
+      }
     });
   }
+
+  // 카카오맵 SDK 로드가 끝나면(위쪽 <script>에서) 이 콜백이 호출됩니다.
+  window.__onKakaoReady = function(){
+    kakaoMap = new kakao.maps.Map(mapKakaoEl, {
+      center: new kakao.maps.LatLng(36.35, 127.8), // 대한민국 중앙 근처, 초기값(곧 매장 범위로 재조정됨)
+      level: 13
+    });
+    kakaoPlaces = new kakao.maps.services.Places();
+    kakaoReady = true;
+    renderMap();
+  };
+  if(window.__kakaoReadyPending){ window.__onKakaoReady(); }
 
   function coBadge(companyKey){
     var co = COMPANIES[companyKey];
@@ -1273,11 +1318,7 @@
     state.selected = id;
     var store = currentStores().filter(function(s){ return s.id === id; })[0];
     if(!store) return;
-    renderMap();
-    if(!skipPing){
-      var g = svg.querySelector('[data-id="' + id + '"]');
-      if(g){ g.classList.add('ping'); setTimeout(function(){ g.classList.remove('ping'); }, 950); }
-    }
+    renderMap(skipPing ? null : id);
     renderStoreDetail(store);
   }
 
