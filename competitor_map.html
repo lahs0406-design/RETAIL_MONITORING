@@ -27,6 +27,9 @@
     --c-musinsa:#2a2d33;
     --c-oliveyoung:#6c7a37;
     --c-ikea:#1a56ad;
+    --c-galleria:#8a2942;
+    --c-ak:#3d6b74;
+    --c-daiso:#b8860b;
 
     --cat-open:#2f5fdb;
     --cat-popup:#8b2fc9;
@@ -42,6 +45,7 @@
       --shadow: 0 1px 2px rgba(0,0,0,.4), 0 12px 30px -14px rgba(0,0,0,.6);
       --good:#3ecf8e; --warn:#ff9457;
       --c-hyundai-outlet:#63b483; --c-simon:#22a6c2; --c-starfield:#ff7a3d; --c-lotte-outlet:#e08a7e; --c-ikea:#4d8fe0;
+      --c-galleria:#c5637f; --c-ak:#6fa9b3; --c-daiso:#d8a63f;
     }
   }
   :root[data-theme="dark"]{
@@ -51,6 +55,7 @@
     --shadow: 0 1px 2px rgba(0,0,0,.4), 0 12px 30px -14px rgba(0,0,0,.6);
     --good:#3ecf8e; --warn:#ff9457;
     --c-hyundai-outlet:#63b483; --c-simon:#22a6c2; --c-starfield:#ff7a3d; --c-lotte-outlet:#e08a7e; --c-ikea:#4d8fe0;
+    --c-galleria:#c5637f; --c-ak:#6fa9b3; --c-daiso:#d8a63f;
   }
 
   *{ box-sizing:border-box; }
@@ -88,6 +93,42 @@
   .region-tab.active{ background:var(--accent); border-color:var(--accent); color:#fff; }
   .region-tab.active .cnt{ color:rgba(255,255,255,.75); }
   .region-tab.all-tab{ border-style:solid; font-weight:700; }
+  .region-tabs-sub{ flex:1; }
+  .region-tabs-sub .region-tab{ padding:5px 11px; font-size:12.5px; box-shadow:none; }
+
+  .co-nav-card{ padding:14px 16px; display:flex; flex-direction:column; gap:10px; }
+  .co-nav-row{ display:flex; align-items:flex-start; gap:10px; }
+  .co-nav-row-label{ font-size:12px; font-weight:700; color:var(--ink-faint); padding-top:9px; width:58px; flex:none; }
+  .co-nav-row .co-nav{ flex:1; }
+  .co-nav{ display:flex; flex-wrap:wrap; gap:8px; }
+  .co-nav-btn{
+    font-size:13.5px; font-weight:600; padding:8px 14px; border-radius:10px; border:1px solid var(--line);
+    background:var(--paper); color:var(--ink); cursor:pointer; display:flex; align-items:center; gap:6px;
+    box-shadow:var(--shadow);
+  }
+  .co-nav-btn.active{ background:var(--accent); border-color:var(--accent); color:#fff; }
+  .co-nav-btn .nb-dot{ width:8px; height:8px; border-radius:50%; flex:none; }
+  .co-nav-btn .nb-badge{ font-size:10px; font-weight:700; border-radius:5px; padding:1px 5px; line-height:1.5; }
+  .co-nav-btn .nb-badge.own{ background:var(--accent-soft); color:var(--accent); }
+  .co-nav-btn.active .nb-badge.own{ background:rgba(255,255,255,.25); color:#fff; }
+  .co-nav-btn .nb-badge.new{ background:var(--line-soft); color:var(--ink-faint); }
+  .co-nav-btn.active .nb-badge.new{ background:rgba(255,255,255,.25); color:#fff; }
+  .co-format-tabs{ display:flex; gap:6px; padding-top:2px; }
+  .co-format-tabs[hidden]{ display:none; }
+  .co-format-btn{
+    font-size:12.5px; font-weight:600; padding:5px 12px; border-radius:8px; border:1px solid var(--line);
+    background:var(--paper-2); color:var(--ink-dim); cursor:pointer;
+  }
+  .co-format-btn.active{ background:var(--ink); border-color:var(--ink); color:#fff; }
+
+  .tile-dart .t-value{ font-size:14.5px; color:var(--ink-dim); font-weight:600; }
+
+  .dart-card .card-head .hint{ max-width:420px; text-align:right; }
+  .dart-body{ padding:0 16px 16px; }
+  table.dart-table{ width:100%; border-collapse:collapse; font-size:13px; }
+  table.dart-table th{ background:var(--paper-2); color:var(--ink-dim); font-weight:700; padding:8px 10px; border-bottom:2px solid var(--line); text-align:left; font-size:11.5px; }
+  table.dart-table td{ padding:8px 10px; border-bottom:1px solid var(--line-soft); color:var(--ink-faint); }
+  table.dart-table tr:last-child td{ border-bottom:none; }
 
   .tiles{ display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
   .tile{
@@ -215,26 +256,36 @@
   <div class="head">
     <div class="head-title">
       <span class="eyebrow">경쟁사 유통 동향</span>
-      <h1>백화점·아울렛·복합몰 권역별 동향 지도</h1>
-      <span class="head-sub">전국 매장을 한 지도에 모두 표시하기 어려워 권역별로 나누어 보여줍니다. '전체'에서 권역 요약을 보고, 카드를 눌러 상세 지도로 이동하세요.</span>
+      <h1>백화점·아울렛·복합몰 유통사별 동향 지도</h1>
+      <span class="head-sub">유통사를 먼저 고른 뒤, 그 기업의 매장·이슈·공시를 한 화면에서 봅니다. 지역은 아래 필터에서 보조적으로 좁혀보세요.</span>
     </div>
     <span class="demo-badge" id="demoBadge">● 이슈·유동인구는 더미 데이터 예시입니다</span>
   </div>
 
-  <div class="nationwide" id="nationwideLine"></div>
-  <div class="region-tabs" id="regionTabs"></div>
+  <div class="card co-nav-card">
+    <div class="co-nav-row">
+      <span class="co-nav-row-label">백화점</span>
+      <div class="co-nav" id="companyNavDept"></div>
+    </div>
+    <div class="co-nav-row">
+      <span class="co-nav-row-label">기타 유통</span>
+      <div class="co-nav" id="companyNavEtc"></div>
+    </div>
+    <div class="co-format-tabs" id="companyFormatTabs" hidden></div>
+    <div class="nationwide" id="nationwideLine"></div>
+  </div>
 
   <div class="tiles">
     <div class="tile"><span class="t-label" id="tileTotalLabel">매장</span><span class="t-value num" id="tileTotal">–</span></div>
     <div class="tile"><span class="t-label">이슈 발생 매장</span><span class="t-value num" id="tileActive">–</span></div>
-    <div class="tile"><span class="t-label">최근 21일 신규 이슈</span><span class="t-value num" id="tileAlerts">–</span></div>
-    <div class="tile"><span class="t-label">자사(현대) 관련 이슈</span><span class="t-value num" id="tileOwn">–</span></div>
+    <div class="tile"><span class="t-label" id="tileAlertsLabel">최근 60일 이슈</span><span class="t-value num" id="tileAlerts">–</span></div>
+    <div class="tile tile-dart"><span class="t-label">공시(DART)</span><span class="t-value" id="tileOwn">연동 예정</span></div>
   </div>
 
   <div class="filters">
-    <div class="filter-line stack">
-      <span class="f-label">유통사</span>
-      <div id="companyChips" style="display:flex; flex-direction:column; gap:8px; flex:1;"></div>
+    <div class="filter-line">
+      <span class="f-label">지역</span>
+      <div class="region-tabs region-tabs-sub" id="regionTabs"></div>
     </div>
     <div class="filter-line">
       <span class="f-label">이슈 분류</span>
@@ -257,7 +308,7 @@
     <div class="card">
       <div class="card-head">
         <h2 id="mapTitle">전국 매장 요약</h2>
-        <span class="hint">핀 색상 = 유통사 · 배지 색상·크기 = 이슈 건수 · 점선 링 = 자사(현대)</span>
+        <span class="hint">진하게 표시된 핀 = 선택된 유통사 · 배지 색상·크기 = 이슈 건수 · 점선 링 = 자사(현대)</span>
       </div>
       <div class="map-wrap">
         <svg class="map" id="mapSvg" viewBox="0 0 1000 620" role="img" aria-label="권역별 경쟁 유통 매장 지도" hidden></svg>
@@ -273,6 +324,14 @@
       <button class="back-btn" id="backBtn" hidden>← 이 화면 이슈 피드로</button>
       <div class="side-body" id="sideBody"></div>
     </div>
+  </div>
+
+  <div class="card dart-card">
+    <div class="card-head">
+      <h2>공시정보 (DART)</h2>
+      <span class="hint" id="dartHint">전자공시시스템 Open API 연동 예정 · 지금은 자리만 마련해둔 상태입니다</span>
+    </div>
+    <div class="dart-body" id="dartBody"></div>
   </div>
 </div>
 
@@ -312,13 +371,40 @@
     starfield:       { label:'스타필드',   short:'스타', color:'var(--c-starfield)' },
     ikea:            { label:'이케아',     short:'이케', color:'var(--c-ikea)' },
     musinsa:         { label:'무신사',     short:'무',   color:'var(--c-musinsa)' },
-    oliveyoung:      { label:'올리브영',   short:'올',   color:'var(--c-oliveyoung)' }
+    oliveyoung:      { label:'올리브영',   short:'올',   color:'var(--c-oliveyoung)' },
+    galleria:        { label:'갤러리아',   short:'갤',   color:'var(--c-galleria)' },
+    ak:              { label:'AK',         short:'AK',   color:'var(--c-ak)' },
+    daiso:           { label:'다이소',     short:'다',   color:'var(--c-daiso)' }
   };
-  var COMPANY_GROUPS = [
-    { label:'백화점',     keys:['hyundai','shinsegae','lotte'] },
-    { label:'아울렛·복합몰', keys:['hyundai_outlet','shinsegae_simon','lotte_outlet','starfield','ikea'] },
-    { label:'기타 리테일', keys:['musinsa','oliveyoung'] }
+
+  // ── 대전제: 유통사 내비게이션 (최상단에서 하나만 선택) ──────────────
+  // formats가 있으면 그 안에서 포맷(백화점/아울렛)을 골라 실제 COMPANIES 키로 매핑합니다.
+  // formats가 없으면 companies 배열의 키들을 그대로 사용합니다(보통 1개).
+  var COMPANY_NAV = [
+    { key:'hyundai',    label:'현대',     own:true,  group:'dept', formats:{ '백화점':'hyundai',   '아울렛':'hyundai_outlet' } },
+    { key:'shinsegae',  label:'신세계',   own:false, group:'dept', formats:{ '백화점':'shinsegae', '아울렛':'shinsegae_simon' } },
+    { key:'lotte',      label:'롯데',     own:false, group:'dept', formats:{ '백화점':'lotte',     '아울렛':'lotte_outlet' } },
+    { key:'galleria',   label:'갤러리아', own:false, group:'dept', companies:['galleria'] },
+    { key:'ak',         label:'AK',       own:false, group:'dept', companies:['ak'] },
+    { key:'ikea',       label:'이케아',   own:false, group:'etc',  companies:['ikea'] },
+    { key:'starfield',  label:'스타필드', own:false, group:'etc',  companies:['starfield'] },
+    { key:'musinsa',    label:'무신사',   own:false, group:'etc',  companies:['musinsa'] },
+    { key:'oliveyoung', label:'올리브영', own:false, group:'etc',  companies:['oliveyoung'] },
+    { key:'daiso',      label:'다이소',   own:false, group:'etc',  companies:['daiso'] }
   ];
+  function navByKey(key){
+    for(var i=0;i<COMPANY_NAV.length;i++){ if(COMPANY_NAV[i].key === key) return COMPANY_NAV[i]; }
+    return COMPANY_NAV[0];
+  }
+  // 선택된 nav 항목(+포맷)이 실제로 가리키는 COMPANIES 키 배열을 계산합니다.
+  function resolveCompanyKeys(navKey, format){
+    var nav = navByKey(navKey);
+    if(nav.formats){
+      var fmtKey = (format && nav.formats[format]) ? format : Object.keys(nav.formats)[0];
+      return [nav.formats[fmtKey]];
+    }
+    return nav.companies || [nav.key];
+  }
 
   var CATEGORIES = {
     open:  { label:'오픈·리뉴얼',     color:'var(--cat-open)' },
@@ -386,7 +472,13 @@
         { id:'hd-dongdaemun',company:'hyundai_outlet', name:'현대아울렛 동대문점',     district:'중구·동대문',   x:460, y:225 },
         { id:'hd-gasan',     company:'hyundai_outlet', name:'현대아울렛 가산점',       district:'금천·가산',     x:200, y:495 },
         { id:'lt-bonjeom',   company:'lotte',          name:'롯데백화점 본점',         district:'중구·소공동',   x:405, y:225 },
-        { id:'sfm-wolgye',   company:'starfield',      name:'스타필드마켓 월계점',      district:'노원·월계',     x:500, y:130 }
+        { id:'sfm-wolgye',   company:'starfield',      name:'스타필드마켓 월계점',      district:'노원·월계',     x:500, y:130 },
+        { id:'ga-apgujeong', company:'galleria',       name:'갤러리아백화점 명품관',   district:'압구정·청담',   x:565, y:445 },
+        { id:'ak-hongdae',   company:'ak',             name:'AK& 홍대',               district:'홍대',          x:118, y:178 },
+        { id:'daiso-myeongdong', company:'daiso',      name:'다이소 명동역점',         district:'중구·명동',     x:410, y:270 },
+        { id:'daiso-gangnam',company:'daiso',          name:'다이소 강남역점',         district:'강남·도곡',     x:495, y:505 },
+        { id:'daiso-hongdae',company:'daiso',          name:'다이소 홍대2호점',        district:'홍대',          x:150, y:200 },
+        { id:'daiso-seongsu',company:'daiso',          name:'다이소 성수점',           district:'성수',          x:725, y:260 }
       ]
     },
     incheon: {
@@ -398,12 +490,13 @@
         tribs:[],
         labels:[ {text:'서해', x:130, y:60} ]
       },
-      districts:[ {name:'인천 관교·터미널', x:500, y:320}, {name:'인천 연수·송도', x:420, y:400} ],
+      districts:[ {name:'인천 관교·터미널', x:500, y:320}, {name:'인천 연수·송도', x:420, y:400}, {name:'인천공항·영종', x:80, y:200} ],
       landmarks:[ {name:'인천대교', x:140, y:540}, {name:'송도 센트럴파크', x:460, y:470}, {name:'소래포구', x:640, y:470} ],
       stores:[
         { id:'lt-incheon',  company:'lotte',         name:'롯데백화점 인천점',        district:'인천 미추홀구 관교동(인천터미널)', x:500, y:320 },
         { id:'hd-songdo',   company:'hyundai_outlet',name:'현대프리미엄아울렛 송도점', district:'인천 연수구',  x:420, y:400 },
-        { id:'ikea-songdo', company:'ikea',          name:'이케아 플래닝스튜디오 송도점', district:'인천 연수구(현대프리미엄아울렛 송도 내)', x:445, y:415 }
+        { id:'ikea-songdo', company:'ikea',          name:'이케아 플래닝스튜디오 송도점', district:'인천 연수구(현대프리미엄아울렛 송도 내)', x:445, y:415 },
+        { id:'ak-airport',  company:'ak',            name:'AK플라자 인천공항점',       district:'인천 중구 영종도(인천국제공항)', x:80, y:210 }
       ]
     },
     gg_east: {
@@ -434,7 +527,9 @@
         { id:'lt-giheung',   company:'lotte_outlet',   name:'롯데프리미엄아울렛 기흥점',   district:'용인 기흥구',  x:300, y:525 },
         { id:'ikea-giheung', company:'ikea',           name:'이케아 기흥점',               district:'용인 기흥구',  x:345, y:555 },
         { id:'hd-space1',    company:'hyundai_outlet', name:'현대프리미엄아울렛 SPACE1',   district:'남양주 다산신도시', x:740, y:110 },
-        { id:'sfm-jukjeon',  company:'starfield',      name:'스타필드마켓 죽전점',          district:'용인 수지구 죽전동', x:300, y:430 }
+        { id:'sfm-jukjeon',  company:'starfield',      name:'스타필드마켓 죽전점',          district:'용인 수지구 죽전동', x:300, y:430 },
+        { id:'ak-bundang',   company:'ak',             name:'AK플라자 분당점',            district:'성남 분당구',  x:410, y:290 },
+        { id:'ak-giheung',   company:'ak',             name:'AK& 기흥',                  district:'용인 기흥구',  x:320, y:540 }
       ]
     },
     gg_west: {
@@ -450,7 +545,8 @@
       districts:[
         {name:'부천 중동', x:320,y:310}, {name:'고양 일산', x:260,y:150}, {name:'파주', x:230,y:70},
         {name:'안산', x:140,y:410}, {name:'시흥', x:120,y:335}, {name:'광명', x:225,y:395},
-        {name:'안양 평촌', x:360,y:440}, {name:'화성 동탄', x:520,y:490}, {name:'안성', x:470,y:565}, {name:'수원', x:440,y:445}
+        {name:'안양 평촌', x:360,y:440}, {name:'화성 동탄', x:520,y:490}, {name:'안성', x:470,y:565}, {name:'수원', x:440,y:445},
+        {name:'평택', x:480,y:565}, {name:'군포·금정', x:300,y:400}
       ],
       stores:[
         { id:'hd-jungdong', company:'hyundai',        name:'현대백화점 중동점',        district:'부천 중동',    x:300, y:300 },
@@ -475,7 +571,12 @@
         { id:'ss-uijeongbu',company:'shinsegae',      name:'신세계백화점 의정부점',    district:'의정부',     x:300, y:40 },
         { id:'sfc-bucheon', company:'starfield',      name:'스타필드시티 부천',        district:'부천 중동',   x:280, y:260 },
         { id:'sfm-ilsan',   company:'starfield',      name:'스타필드마켓 일산점',      district:'고양 일산',   x:200, y:170 },
-        { id:'sfm-dongtan', company:'starfield',      name:'스타필드마켓 동탄점',      district:'화성 동탄',   x:560, y:470 }
+        { id:'sfm-dongtan', company:'starfield',      name:'스타필드마켓 동탄점',      district:'화성 동탄',   x:560, y:470 },
+        { id:'ak-suwon',    company:'ak',             name:'AK플라자 수원점',         district:'수원',       x:410, y:465 },
+        { id:'ak-pyeongtaek',company:'ak',            name:'AK플라자 평택점',         district:'평택',       x:480, y:560 },
+        { id:'ak-gwangmyeong', company:'ak',          name:'AK& 광명',               district:'광명',       x:235, y:410 },
+        { id:'ak-geumjeong', company:'ak',            name:'AK& 금정',               district:'군포 금정동', x:305, y:405 },
+        { id:'ga-gwanggyo',  company:'galleria',      name:'갤러리아 광교',           district:'수원 영통구(광교)', x:455, y:460 }
       ]
     },
     daejeon: {
@@ -487,7 +588,7 @@
         tribs:[ 'M230,520 C280,460 330,400 370,340' ],
         labels:[ {text:'금강', x:760, y:430} ]
       },
-      districts:[ {name:'대전 유성', x:430,y:290}, {name:'대전 둔산', x:400,y:355}, {name:'청주', x:600,y:230} ],
+      districts:[ {name:'대전 유성', x:430,y:290}, {name:'대전 둔산', x:400,y:355}, {name:'청주', x:600,y:230}, {name:'세종', x:520,y:195} ],
       landmarks:[ {name:'엑스포공원', x:470, y:230}, {name:'청남대', x:760, y:150} ],
       stores:[
         { id:'ss-daejeon',   company:'shinsegae',     name:'신세계 대전 Art&Science', district:'대전 유성구', x:430, y:290 },
@@ -496,7 +597,10 @@
         { id:'hd-cc',        company:'hyundai',       name:'현대백화점 충청점',        district:'청주 흥덕구', x:600, y:230 },
         { id:'lt-cheongju',  company:'lotte_outlet',  name:'롯데아울렛 청주점',        district:'청주 흥덕구', x:640, y:260 },
         { id:'hd-connect-cheongju', company:'hyundai_outlet', name:'커넥트현대 청주', district:'청주 흥덕구 가경동', x:560, y:215 },
-        { id:'ss-cheonan',   company:'shinsegae',      name:'신세계백화점 천안아산점',  district:'천안 아산', x:260, y:150 }
+        { id:'ss-cheonan',   company:'shinsegae',      name:'신세계백화점 천안아산점',  district:'천안 아산', x:260, y:150 },
+        { id:'ga-timeworld', company:'galleria',       name:'갤러리아 타임월드',        district:'대전 서구 둔산동', x:410, y:340 },
+        { id:'ga-centercity',company:'galleria',       name:'갤러리아 센터시티',        district:'천안 서북구', x:270, y:160 },
+        { id:'ak-sejong',    company:'ak',             name:'AK& 세종',                district:'세종특별자치시', x:520, y:200 }
       ]
     },
     daegu: {
@@ -551,7 +655,7 @@
       },
       districts:[
         {name:'해운대', x:610,y:260}, {name:'기장·오시리아', x:770,y:255}, {name:'부산 중구', x:410,y:410},
-        {name:'동래', x:480,y:320}, {name:'창원', x:190,y:440}, {name:'김해', x:260,y:400}
+        {name:'동래', x:480,y:320}, {name:'창원', x:190,y:440}, {name:'김해', x:260,y:400}, {name:'진주', x:100,y:500}
       ],
       landmarks:[ {name:'광안대교', x:520, y:450}, {name:'해운대해수욕장', x:650, y:340} ],
       stores:[
@@ -568,7 +672,8 @@
         { id:'ss-gimhae',   company:'shinsegae',      name:'신세계 김해점',           district:'김해',       x:260, y:395 },
         { id:'lt-gimhae-o', company:'lotte_outlet',   name:'롯데프리미엄아울렛 김해점', district:'김해',       x:300, y:420 },
         { id:'hd-connect-busan', company:'hyundai_outlet', name:'커넥트현대 부산', district:'부산 동구·범일동', x:460, y:390 },
-        { id:'sfc-myeongji',company:'starfield',      name:'스타필드시티 명지',       district:'부산 강서구 명지동', x:120, y:470 }
+        { id:'sfc-myeongji',company:'starfield',      name:'스타필드시티 명지',       district:'부산 강서구 명지동', x:120, y:470 },
+        { id:'ga-jinju',    company:'galleria',       name:'갤러리아 진주점',        district:'경남 진주시', x:110, y:505 }
       ]
     },
     gwangju: {
@@ -735,6 +840,7 @@
       })
       .catch(function(){ applyDummyAlerts(); })
       .then(function(){
+        buildCompanyNav();
         buildRegionTabs();
         buildChips();
         tileTotalLabelEl.textContent = '전국 매장';
@@ -744,16 +850,20 @@
   }
 
   var state = {
+    navKey: 'hyundai',
+    format: '백화점',
     region: 'all',
-    companies: new Set(Object.keys(COMPANIES)),
+    companies: new Set(resolveCompanyKeys('hyundai', '백화점')),
     categories: new Set(Object.keys(CATEGORIES)),
     showFoot: false,
     selected: null
   };
 
+  var companyNavDeptEl = document.getElementById('companyNavDept');
+  var companyNavEtcEl = document.getElementById('companyNavEtc');
+  var companyFormatTabsEl = document.getElementById('companyFormatTabs');
   var regionTabsEl = document.getElementById('regionTabs');
   var nationwideLineEl = document.getElementById('nationwideLine');
-  var companyChipsEl = document.getElementById('companyChips');
   var categoryChipsEl = document.getElementById('categoryChips');
   var footToggleEl = document.getElementById('footToggle');
   var svg = document.getElementById('mapSvg');
@@ -764,6 +874,8 @@
   var sideTitle = document.getElementById('sideTitle');
   var sideHint = document.getElementById('sideHint');
   var backBtn = document.getElementById('backBtn');
+  var dartBodyEl = document.getElementById('dartBody');
+  var dartHintEl = document.getElementById('dartHint');
 
   function allStores(){
     var out = [];
@@ -773,12 +885,20 @@
   function currentStores(){ return state.region === 'all' ? allStores() : REGIONS[state.region].stores; }
   function regionLabel(rk){ return rk === 'all' ? '전체' : REGIONS[rk].label; }
 
+  function currentCompanyLabel(){
+    var nav = navByKey(state.navKey);
+    return nav.label + (nav.formats ? (' · ' + state.format) : '');
+  }
+
+  // 지역 탭은 이제 "선택된 유통사 안에서" 보조적으로 좁혀보는 용도라서,
+  // 유통사가 바뀔 때마다 다시 그리고(카운트도 그 유통사 기준으로 다시 계산) 매번 클릭 핸들러를 새로 묶습니다.
   function buildRegionTabs(){
-    var totalStores = allStores().length;
-    nationwideLineEl.innerHTML = '전국 백화점·아울렛·복합몰 모니터링 매장 <b>' + totalStores + '개</b> · <b>' + REAL_REGION_KEYS.length + '개 권역</b>으로 나누어 표시 (무신사·올리브영은 서울 성수·홍대 표본만 포함)';
+    regionTabsEl.innerHTML = '';
+    var scoped = allStores().filter(function(s){ return state.companies.has(s.company); });
+    var totalForCompany = scoped.length;
 
     REGION_ORDER.forEach(function(rk){
-      var cnt = rk === 'all' ? totalStores : REGIONS[rk].stores.length;
+      var cnt = rk === 'all' ? totalForCompany : REGIONS[rk].stores.filter(function(s){ return state.companies.has(s.company); }).length;
       var tab = document.createElement('button');
       tab.className = 'region-tab' + (rk === 'all' ? ' all-tab' : '') + (rk === state.region ? ' active' : '');
       tab.dataset.key = rk;
@@ -786,14 +906,73 @@
       tab.addEventListener('click', function(){ goToRegion(rk); });
       regionTabsEl.appendChild(tab);
     });
-    mapTitleEl.textContent = state.region === 'all' ? '전국 매장 요약' : (regionLabel(state.region) + ' 매장 위치 지도');
+    mapTitleEl.textContent = currentCompanyLabel() + ' · ' + (state.region === 'all' ? '전국 매장 요약' : (regionLabel(state.region) + ' 매장 위치 지도'));
+
+    var nav = navByKey(state.navKey);
+    if(nav.placeholder && totalForCompany === 0){
+      nationwideLineEl.innerHTML = '<b>' + currentCompanyLabel() + '</b> 매장 데이터는 아직 등록 전입니다 — 매장 목록을 알려주시면 지도·이슈 피드에 바로 반영됩니다.';
+    } else {
+      var regionsCovered = REAL_REGION_KEYS.filter(function(rk){
+        return REGIONS[rk].stores.some(function(s){ return state.companies.has(s.company); });
+      }).length;
+      nationwideLineEl.innerHTML = '<b>' + currentCompanyLabel() + '</b> 매장 <b>' + totalForCompany + '개</b>가 전국 ' + regionsCovered + '개 권역에 분포';
+    }
   }
 
   function goToRegion(rk){
     state.region = rk; state.selected = null;
     Array.prototype.forEach.call(regionTabsEl.children, function(el){ el.classList.toggle('active', el.dataset.key === rk); });
-    mapTitleEl.textContent = rk === 'all' ? '전국 매장 요약' : (regionLabel(rk) + ' 매장 위치 지도');
+    mapTitleEl.textContent = currentCompanyLabel() + ' · ' + (rk === 'all' ? '전국 매장 요약' : (regionLabel(rk) + ' 매장 위치 지도'));
     tileTotalLabelEl.textContent = rk === 'all' ? '전국 매장' : '이 권역 매장';
+    renderAll();
+  }
+
+  // ── 유통사 내비게이션(대전제) 빌드/선택 ───────────────────────────
+  function buildCompanyNav(){
+    companyNavDeptEl.innerHTML = '';
+    companyNavEtcEl.innerHTML = '';
+    COMPANY_NAV.forEach(function(nav){
+      var btn = document.createElement('button');
+      btn.className = 'co-nav-btn' + (nav.key === state.navKey ? ' active' : '');
+      btn.dataset.key = nav.key;
+      var co = COMPANIES[nav.formats ? nav.formats[Object.keys(nav.formats)[0]] : (nav.companies && nav.companies[0])];
+      var dotColor = co ? co.color : 'var(--ink-faint)';
+      btn.innerHTML = '<span class="nb-dot" style="background:' + dotColor + '"></span>' + nav.label +
+        (nav.own ? '<span class="nb-badge own">자사</span>' : '') +
+        (nav.placeholder ? '<span class="nb-badge new">추가예정</span>' : '');
+      btn.addEventListener('click', function(){ selectCompanyNav(nav.key, null); });
+      (nav.group === 'etc' ? companyNavEtcEl : companyNavDeptEl).appendChild(btn);
+    });
+    buildFormatTabs();
+  }
+
+  function buildFormatTabs(){
+    var nav = navByKey(state.navKey);
+    companyFormatTabsEl.innerHTML = '';
+    if(!nav.formats){ companyFormatTabsEl.hidden = true; return; }
+    companyFormatTabsEl.hidden = false;
+    Object.keys(nav.formats).forEach(function(fmt){
+      var btn = document.createElement('button');
+      btn.className = 'co-format-btn' + (fmt === state.format ? ' active' : '');
+      btn.textContent = fmt;
+      btn.addEventListener('click', function(){ selectCompanyNav(nav.key, fmt); });
+      companyFormatTabsEl.appendChild(btn);
+    });
+  }
+
+  function selectCompanyNav(navKey, format){
+    var nav = navByKey(navKey);
+    state.navKey = navKey;
+    state.format = nav.formats ? (format || Object.keys(nav.formats)[0]) : null;
+    state.companies = new Set(resolveCompanyKeys(navKey, state.format));
+    state.region = 'all';
+    state.selected = null;
+
+    [companyNavDeptEl, companyNavEtcEl].forEach(function(container){
+      Array.prototype.forEach.call(container.children, function(el){ el.classList.toggle('active', el.dataset.key === navKey); });
+    });
+    buildFormatTabs();
+    buildRegionTabs();
     renderAll();
   }
 
@@ -803,7 +982,9 @@
     });
   }
 
-  var companyToggleBtn, categoryToggleBtn;
+  // 유통사 선택은 이제 최상단 내비게이션(buildCompanyNav/selectCompanyNav)이 전담합니다.
+  // 아래 칩 UI는 "이슈 분류" 필터 전용으로만 남깁니다.
+  var categoryToggleBtn;
 
   function refreshToggleLabel(btn, keys, set){
     var allOn = keys.every(function(k){ return set.has(k); });
@@ -812,6 +993,8 @@
     btn.classList.toggle('is-clear', allOn);
   }
 
+  // 필터(카테고리)를 만지는 동안, 이전에 열어둔 매장 상세 패널에 화면이 멈춰 있지 않도록
+  // 항상 selected를 비우고 메인 이슈 피드로 돌아갑니다.
   function makeToggleAllChip(keysFn, setFn, container){
     var btn = document.createElement('button');
     btn.className = 'chip toggle-all';
@@ -821,53 +1004,33 @@
       keys.forEach(function(k){ if(allOn) set.delete(k); else set.add(k); });
       syncChipStates(container, set);
       refreshToggleLabel(btn, keys, set);
+      state.selected = null;
       renderAll();
     });
     refreshToggleLabel(btn, keysFn(), setFn());
     return btn;
   }
 
-  function groupLabel(text){
-    var s = document.createElement('span');
-    s.className = 'group-label';
-    s.textContent = '· ' + text;
-    return s;
-  }
-
-  function makeChip(key, def, isCompany){
+  function makeChip(key, def){
     var chip = document.createElement('button');
-    chip.className = 'chip' + (isCompany && def.own ? ' own' : '');
+    chip.className = 'chip';
     chip.dataset.key = key;
     chip.innerHTML = '<span class="dot" style="background:' + def.color + '"></span>' + def.label;
     chip.addEventListener('click', function(){
-      var set = isCompany ? state.companies : state.categories;
+      var set = state.categories;
       if(set.has(key)) set.delete(key); else set.add(key);
       chip.dataset.off = set.has(key) ? '' : '1';
-      if(isCompany) refreshToggleLabel(companyToggleBtn, Object.keys(COMPANIES), state.companies);
-      else refreshToggleLabel(categoryToggleBtn, Object.keys(CATEGORIES), state.categories);
+      refreshToggleLabel(categoryToggleBtn, Object.keys(CATEGORIES), state.categories);
+      state.selected = null;
       renderAll();
     });
     return chip;
   }
 
   function buildChips(){
-    companyToggleBtn = makeToggleAllChip(function(){ return Object.keys(COMPANIES); }, function(){ return state.companies; }, companyChipsEl);
-    var companyToggleRow = document.createElement('div');
-    companyToggleRow.className = 'chip-row';
-    companyToggleRow.appendChild(companyToggleBtn);
-    companyChipsEl.appendChild(companyToggleRow);
-
-    COMPANY_GROUPS.forEach(function(group){
-      var row = document.createElement('div');
-      row.className = 'chip-row';
-      row.appendChild(groupLabel(group.label));
-      group.keys.forEach(function(k){ row.appendChild(makeChip(k, COMPANIES[k], true)); });
-      companyChipsEl.appendChild(row);
-    });
-
     categoryToggleBtn = makeToggleAllChip(function(){ return Object.keys(CATEGORIES); }, function(){ return state.categories; }, categoryChipsEl);
     categoryChipsEl.appendChild(categoryToggleBtn);
-    Object.keys(CATEGORIES).forEach(function(k){ categoryChipsEl.appendChild(makeChip(k, CATEGORIES[k], false)); });
+    Object.keys(CATEGORIES).forEach(function(k){ categoryChipsEl.appendChild(makeChip(k, CATEGORIES[k])); });
 
     footToggleEl.addEventListener('change', function(){ state.showFoot = footToggleEl.checked; renderAll(); });
   }
@@ -1015,9 +1178,12 @@
     return '<span class="cat-chip" style="background:' + c.color + '">' + c.label + '</span>';
   }
 
+  var FEED_TOTAL_LIMIT = 20;   // 피드에 노출할 전체 기사 수
+  var FEED_PER_STORE_CAP = 2;  // 매장 1곳이 피드를 독점하지 않도록 매장당 상한
+
   function renderFeed(){
-    sideTitle.textContent = regionLabel(state.region) + ' 주요 이슈 피드';
-    sideHint.textContent = '최신순';
+    sideTitle.textContent = currentCompanyLabel() + (state.region === 'all' ? '' : ' · ' + regionLabel(state.region)) + ' 주요 이슈 피드';
+    sideHint.textContent = '최신순 · 매장당 최대 ' + FEED_PER_STORE_CAP + '건';
     backBtn.hidden = true;
 
     var all = [];
@@ -1026,7 +1192,20 @@
       filteredAlerts(store).forEach(function(a){ all.push({ store:store, alert:a }); });
     });
     all.sort(function(a,b){ return a.alert.date < b.alert.date ? 1 : -1; });
-    all = all.slice(0, 12);
+
+    // 최신순으로 훑으면서 매장당 상한을 넘는 건 건너뛰어, 기사가 몰린 매장 한두 곳이
+    // 최신 슬롯을 독점해 다른 매장 기사가 아예 안 보이는 문제를 막습니다.
+    var perStoreCount = {};
+    var picked = [];
+    for(var i=0;i<all.length && picked.length < FEED_TOTAL_LIMIT;i++){
+      var row = all[i];
+      var sid = row.store.id;
+      perStoreCount[sid] = perStoreCount[sid] || 0;
+      if(perStoreCount[sid] >= FEED_PER_STORE_CAP) continue;
+      perStoreCount[sid]++;
+      picked.push(row);
+    }
+    all = picked;
 
     if(all.length === 0){
       sideBody.innerHTML = '<div class="empty-note">선택된 필터 조건에 해당하는 이슈가 없습니다.</div>';
@@ -1106,21 +1285,35 @@
 
   function renderTiles(){
     var visibleStores = currentStores().filter(function(s){ return state.companies.has(s.company); });
-    var activeCount = 0, alertCount = 0, ownCount = 0;
+    var activeCount = 0, alertCount = 0;
     visibleStores.forEach(function(s){
       var a = filteredAlerts(s);
       if(a.length > 0) activeCount++;
       alertCount += a.length;
-      if(COMPANIES[s.company].own) ownCount += a.length;
     });
     document.getElementById('tileTotal').textContent = visibleStores.length;
     document.getElementById('tileActive').textContent = activeCount;
     document.getElementById('tileAlerts').textContent = alertCount;
-    document.getElementById('tileOwn').innerHTML = ownCount + '<small>건</small>';
+    // 네 번째 타일(공시·DART)은 HTML에 고정된 "연동 예정" 문구를 그대로 둡니다 — 아직 연동 전이라 셀 값이 없습니다.
+  }
+
+  // 공시정보(DART) 카드 — 지금은 자리만 마련해둔 자리표시자입니다.
+  // 나중에 전자공시 Open API를 연동하면, 여기서 currentCompanyLabel() 기준으로 실제 공시 목록을 채우면 됩니다.
+  function renderDart(){
+    var label = currentCompanyLabel();
+    dartHintEl.textContent = '전자공시시스템 Open API 연동 예정 · 지금은 자리만 마련해둔 상태입니다';
+    dartBodyEl.innerHTML = '' +
+      '<table class="dart-table">' +
+        '<thead><tr><th>공시일자</th><th>보고서명</th><th>제출인</th><th>비고</th></tr></thead>' +
+        '<tbody>' +
+          '<tr><td>-</td><td>(연동 전)</td><td>-</td><td>전자공시 Open API 연동 후 ' + escapeHtml(label) + ' 관련 공시가 이 표에 표시됩니다</td></tr>' +
+        '</tbody>' +
+      '</table>';
   }
 
   function renderAll(){
     renderTiles();
+    renderDart();
     renderMap();
     if(state.region !== 'all' && state.selected){
       var store = currentStores().filter(function(s){ return s.id === state.selected; })[0];
