@@ -1,0 +1,35 @@
+name: Update DART disclosures
+
+on:
+  schedule:
+    # 매일 06:10 KST = 전날 21:10 UTC (뉴스 업데이트와 겹치지 않도록 10분 뒤로 배치)
+    - cron: '10 21 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-dart:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch disclosures from OpenDART API
+        env:
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+        run: node scripts/fetch-dart.mjs
+
+      - name: Commit updated DART data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/dart.json data/dart_corp_codes.json
+          git diff --cached --quiet || git commit -m "chore: update DART disclosure data ($(date -u +%Y-%m-%d))"
+          git push
