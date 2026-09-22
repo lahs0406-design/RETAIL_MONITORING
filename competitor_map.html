@@ -1098,7 +1098,7 @@
     if(!dartHintEl) return;
     if(USING_REAL_DART){
       var when = DART_GENERATED_AT ? fmtDate(new Date(DART_GENERATED_AT)) : '';
-      dartHintEl.textContent = '전자공시시스템(DART) 실연동' + (when ? ' · 마지막 갱신 ' + when : '') + ' · 최근 3개월 공시는 AI 요약 제공(그 이전은 원문 링크로 대체)';
+      dartHintEl.textContent = '전자공시시스템(DART) 실연동' + (when ? ' · 마지막 갱신 ' + when : '') + ' · 최근 1년 공시는 AI 요약 제공(그 이전은 원문 링크로 대체)';
       if(dartSampleNoteEl){
         if(DART_WARNINGS.length){
           dartSampleNoteEl.hidden = false;
@@ -1839,7 +1839,7 @@
         : '이번에 표시된 공시 중 경영권·자본변동과 직접 관련된 사안은 없습니다'
     ];
     dartBriefEl.innerHTML =
-      '<div class="dart-brief-label">' + (USING_REAL_DART ? 'AI 요약 브리핑 (건수 통계는 자동 집계 · 개별 요약은 최근 3개월 공시부터 제공)' : 'AI 요약 브리핑 (샘플)') + '</div>' +
+      '<div class="dart-brief-label">' + (USING_REAL_DART ? 'AI 요약 브리핑 (건수 통계는 자동 집계 · 개별 요약은 최근 1년 공시부터 제공)' : 'AI 요약 브리핑 (샘플)') + '</div>' +
       '<ul>' + briefBullets.map(function(b){ return '<li>' + escapeHtml(b) + '</li>'; }).join('') + '</ul>';
 
     var isTruncated = !state.dartExpanded && items.length > DART_PAGE_SIZE;
