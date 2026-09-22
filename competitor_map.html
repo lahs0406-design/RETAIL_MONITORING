@@ -153,7 +153,9 @@
   .dart-filter-row{ display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
   .dart-filter-label{ font-size:12px; color:var(--ink-faint); width:32px; flex:none; }
   .dart-type-chips{ display:flex; gap:8px; flex-wrap:wrap; }
-  .dart-count{ font-size:12px; color:var(--ink-faint); white-space:nowrap; margin-left:auto; }
+  .dart-count{ font-size:12px; color:var(--ink-faint); white-space:nowrap; }
+  .dart-etc-toggle{ margin-left:auto; font-size:12px; color:var(--ink-faint); display:flex; align-items:center; gap:5px; white-space:nowrap; cursor:pointer; user-select:none; }
+  .dart-etc-toggle input{ margin:0; cursor:pointer; }
 
   .dart-period-chips{ display:flex; gap:6px; flex-wrap:wrap; }
   .dart-period-chip{
@@ -220,6 +222,11 @@
     padding:6px 0 6px 10px; white-space:pre-line;
   }
   .dart-empty-note{ font-size:12.5px; color:var(--ink-faint); padding:18px 4px; text-align:center; grid-column:1 / -1; }
+  .dart-more-btn{
+    grid-column:1 / -1; margin-top:4px; padding:9px; font-size:12.5px; font-weight:600; color:var(--ink-dim);
+    background:var(--paper); border:1px solid var(--line-soft); border-radius:9px; cursor:pointer;
+  }
+  .dart-more-btn:hover{ color:var(--accent); border-color:var(--accent); }
 
   .tiles{ display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
   .tile{
@@ -429,6 +436,7 @@
       <div class="dart-filter-row">
         <span class="dart-filter-label">유형</span>
         <div class="dart-type-chips" id="dartTypeChips"></div>
+        <label class="dart-etc-toggle" for="dartEtcToggle"><input type="checkbox" id="dartEtcToggle">기타공시 포함</label>
         <span class="dart-count" id="dartCount"></span>
       </div>
     </div>
@@ -556,6 +564,8 @@
   var DART_REAL = null;
   var DART_GENERATED_AT = null;
   var DART_WARNINGS = [];
+  var DART_PAGE_SIZE = 10; // 10건(2열 그리드 기준 5줄) 넘으면 "더보기"로 접어둠
+  var dartLastFilterSignature = null; // 필터(회사/기간/유형)가 바뀌면 dartExpanded를 자동으로 되돌리기 위한 식별자
 
   function applyRealDart(dartData){
     var flat = [];
@@ -565,7 +575,11 @@
         flat.push({
           id: d.id, company: navKey, type: DART_TYPES[d.type] ? d.type : 'etc', important: !!d.important,
           title: d.title, submitter: d.submitter, date: d.date, originUrl: d.originUrl,
-          summary: null, originExcerpt: null
+          // summarize-dart.mjs가 최근 공시(기본 3개월 이내)에 한해 AI 요약을 채워 넣습니다.
+          // 그 밖의(오래된) 공시는 summary/originExcerpt가 없어서(null) 화면에서
+          // "AI 요약 준비 중"으로 자연스럽게 대체됩니다.
+          summary: Array.isArray(d.summary) ? d.summary : null,
+          originExcerpt: d.originExcerpt || null
         });
       });
     });
@@ -1084,7 +1098,7 @@
     if(!dartHintEl) return;
     if(USING_REAL_DART){
       var when = DART_GENERATED_AT ? fmtDate(new Date(DART_GENERATED_AT)) : '';
-      dartHintEl.textContent = '전자공시시스템(DART) 실연동' + (when ? ' · 마지막 갱신 ' + when : '') + ' · AI 요약은 준비 중(원문 링크로 대체)';
+      dartHintEl.textContent = '전자공시시스템(DART) 실연동' + (when ? ' · 마지막 갱신 ' + when : '') + ' · 최근 3개월 공시는 AI 요약 제공(그 이전은 원문 링크로 대체)';
       if(dartSampleNoteEl){
         if(DART_WARNINGS.length){
           dartSampleNoteEl.hidden = false;
@@ -1153,10 +1167,12 @@
 
     companies: new Set(resolveCompanyKeys('hyundai', '백화점')),
     categories: new Set(Object.keys(CATEGORIES)),
-    dartTypes: new Set(Object.keys(DART_TYPES)),
+    // 기타공시(etc)는 건수가 너무 많아서 기본값에서 제외 — 우측 "기타공시 포함" 체크박스로 켤 수 있음
+    dartTypes: new Set(Object.keys(DART_TYPES).filter(function(k){ return k !== 'etc'; })),
     dartPeriod: 'all', // DART_PERIODS의 key. 아래 dartFrom/dartTo가 채워지면 이 값 대신 그 기간이 우선합니다.
     dartFrom: null,     // 'YYYY-MM-DD' 또는 null — 직접 지정한 시작일
     dartTo: null,       // 'YYYY-MM-DD' 또는 null — 직접 지정한 종료일
+    dartExpanded: false, // 공시 10건(5줄) 초과 시 "더보기"를 눌러야 나머지가 펼쳐짐 — 필터 바뀌면 자동으로 다시 접힘
     showFoot: false,
     selected: null
   };
@@ -1180,6 +1196,7 @@
   var dartHintEl = document.getElementById('dartHint');
   var dartSampleNoteEl = document.getElementById('dartSampleNote');
   var dartTypeChipsEl = document.getElementById('dartTypeChips');
+  var dartEtcToggleEl = document.getElementById('dartEtcToggle');
   var dartPeriodChipsEl = document.getElementById('dartPeriodChips');
   var dartFromDateEl = document.getElementById('dartFromDate');
   var dartToDateEl = document.getElementById('dartToDate');
@@ -1438,9 +1455,11 @@
   }
 
   // ── 공시(DART) 유형 필터 칩 — 이슈 카테고리 칩과 같은 모양, 별도 상태(state.dartTypes)로 동작 ──
+  // 기타공시(etc)는 건수가 워낙 많아서 이 칩 목록/"전체 선택-해제" 토글에서는 빼고,
+  // 별도의 "기타공시 포함" 체크박스(dartEtcToggleEl)로만 켜고 끕니다.
   function buildDartTypeChips(){
     dartTypeChipsEl.innerHTML = '';
-    var typeKeys = Object.keys(DART_TYPES);
+    var typeKeys = Object.keys(DART_TYPES).filter(function(k){ return k !== 'etc'; });
 
     var toggleBtn = document.createElement('button');
     toggleBtn.className = 'chip toggle-all';
@@ -1476,6 +1495,14 @@
       });
       dartTypeChipsEl.appendChild(chip);
     });
+
+    if(dartEtcToggleEl){
+      dartEtcToggleEl.checked = state.dartTypes.has('etc');
+      dartEtcToggleEl.onchange = function(){
+        if(dartEtcToggleEl.checked) state.dartTypes.add('etc'); else state.dartTypes.delete('etc');
+        renderDart();
+      };
+    }
   }
 
   // ── 카카오맵 연동 ─────────────────────────────────────────────
@@ -1779,6 +1806,15 @@
     });
     items = items.slice().sort(function(a,b){ return a.date < b.date ? 1 : (a.date > b.date ? -1 : 0); });
 
+    // 회사/기간/유형 필터가 바뀌면 "더보기"로 펼쳐뒀던 상태를 자동으로 다시 접음
+    var filterSignature = state.navKey + '|' +
+      Array.from(state.dartTypes).sort().join(',') + '|' +
+      state.dartPeriod + '|' + state.dartFrom + '|' + state.dartTo;
+    if(dartLastFilterSignature !== null && dartLastFilterSignature !== filterSignature){
+      state.dartExpanded = false;
+    }
+    dartLastFilterSignature = filterSignature;
+
     dartCountEl.textContent = items.length + '건';
 
     if(items.length === 0){
@@ -1803,10 +1839,13 @@
         : '이번에 표시된 공시 중 경영권·자본변동과 직접 관련된 사안은 없습니다'
     ];
     dartBriefEl.innerHTML =
-      '<div class="dart-brief-label">' + (USING_REAL_DART ? 'AI 요약 브리핑 (준비 중 — 지금은 건수 통계만 자동 집계)' : 'AI 요약 브리핑 (샘플)') + '</div>' +
+      '<div class="dart-brief-label">' + (USING_REAL_DART ? 'AI 요약 브리핑 (건수 통계는 자동 집계 · 개별 요약은 최근 3개월 공시부터 제공)' : 'AI 요약 브리핑 (샘플)') + '</div>' +
       '<ul>' + briefBullets.map(function(b){ return '<li>' + escapeHtml(b) + '</li>'; }).join('') + '</ul>';
 
-    dartListEl.innerHTML = items.map(function(d){
+    var isTruncated = !state.dartExpanded && items.length > DART_PAGE_SIZE;
+    var displayItems = isTruncated ? items.slice(0, DART_PAGE_SIZE) : items;
+
+    var itemsHtml = displayItems.map(function(d){
       var typeDef = DART_TYPES[d.type];
       var hasSummary = Array.isArray(d.summary) && d.summary.length > 0;
       var summaryHtml = hasSummary
@@ -1836,6 +1875,13 @@
         '</div>';
     }).join('');
 
+    if(isTruncated){
+      var remaining = items.length - DART_PAGE_SIZE;
+      itemsHtml += '<button type="button" class="dart-more-btn" id="dartMoreBtn">더보기 (' + remaining + '건 더 보기) ▾</button>';
+    }
+
+    dartListEl.innerHTML = itemsHtml;
+
     Array.prototype.forEach.call(dartListEl.querySelectorAll('.dart-origin-toggle'), function(btn){
       btn.addEventListener('click', function(){
         var pre = document.getElementById('dartOrigin-' + btn.dataset.id);
@@ -1844,6 +1890,14 @@
         btn.textContent = willShow ? '원문 일부 접기 ▴' : '원문 일부 보기 ▾';
       });
     });
+
+    var moreBtn = document.getElementById('dartMoreBtn');
+    if(moreBtn){
+      moreBtn.addEventListener('click', function(){
+        state.dartExpanded = true;
+        renderDart();
+      });
+    }
   }
 
   function renderAll(){
