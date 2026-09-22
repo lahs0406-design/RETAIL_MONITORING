@@ -849,7 +849,7 @@
         buildCompanyNav();
         buildRegionTabs();
         buildChips();
-        tileTotalLabelEl.textContent = '전국 매장';
+        tileTotalLabelEl.textContent = (state.region === 'all' ? '전국 매장' : '이 권역 매장');
         renderAll();
         updateDemoBadge();
         if(window.__KAKAO_KEY_MISSING){
@@ -863,7 +863,8 @@
   var state = {
     navKey: 'hyundai',
     format: '백화점',
-    region: 'all',
+    region: 'seoul', // 페이지를 처음 열었을 때 지도 기본값 — 서울 권역으로 시작
+
     companies: new Set(resolveCompanyKeys('hyundai', '백화점')),
     categories: new Set(Object.keys(CATEGORIES)),
     showFoot: false,
@@ -977,7 +978,7 @@
     state.navKey = navKey;
     state.format = nav.formats ? (format || Object.keys(nav.formats)[0]) : null;
     state.companies = new Set(resolveCompanyKeys(navKey, state.format));
-    state.region = 'all';
+    state.region = 'seoul'; // 유통사를 바꿔도 지도는 항상 서울부터 다시 시작
     state.selected = null;
 
     [companyNavDeptEl, companyNavEtcEl].forEach(function(container){
