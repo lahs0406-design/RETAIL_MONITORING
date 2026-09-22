@@ -3,9 +3,11 @@
  * scripts/summarize-dart.mjs
  *
  * fetch-dart.mjs가 만든 data/dart.json(공시 메타데이터)을 읽어서, "최근 AI_WINDOW_DAYS일 이내"
- * 공시에 한해 DART 원문을 통째로 받아와 Gemini API로 3~4줄 핵심 요약을 붙여줍니다.
- * (요청하신 대로: 전체 공시가 아니라 최근 것만 — 오래된 공시는 지금처럼 메타데이터만 표시되고
- *  competitor_map.html이 "AI 요약 준비 중"으로 자연스럽게 대체해서 보여줍니다.)
+ * 공시에 한해 DART 원문을 통째로 받아와 Gemini API로 3~5줄 핵심 요약을 붙여줍니다.
+ * (전체 공시가 아니라 최근 것만 — 오래된 공시는 지금처럼 메타데이터만 표시되고
+ *  competitor_map.html이 "AI 요약 준비 중"으로 자연스럽게 대체해서 보여줍니다.
+ *  범위는 처음에 "최근 3개월"로 시작했다가, 이후 "최근 1년"으로 넓혔습니다 — fetch-dart.mjs가
+ *  애초에 최근 1년치 공시만 가져오므로, 사실상 "가져온 공시는 전부 요약 대상"이 됩니다.)
  *
  * 실행 순서: update-dart.yml에서 fetch-dart.mjs 다음에 이 스크립트가 이어서 돌아갑니다.
  *   node scripts/fetch-dart.mjs      # data/dart.json 새로 생성(메타데이터만)
@@ -52,7 +54,8 @@ if (!GEMINI_API_KEY) {
 
 const DART_JSON_PATH = path.resolve('data/dart.json');
 const SUMMARY_CACHE_PATH = path.resolve('data/dart_summaries.json');
-const AI_WINDOW_DAYS = 90; // 최근 3개월 — 그 이전 공시는 요약하지 않고 메타데이터만 유지
+const AI_WINDOW_DAYS = 365; // 최근 1년 — 그 이전 공시는 요약하지 않고 메타데이터만 유지
+// (fetch-dart.mjs의 WINDOW_DAYS도 365라서, 사실상 새로 가져오는 공시는 모두 이 범위 안에 듭니다)
 const MAX_CHARS = 40000; // Gemini에 보낼 원문 최대 글자 수(비용/응답시간 관리용)
 const EXCERPT_CHARS = 400; // originExcerpt로 보여줄, 원문에서 그대로 뽑은 발췌 길이
 const REQUEST_DELAY_MS = 300;
@@ -140,12 +143,18 @@ async function summarizeWithGemini(companyLabel, title, dateStr, bodyText) {
   const truncated = bodyText.length > MAX_CHARS ? bodyText.slice(0, MAX_CHARS) : bodyText;
   const prompt =
     '당신은 한국 상장기업 공시(전자공시시스템 DART)를 요약하는 애널리스트입니다.\n' +
-    '아래 공시 원문의 핵심을 한국어 불릿 3~4개로 요약하세요.\n' +
+    '아래 공시 원문의 핵심을 한국어 불릿 3~5개로 요약하세요.\n' +
     '규칙:\n' +
     '- 숫자·금액·비율 등 구체적인 수치를 최대한 포함할 것\n' +
     '- 전년동기/전기 대비 변화가 있으면 명시할 것\n' +
     '- "당사는 다양한 노력을 기울이고 있습니다" 같은 상투적 표현은 쓰지 말 것\n' +
     '- 불릿 하나당 한 문장, 40자 내외로 간결하게 쓸 것\n' +
+    '- 이 공시가 "연결" 기준(자회사 실적이 합산된 그룹 전체 수치)이라면, 그 사실을 첫 불릿에서\n' +
+    '  분명히 밝힐 것(예: "연결 기준 영업이익 793억원(-8.7%)")\n' +
+    '- 원문에 사업부문별(예: 백화점, 면세점, 자회사 등) 또는 자회사별 세부 실적이 연결 전체\n' +
+    '  수치와 별도로 나와 있다면, 그 부문별/자회사별 수치도 반드시 별도 불릿으로 구분해서\n' +
+    '  포함할 것(예: "[백화점 부문] 영업이익 1,101억원(+58.6%)", "[자회사 지누스] 영업손실 267억원").\n' +
+    '  이런 부문별 수치가 원문에 없으면 억지로 만들지 말고 생략할 것\n' +
     '- 반드시 아래 JSON 형식으로만 응답할 것(다른 텍스트, 코드블록 표시 금지):\n' +
     '{"summary": ["...", "...", "..."]}\n\n' +
     `[회사명] ${companyLabel}\n[공시명] ${title}\n[제출일] ${dateStr}\n\n` +
@@ -157,7 +166,7 @@ async function summarizeWithGemini(companyLabel, title, dateStr, bodyText) {
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({
       contents: [{ parts: [{ text: prompt }] }],
-      generationConfig: { temperature: 0.2, maxOutputTokens: 400 },
+      generationConfig: { temperature: 0.2, maxOutputTokens: 500 },
     }),
   });
   if (!res.ok) {
@@ -172,7 +181,7 @@ async function summarizeWithGemini(companyLabel, title, dateStr, bodyText) {
     try {
       const parsed = JSON.parse(jsonMatch[0]);
       if (Array.isArray(parsed.summary) && parsed.summary.length) {
-        return parsed.summary.map((s) => String(s).trim()).filter(Boolean).slice(0, 4);
+        return parsed.summary.map((s) => String(s).trim()).filter(Boolean).slice(0, 5);
       }
     } catch {
       // JSON 파싱 실패 시 아래 줄바꿈 분리 방식으로 대체
@@ -183,7 +192,7 @@ async function summarizeWithGemini(companyLabel, title, dateStr, bodyText) {
     .split('\n')
     .map((s) => s.replace(/^[-*•\d.\s]+/, '').trim())
     .filter(Boolean)
-    .slice(0, 4);
+    .slice(0, 5);
 }
 
 async function main() {
