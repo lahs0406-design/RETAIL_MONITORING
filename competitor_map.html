@@ -147,12 +147,79 @@
 
   .tile-dart .t-value{ font-size:14.5px; color:var(--ink-dim); font-weight:600; }
 
-  .dart-card .card-head .hint{ max-width:420px; text-align:right; }
-  .dart-body{ padding:0 16px 16px; }
-  table.dart-table{ width:100%; border-collapse:collapse; font-size:13px; }
-  table.dart-table th{ background:var(--paper-2); color:var(--ink-dim); font-weight:700; padding:8px 10px; border-bottom:2px solid var(--line); text-align:left; font-size:11.5px; }
-  table.dart-table td{ padding:8px 10px; border-bottom:1px solid var(--line-soft); color:var(--ink-faint); }
-  table.dart-table tr:last-child td{ border-bottom:none; }
+  .dart-card .card-head .hint{ max-width:460px; text-align:right; }
+
+  .dart-toolbar{ display:flex; flex-direction:column; gap:8px; padding:12px 16px 0; }
+  .dart-filter-row{ display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+  .dart-filter-label{ font-size:12px; color:var(--ink-faint); width:32px; flex:none; }
+  .dart-type-chips{ display:flex; gap:8px; flex-wrap:wrap; }
+  .dart-count{ font-size:12px; color:var(--ink-faint); white-space:nowrap; margin-left:auto; }
+
+  .dart-period-chips{ display:flex; gap:6px; flex-wrap:wrap; }
+  .dart-period-chip{
+    font-size:12px; padding:5px 11px; border-radius:999px; border:1px solid var(--line); background:var(--paper);
+    color:var(--ink-dim); cursor:pointer;
+  }
+  .dart-period-chip.active{ background:var(--ink); border-color:var(--ink); color:#fff; }
+  .dart-period-custom{ display:flex; align-items:center; gap:6px; }
+  .dart-date-input{
+    font-size:12px; padding:5px 8px; border-radius:8px; border:1px solid var(--line);
+    background:var(--paper); color:var(--ink-dim);
+  }
+  .dart-period-sep{ font-size:12px; color:var(--ink-faint); }
+  .dart-period-clear{
+    font-size:11px; color:var(--accent); background:none; border:none; cursor:pointer; padding:0; text-decoration:underline;
+  }
+
+  .dart-brief{
+    margin:12px 16px 0; padding:12px 14px; border-radius:12px;
+    background:var(--accent-soft); border:1px solid color-mix(in srgb, var(--accent) 30%, transparent);
+  }
+  .dart-brief-label{ font-size:11px; font-weight:700; color:var(--accent); letter-spacing:.02em; }
+  .dart-brief ul{ margin:6px 0 0; padding-left:18px; font-size:12.5px; color:var(--ink-dim); line-height:1.55; }
+  .dart-brief li{ margin-bottom:2px; }
+  .dart-brief-empty{ font-size:12.5px; color:var(--ink-faint); }
+
+  .dart-sample-note{ font-size:11px; color:var(--ink-faint); padding:8px 16px 0; }
+
+  .dart-body{ padding:10px 16px 16px; }
+  .dart-list{ display:grid; grid-template-columns:repeat(2,1fr); gap:10px; }
+  @media (max-width: 860px){ .dart-list{ grid-template-columns:1fr; } }
+
+  .dart-item{
+    border:1px solid var(--line); border-radius:12px; padding:11px 12px; background:var(--paper-2);
+    display:flex; flex-direction:column; gap:7px;
+  }
+  .dart-item-top{ display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+  .dart-type-chip{ font-size:10.5px; font-weight:700; color:#fff; padding:2px 7px; border-radius:999px; white-space:nowrap; }
+  .dart-flag{
+    font-size:10.5px; font-weight:700; color:var(--warn);
+    background:color-mix(in srgb, var(--warn) 14%, transparent);
+    border:1px solid color-mix(in srgb, var(--warn) 40%, transparent);
+    padding:2px 7px; border-radius:999px; margin-left:auto; white-space:nowrap;
+  }
+  .dart-item-title{ font-size:13.5px; font-weight:700; color:var(--ink); line-height:1.4; }
+  .dart-item-meta{ font-size:11px; color:var(--ink-faint); display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+  .dart-item-meta a{ color:var(--accent); font-weight:600; text-decoration:none; }
+  .dart-item-meta a:hover{ text-decoration:underline; }
+
+  .dart-summary{ background:var(--paper); border:1px solid var(--line-soft); border-radius:9px; padding:8px 10px; }
+  .dart-summary-label{ font-size:10.5px; font-weight:700; color:var(--good); }
+  .dart-summary ul{ margin:5px 0 0; padding-left:16px; font-size:12px; color:var(--ink-dim); line-height:1.55; }
+  .dart-summary li{ margin-bottom:2px; }
+  .dart-summary-pending .dart-summary-label{ color:var(--ink-faint); }
+  .dart-summary-pending-note{ margin-top:5px; font-size:12px; color:var(--ink-faint); line-height:1.5; }
+
+  .dart-origin-toggle{
+    align-self:flex-start; font-size:11px; color:var(--ink-faint); background:none; border:none; cursor:pointer; padding:0;
+    display:flex; align-items:center; gap:3px;
+  }
+  .dart-origin-toggle:hover{ color:var(--accent); }
+  .dart-origin-preview{
+    font-size:11.5px; color:var(--ink-faint); line-height:1.6; border-left:2px solid var(--line);
+    padding:6px 0 6px 10px; white-space:pre-line;
+  }
+  .dart-empty-note{ font-size:12.5px; color:var(--ink-faint); padding:18px 4px; text-align:center; grid-column:1 / -1; }
 
   .tiles{ display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
   .tile{
@@ -293,7 +360,7 @@
     <div class="tile"><span class="t-label" id="tileTotalLabel">매장</span><span class="t-value num" id="tileTotal">–</span></div>
     <div class="tile"><span class="t-label">이슈 발생 매장</span><span class="t-value num" id="tileActive">–</span></div>
     <div class="tile"><span class="t-label" id="tileAlertsLabel">최근 60일 이슈</span><span class="t-value num" id="tileAlerts">–</span></div>
-    <div class="tile tile-dart"><span class="t-label">공시(DART)</span><span class="t-value" id="tileOwn">연동 예정</span></div>
+    <div class="tile tile-dart"><span class="t-label">공시(DART)</span><span class="t-value" id="tileDart">연동 예정</span></div>
   </div>
 
   <div class="filters">
@@ -346,9 +413,30 @@
   <div class="card dart-card">
     <div class="card-head">
       <h2>공시정보 (DART)</h2>
-      <span class="hint" id="dartHint">전자공시시스템 Open API 연동 예정 · 지금은 자리만 마련해둔 상태입니다</span>
+      <span class="hint" id="dartHint">전자공시시스템 원문 + 핵심 요약 · 지금은 레이아웃 확인용 샘플 데이터입니다</span>
     </div>
-    <div class="dart-body" id="dartBody"></div>
+    <div class="dart-toolbar">
+      <div class="dart-filter-row">
+        <span class="dart-filter-label">기간</span>
+        <div class="dart-period-chips" id="dartPeriodChips"></div>
+        <div class="dart-period-custom">
+          <input type="date" class="dart-date-input" id="dartFromDate">
+          <span class="dart-period-sep">~</span>
+          <input type="date" class="dart-date-input" id="dartToDate">
+          <button type="button" class="dart-period-clear" id="dartPeriodClear" hidden>직접 지정 해제</button>
+        </div>
+      </div>
+      <div class="dart-filter-row">
+        <span class="dart-filter-label">유형</span>
+        <div class="dart-type-chips" id="dartTypeChips"></div>
+        <span class="dart-count" id="dartCount"></span>
+      </div>
+    </div>
+    <div class="dart-brief" id="dartBrief"></div>
+    <div class="dart-sample-note" id="dartSampleNote">※ 아래 공시 목록·요약·원문 발췌는 실제 DART 연동 전, 레이아웃 확인을 위한 샘플입니다.</div>
+    <div class="dart-body">
+      <div class="dart-list" id="dartList"></div>
+    </div>
   </div>
 </div>
 
@@ -431,6 +519,166 @@
     etc:   { label:'기타 이슈',       color:'var(--cat-etc)' }
   };
   var CAT_PRIORITY = ['open','popup','sale','gift','etc'];
+
+  // ── 공시정보(DART) — 레이아웃 확인용 샘플 데이터 ─────────────────────
+  // 실제 연동 시에는 전자공시시스템(DART) Open API에서 회사별 공시 목록을 가져와
+  // 아래와 동일한 모양({company, type, title, submitter, date, originUrl, summary, originExcerpt, important})으로
+  // 채워 넣으면 됩니다. company 값은 COMPANY_NAV의 key(예: 'hyundai','lotte'…)와 동일하게 맞춥니다.
+  var DART_TYPES = {
+    periodic: { label:'정기공시',     color:'var(--cat-open)' },
+    major:    { label:'주요사항보고', color:'var(--warn)' },
+    earnings: { label:'실적·전망',    color:'var(--good)' },
+    holder:   { label:'지분·경영권',  color:'var(--cat-popup)' },
+    etc:      { label:'기타공시',     color:'var(--cat-etc)' }
+  };
+  var DART_TYPE_PRIORITY = ['major','earnings','holder','periodic','etc'];
+
+  // 기간 필터 프리셋 — key:'all'이면 기간 제한 없음, 그 외에는 "오늘로부터 며칠 이내"를 의미합니다.
+  var DART_PERIODS = [
+    { key:'all', label:'전체' },
+    { key:'7',   label:'최근 1주' },
+    { key:'30',  label:'최근 1개월' },
+    { key:'90',  label:'최근 3개월' },
+    { key:'180', label:'최근 6개월' },
+    { key:'365', label:'최근 1년' }
+  ];
+
+  function navBadge(navKey){
+    var keys = resolveCompanyKeys(navKey, null);
+    return COMPANIES[keys[0]] || { label:navKey, color:'var(--ink-faint)' };
+  }
+
+  // 공시(DART) 실연동 데이터: data/dart.json은 GitHub Actions가 매일 1회 전자공시(OpenDART) API로
+  // 회사별 공시 목록을 모아 저장해주는 파일입니다. AI 요약은 아직 붙지 않아서 summary/originExcerpt
+  // 필드가 비어있으며, 화면에서는 이를 "AI 요약 준비 중"으로 자연스럽게 대체합니다.
+  // 아직 연동 전이거나 파일을 못 불러오면 기존 DART_SAMPLE(더미)로 자동 대체됩니다.
+  var USING_REAL_DART = false;
+  var DART_REAL = null;
+  var DART_GENERATED_AT = null;
+  var DART_WARNINGS = [];
+
+  function applyRealDart(dartData){
+    var flat = [];
+    var companies = dartData.companies || {};
+    Object.keys(companies).forEach(function(navKey){
+      (companies[navKey] || []).forEach(function(d){
+        flat.push({
+          id: d.id, company: navKey, type: DART_TYPES[d.type] ? d.type : 'etc', important: !!d.important,
+          title: d.title, submitter: d.submitter, date: d.date, originUrl: d.originUrl,
+          summary: null, originExcerpt: null
+        });
+      });
+    });
+    DART_REAL = flat;
+    DART_WARNINGS = dartData.warnings || [];
+  }
+
+  var DART_SAMPLE = [
+    {
+      id:'d1', company:'hyundai', type:'earnings', important:true,
+      title:'분기보고서 (2026년 2분기)',
+      submitter:'(주)현대백화점', date:'2026-08-14',
+      originUrl:'https://dart.fss.or.kr/',
+      summary:[
+        '2분기 연결 매출 9,820억원(전년동기 대비 +4.2%), 영업이익은 판관비 증가 영향으로 소폭 감소',
+        '더현대 서울이 전체 실적 성장을 견인 — 단일 점포 기준 최대 매출 갱신',
+        '지방 점포(충청·대구권) 실적은 보합권, 아울렛 부문은 견조한 성장세 지속'
+      ],
+      originExcerpt:'(원문 발췌 예시) "당사의 2026년 2분기 연결기준 매출액은 982,412백만원으로 전년동기 대비 4.2% 증가하였으며, 영업이익은 판관비 증가 영향으로…" — 실제 연동 시 DART 원문 본문 일부가 이 자리에 표시됩니다.'
+    },
+    {
+      id:'d2', company:'lotte', type:'major', important:true,
+      title:'주요사항보고서 (타법인 주식 및 출자증권 취득결정)',
+      submitter:'롯데쇼핑(주)', date:'2026-09-02',
+      originUrl:'https://dart.fss.or.kr/',
+      summary:[
+        '신규 출점·투자 목적의 타법인 지분 취득 결정 공시',
+        '취득금액은 자기자본 대비 약 3% 수준으로 중대성 기준 근접',
+        '유통업 관련 신사업(물류·플랫폼 추정) 확장 가능성 — 세부 사업 목적은 원문 확인 필요'
+      ],
+      originExcerpt:'(원문 발췌 예시) "1. 발행회사: (주)OOOO 2. 취득 주식수: … 3. 취득금액(원): … 4. 취득 목적: 신규 사업 다각화 및 시너지 창출" — 실제 연동 시 표 형태의 원문 항목이 그대로 들어갑니다.'
+    },
+    {
+      id:'d3', company:'shinsegae', type:'holder', important:false,
+      title:'임원·주요주주 특정증권등 소유상황보고서',
+      submitter:'(주)신세계', date:'2026-08-28',
+      originUrl:'https://dart.fss.or.kr/',
+      summary:[
+        '등기임원 1인의 자사주 장내 매수 신고',
+        '매수 규모는 소액(발행주식총수 대비 0.01% 미만)으로 경영권 변동과는 무관',
+        '최근 3개월 내 동일인의 유사 신고 이력 없음'
+      ],
+      originExcerpt:'(원문 발췌 예시) "보고자: OOO, 보고사유: 장내매수, 변동수량: 500주, 변동 후 보유주식수: …" — 실제 연동 시 변동 상세 표가 그대로 표시됩니다.'
+    },
+    {
+      id:'d4', company:'galleria', type:'periodic', important:false,
+      title:'반기보고서 (2026년 반기)',
+      submitter:'(주)한화갤러리아', date:'2026-08-18',
+      originUrl:'https://dart.fss.or.kr/',
+      summary:[
+        '명품관 중심 매출 구조 유지, 상반기 매출 전년 대비 소폭 증가',
+        '진주점 등 지방 신규 출점 관련 초기 투자비용 반영',
+        '별도 특이 소송·우발부채 사항 없음'
+      ],
+      originExcerpt:'(원문 발췌 예시) "II. 사업의 내용 1. 사업의 개요 당사는 백화점업을 주된 사업으로 영위하고 있으며…" — 실제 연동 시 목차별 원문이 발췌되어 표시됩니다.'
+    },
+    {
+      id:'d5', company:'ak', type:'major', important:true,
+      title:'단일판매·공급계약 체결',
+      submitter:'AK플라자(애경자산관리)', date:'2026-09-10',
+      originUrl:'https://dart.fss.or.kr/',
+      summary:[
+        '연간 매출액 대비 계약금액 비중이 커 공시 기준에 해당',
+        '계약 상대방·품목은 원문에서 비공개(영업비밀) 처리된 항목 포함',
+        '계약기간은 1년으로, 갱신 여부는 추후 재공시 필요'
+      ],
+      originExcerpt:'(원문 발췌 예시) "1. 판매·공급계약 내용: … 2. 계약금액: … 3. 최근 매출액 대비(%): …" — 실제 연동 시 원문 표가 그대로 인용됩니다.'
+    },
+    {
+      id:'d6', company:'ikea', type:'etc', important:false,
+      title:'외국인투자기업 등록사항 변경',
+      submitter:'이케아코리아(유)', date:'2026-07-30',
+      originUrl:'https://dart.fss.or.kr/',
+      summary:[
+        '등기임원 변경에 따른 단순 행정 변경 공시',
+        '사업 목적·자본금 등 실질 변경 사항 없음'
+      ],
+      originExcerpt:'(원문 발췌 예시) "변경 전: … 변경 후: … 변경사유: 임기만료에 따른 재선임" — 실제 연동 시 변경 전/후 대비표가 표시됩니다.'
+    },
+    {
+      id:'d7', company:'starfield', type:'earnings', important:false,
+      title:'잠정실적(공정공시)',
+      submitter:'(주)신세계프라퍼티', date:'2026-09-05',
+      originUrl:'https://dart.fss.or.kr/',
+      summary:[
+        '스타필드 하남·고양 중심 매출 성장 지속',
+        '신규점(안성 등) 오픈 초기 비용으로 일시적 이익률 하락'
+      ],
+      originExcerpt:'(원문 발췌 예시) "당사는 투자자 보호를 위해 다음과 같이 잠정 영업(잠정)실적을 공정공시합니다…" — 실제 연동 시 표 형태의 잠정실적 수치가 그대로 표시됩니다.'
+    },
+    {
+      id:'d8', company:'daiso', type:'periodic', important:false,
+      title:'사업보고서 (2025 회계연도)',
+      submitter:'(주)아성다이소', date:'2026-03-28',
+      originUrl:'https://dart.fss.or.kr/',
+      summary:[
+        '균일가 생활용품 매출 성장세 지속, 전국 매장수 순증',
+        '온라인몰(다이소몰) 취급 품목 확대 관련 서술 포함'
+      ],
+      originExcerpt:'(원문 발췌 예시) "I. 회사의 개황 1. 회사의 법적·상업적 명칭 당사의 명칭은 (주)아성다이소이며…" — 실제 연동 시 목차별 원문이 발췌되어 표시됩니다.'
+    },
+    {
+      id:'d9', company:'musinsa', type:'holder', important:true,
+      title:'최대주주 변경을 수반하는 주식담보제공계약 체결',
+      submitter:'(주)무신사', date:'2026-09-15',
+      originUrl:'https://dart.fss.or.kr/',
+      summary:[
+        '최대주주 보유주식 담보 제공 계약 — 경영권 변동 가능성과 직결되는 사안이라 주목 필요',
+        '담보권 실행 조건·비율 등 세부 내용은 원문 확인 권장'
+      ],
+      originExcerpt:'(원문 발췌 예시) "1. 계약당사자: … 2. 담보제공 주식수 및 비율: … 3. 계약체결일: …" — 실제 연동 시 원문 표가 그대로 인용됩니다.'
+    }
+  ];
 
   // ── 권역별 실존 매장 데이터 (백화점 3사 + 아울렛·프리미엄아울렛 + 스타필드 + 이케아) ──
   // 좌표는 실제 위경도가 아닌, 각 권역 내 상대적 배치를 위한 예시 좌표입니다.
@@ -832,8 +1080,30 @@
     }
   }
 
+  function updateDartStatusUI(){
+    if(!dartHintEl) return;
+    if(USING_REAL_DART){
+      var when = DART_GENERATED_AT ? fmtDate(new Date(DART_GENERATED_AT)) : '';
+      dartHintEl.textContent = '전자공시시스템(DART) 실연동' + (when ? ' · 마지막 갱신 ' + when : '') + ' · AI 요약은 준비 중(원문 링크로 대체)';
+      if(dartSampleNoteEl){
+        if(DART_WARNINGS.length){
+          dartSampleNoteEl.hidden = false;
+          dartSampleNoteEl.textContent = '※ 일부 회사는 법인명 매칭이 불확실하거나 공시를 찾지 못했습니다: ' + DART_WARNINGS.join(' / ');
+        } else {
+          dartSampleNoteEl.hidden = true;
+        }
+      }
+    } else {
+      dartHintEl.textContent = '전자공시시스템 원문 + 핵심 요약 · 지금은 레이아웃 확인용 샘플 데이터입니다';
+      if(dartSampleNoteEl){
+        dartSampleNoteEl.hidden = false;
+        dartSampleNoteEl.textContent = '※ 아래 공시 목록·요약·원문 발췌는 실제 DART 연동 전, 레이아웃 확인을 위한 샘플입니다.';
+      }
+    }
+  }
+
   function boot(){
-    fetch('./data/news.json', { cache:'no-store' })
+    var newsPromise = fetch('./data/news.json', { cache:'no-store' })
       .then(function(res){ if(!res.ok) throw new Error('news fetch failed'); return res.json(); })
       .then(function(data){
         if(data && data.stores && Object.keys(data.stores).length){
@@ -844,14 +1114,30 @@
           applyDummyAlerts();
         }
       })
-      .catch(function(){ applyDummyAlerts(); })
+      .catch(function(){ applyDummyAlerts(); });
+
+    var dartPromise = fetch('./data/dart.json', { cache:'no-store' })
+      .then(function(res){ if(!res.ok) throw new Error('dart fetch failed'); return res.json(); })
+      .then(function(data){
+        if(data && data.companies && Object.keys(data.companies).length){
+          applyRealDart(data);
+          USING_REAL_DART = true;
+          DART_GENERATED_AT = data.generatedAt || null;
+        }
+      })
+      .catch(function(){ /* 아직 연동 전이거나 실패 — DART_SAMPLE로 계속 진행 */ });
+
+    Promise.all([newsPromise, dartPromise])
       .then(function(){
         buildCompanyNav();
         buildRegionTabs();
         buildChips();
+        buildDartPeriodChips();
+        buildDartTypeChips();
         tileTotalLabelEl.textContent = (state.region === 'all' ? '전국 매장' : '이 권역 매장');
         renderAll();
         updateDemoBadge();
+        updateDartStatusUI();
         if(window.__KAKAO_KEY_MISSING){
           mapLoadingEl.hidden = true;
           mapFallbackNoteEl.hidden = false;
@@ -867,6 +1153,10 @@
 
     companies: new Set(resolveCompanyKeys('hyundai', '백화점')),
     categories: new Set(Object.keys(CATEGORIES)),
+    dartTypes: new Set(Object.keys(DART_TYPES)),
+    dartPeriod: 'all', // DART_PERIODS의 key. 아래 dartFrom/dartTo가 채워지면 이 값 대신 그 기간이 우선합니다.
+    dartFrom: null,     // 'YYYY-MM-DD' 또는 null — 직접 지정한 시작일
+    dartTo: null,       // 'YYYY-MM-DD' 또는 null — 직접 지정한 종료일
     showFoot: false,
     selected: null
   };
@@ -887,8 +1177,17 @@
   var sideTitle = document.getElementById('sideTitle');
   var sideHint = document.getElementById('sideHint');
   var backBtn = document.getElementById('backBtn');
-  var dartBodyEl = document.getElementById('dartBody');
   var dartHintEl = document.getElementById('dartHint');
+  var dartSampleNoteEl = document.getElementById('dartSampleNote');
+  var dartTypeChipsEl = document.getElementById('dartTypeChips');
+  var dartPeriodChipsEl = document.getElementById('dartPeriodChips');
+  var dartFromDateEl = document.getElementById('dartFromDate');
+  var dartToDateEl = document.getElementById('dartToDate');
+  var dartPeriodClearEl = document.getElementById('dartPeriodClear');
+  var dartCountEl = document.getElementById('dartCount');
+  var dartBriefEl = document.getElementById('dartBrief');
+  var dartListEl = document.getElementById('dartList');
+  var tileDartEl = document.getElementById('tileDart');
 
   function allStores(){
     var out = [];
@@ -1049,6 +1348,135 @@
   }
 
   function filteredAlerts(store){ return store.alerts.filter(function(a){ return state.categories.has(a.category); }); }
+
+  // ── 공시(DART) 기간 필터 — 프리셋 칩(전체/1주/1개월…) 중 하나만 선택되거나, 직접 지정한 시작일~종료일이 있으면 그게 우선합니다 ──
+  function isDartCustomPeriod(){ return !!(state.dartFrom || state.dartTo); }
+
+  function buildDartPeriodChips(){
+    dartPeriodChipsEl.innerHTML = '';
+    dartFromDateEl.max = todayStr();
+    dartToDateEl.max = todayStr();
+    DART_PERIODS.forEach(function(p){
+      var chip = document.createElement('button');
+      chip.type = 'button';
+      chip.className = 'dart-period-chip' + (!isDartCustomPeriod() && state.dartPeriod === p.key ? ' active' : '');
+      chip.dataset.key = p.key;
+      chip.textContent = p.label;
+      chip.addEventListener('click', function(){
+        state.dartPeriod = p.key;
+        state.dartFrom = null;
+        state.dartTo = null;
+        dartFromDateEl.value = '';
+        dartToDateEl.value = '';
+        dartPeriodClearEl.hidden = true;
+        refreshDartPeriodChipStates();
+        renderDart();
+      });
+      dartPeriodChipsEl.appendChild(chip);
+    });
+
+    function onCustomDateChange(){
+      state.dartFrom = dartFromDateEl.value || null;
+      state.dartTo = dartToDateEl.value || null;
+      dartPeriodClearEl.hidden = !isDartCustomPeriod();
+      refreshDartPeriodChipStates();
+      renderDart();
+    }
+    dartFromDateEl.addEventListener('change', onCustomDateChange);
+    dartToDateEl.addEventListener('change', onCustomDateChange);
+
+    dartPeriodClearEl.addEventListener('click', function(){
+      state.dartFrom = null;
+      state.dartTo = null;
+      dartFromDateEl.value = '';
+      dartToDateEl.value = '';
+      dartPeriodClearEl.hidden = true;
+      refreshDartPeriodChipStates();
+      renderDart();
+    });
+  }
+
+  function refreshDartPeriodChipStates(){
+    var custom = isDartCustomPeriod();
+    Array.prototype.forEach.call(dartPeriodChipsEl.querySelectorAll('.dart-period-chip'), function(chip){
+      chip.classList.toggle('active', !custom && chip.dataset.key === state.dartPeriod);
+    });
+  }
+
+  // 오늘 날짜 기준 'YYYY-MM-DD' 문자열 (지역 표준시가 아니라 브라우저 로컬 기준입니다).
+  function todayStr(){
+    var d = new Date();
+    d.setMinutes(d.getMinutes() - d.getTimezoneOffset());
+    return d.toISOString().slice(0, 10);
+  }
+
+  function dartDateInRange(dateStr){
+    if(isDartCustomPeriod()){
+      if(state.dartFrom && dateStr < state.dartFrom) return false;
+      if(state.dartTo && dateStr > state.dartTo) return false;
+      return true;
+    }
+    if(state.dartPeriod === 'all') return true;
+    var days = parseInt(state.dartPeriod, 10);
+    var cutoff = new Date();
+    cutoff.setHours(0,0,0,0);
+    cutoff.setDate(cutoff.getDate() - days);
+    var cutoffLocal = new Date(cutoff.getTime() - cutoff.getTimezoneOffset() * 60000);
+    var cutoffStr = cutoffLocal.toISOString().slice(0, 10);
+    return dateStr >= cutoffStr;
+  }
+
+  function dartPeriodPhrase(){
+    if(isDartCustomPeriod()){
+      if(state.dartFrom && state.dartTo) return state.dartFrom + ' ~ ' + state.dartTo + ' 사이';
+      if(state.dartFrom) return state.dartFrom + ' 이후';
+      return state.dartTo + ' 이전';
+    }
+    if(state.dartPeriod === 'all') return null;
+    var found = DART_PERIODS.filter(function(p){ return p.key === state.dartPeriod; })[0];
+    return found ? found.label + ' 동안' : null;
+  }
+
+  // ── 공시(DART) 유형 필터 칩 — 이슈 카테고리 칩과 같은 모양, 별도 상태(state.dartTypes)로 동작 ──
+  function buildDartTypeChips(){
+    dartTypeChipsEl.innerHTML = '';
+    var typeKeys = Object.keys(DART_TYPES);
+
+    var toggleBtn = document.createElement('button');
+    toggleBtn.className = 'chip toggle-all';
+    function refreshDartToggle(){
+      var allOn = typeKeys.every(function(k){ return state.dartTypes.has(k); });
+      toggleBtn.textContent = allOn ? '전체 해제' : '전체 선택';
+      toggleBtn.classList.toggle('is-select', !allOn);
+      toggleBtn.classList.toggle('is-clear', allOn);
+    }
+    toggleBtn.addEventListener('click', function(){
+      var allOn = typeKeys.every(function(k){ return state.dartTypes.has(k); });
+      typeKeys.forEach(function(k){ if(allOn) state.dartTypes.delete(k); else state.dartTypes.add(k); });
+      Array.prototype.forEach.call(dartTypeChipsEl.querySelectorAll('.chip[data-key]'), function(chip){
+        chip.dataset.off = state.dartTypes.has(chip.dataset.key) ? '' : '1';
+      });
+      refreshDartToggle();
+      renderDart();
+    });
+    refreshDartToggle();
+    dartTypeChipsEl.appendChild(toggleBtn);
+
+    typeKeys.forEach(function(key){
+      var def = DART_TYPES[key];
+      var chip = document.createElement('button');
+      chip.className = 'chip';
+      chip.dataset.key = key;
+      chip.innerHTML = '<span class="dot" style="background:' + def.color + '"></span>' + def.label;
+      chip.addEventListener('click', function(){
+        if(state.dartTypes.has(key)) state.dartTypes.delete(key); else state.dartTypes.add(key);
+        chip.dataset.off = state.dartTypes.has(key) ? '' : '1';
+        refreshDartToggle();
+        renderDart();
+      });
+      dartTypeChipsEl.appendChild(chip);
+    });
+  }
 
   // ── 카카오맵 연동 ─────────────────────────────────────────────
   // 매장의 실제 위경도는 좌표를 따로 관리하지 않고, 카카오맵 키워드 검색(장소명 검색)으로
@@ -1328,21 +1756,94 @@
     document.getElementById('tileTotal').textContent = visibleStores.length;
     document.getElementById('tileActive').textContent = activeCount;
     document.getElementById('tileAlerts').textContent = alertCount;
-    // 네 번째 타일(공시·DART)은 HTML에 고정된 "연동 예정" 문구를 그대로 둡니다 — 아직 연동 전이라 셀 값이 없습니다.
+
+    var dartPoolForTile = USING_REAL_DART ? (DART_REAL || []) : DART_SAMPLE;
+    var dartCountForNav = dartPoolForTile.filter(function(d){ return d.company === state.navKey; }).length;
+    if(dartCountForNav > 0){
+      tileDartEl.textContent = dartCountForNav + '건' + (USING_REAL_DART ? '' : ' (샘플)');
+    } else {
+      tileDartEl.textContent = USING_REAL_DART ? '공시 없음' : '샘플 없음';
+    }
   }
 
-  // 공시정보(DART) 카드 — 지금은 자리만 마련해둔 자리표시자입니다.
-  // 나중에 전자공시 Open API를 연동하면, 여기서 currentCompanyLabel() 기준으로 실제 공시 목록을 채우면 됩니다.
+  // ── 공시정보(DART) 카드 ───────────────────────────────────────────
+  // 지금은 DART_SAMPLE(위쪽에 정의된 샘플 데이터)로 레이아웃만 채워둔 상태입니다.
+  // 나중에 전자공시 Open API를 연동하면, DART_SAMPLE 자리에 실제로 받아온 공시 목록을
+  // (같은 필드 모양으로) 채워 넣기만 하면 이 화면 그대로 동작합니다.
   function renderDart(){
-    var label = currentCompanyLabel();
-    dartHintEl.textContent = '전자공시시스템 Open API 연동 예정 · 지금은 자리만 마련해둔 상태입니다';
-    dartBodyEl.innerHTML = '' +
-      '<table class="dart-table">' +
-        '<thead><tr><th>공시일자</th><th>보고서명</th><th>제출인</th><th>비고</th></tr></thead>' +
-        '<tbody>' +
-          '<tr><td>-</td><td>(연동 전)</td><td>-</td><td>전자공시 Open API 연동 후 ' + escapeHtml(label) + ' 관련 공시가 이 표에 표시됩니다</td></tr>' +
-        '</tbody>' +
-      '</table>';
+    var badge = navBadge(state.navKey);
+    var periodPhrase = dartPeriodPhrase();
+    var pool = USING_REAL_DART ? (DART_REAL || []) : DART_SAMPLE;
+    var items = pool.filter(function(d){
+      return d.company === state.navKey && state.dartTypes.has(d.type) && dartDateInRange(d.date);
+    });
+    items = items.slice().sort(function(a,b){ return a.date < b.date ? 1 : (a.date > b.date ? -1 : 0); });
+
+    dartCountEl.textContent = items.length + '건';
+
+    if(items.length === 0){
+      dartBriefEl.innerHTML = '<div class="dart-brief-empty">' +
+        escapeHtml(currentCompanyLabel()) + (periodPhrase ? ' · ' + escapeHtml(periodPhrase) : '') +
+        ' — 조건에 맞는 공시가 없습니다. 기간이나 유형 필터를 넓혀보세요.</div>';
+      dartListEl.innerHTML = '<div class="dart-empty-note">선택한 기간·유형 조건에 해당하는 공시가 없습니다.</div>';
+      return;
+    }
+
+    var importantCount = items.filter(function(d){ return d.important; }).length;
+    var byType = {};
+    items.forEach(function(d){ byType[d.type] = (byType[d.type] || 0) + 1; });
+    var typeSummary = DART_TYPE_PRIORITY
+      .filter(function(t){ return byType[t]; })
+      .map(function(t){ return DART_TYPES[t].label + ' ' + byType[t] + '건'; })
+      .join(' · ');
+    var briefBullets = [
+      currentCompanyLabel() + ' 관련 공시' + (periodPhrase ? ' (' + periodPhrase + ')' : '') + ' ' + items.length + '건 — ' + typeSummary,
+      importantCount > 0
+        ? '이 중 ' + importantCount + '건은 경영권·자본변동 등과 관련돼 특히 눈여겨볼 필요가 있습니다'
+        : '이번에 표시된 공시 중 경영권·자본변동과 직접 관련된 사안은 없습니다'
+    ];
+    dartBriefEl.innerHTML =
+      '<div class="dart-brief-label">' + (USING_REAL_DART ? 'AI 요약 브리핑 (준비 중 — 지금은 건수 통계만 자동 집계)' : 'AI 요약 브리핑 (샘플)') + '</div>' +
+      '<ul>' + briefBullets.map(function(b){ return '<li>' + escapeHtml(b) + '</li>'; }).join('') + '</ul>';
+
+    dartListEl.innerHTML = items.map(function(d){
+      var typeDef = DART_TYPES[d.type];
+      var hasSummary = Array.isArray(d.summary) && d.summary.length > 0;
+      var summaryHtml = hasSummary
+        ? ('<div class="dart-summary"><div class="dart-summary-label">핵심 요약</div><ul>' +
+            d.summary.map(function(s){ return '<li>' + escapeHtml(s) + '</li>'; }).join('') + '</ul></div>')
+        : ('<div class="dart-summary dart-summary-pending"><div class="dart-summary-label">핵심 요약</div>' +
+            '<div class="dart-summary-pending-note">AI 요약 준비 중입니다 — 아래 "원문 보기"에서 전자공시시스템 원문을 확인하세요.</div></div>');
+      var originHtml = d.originExcerpt
+        ? ('<button class="dart-origin-toggle" data-id="' + d.id + '">원문 일부 보기 ▾</button>' +
+            '<div class="dart-origin-preview" id="dartOrigin-' + d.id + '" hidden>' + escapeHtml(d.originExcerpt) + '</div>')
+        : '';
+      return '' +
+        '<div class="dart-item">' +
+          '<div class="dart-item-top">' +
+            '<span class="co-badge" style="background:' + badge.color + '"><span class="sw"></span>' + escapeHtml(badge.label) + '</span>' +
+            '<span class="dart-type-chip" style="background:' + typeDef.color + '">' + escapeHtml(typeDef.label) + '</span>' +
+            (d.important ? '<span class="dart-flag">⚠ 주목</span>' : '') +
+          '</div>' +
+          '<div class="dart-item-title">' + escapeHtml(d.title) + '</div>' +
+          '<div class="dart-item-meta">' +
+            '<span>제출일 ' + escapeHtml(d.date) + '</span>' +
+            '<span>제출인 ' + escapeHtml(d.submitter) + '</span>' +
+            '<a href="' + d.originUrl + '" target="_blank" rel="noopener">원문 보기 ↗</a>' +
+          '</div>' +
+          summaryHtml +
+          originHtml +
+        '</div>';
+    }).join('');
+
+    Array.prototype.forEach.call(dartListEl.querySelectorAll('.dart-origin-toggle'), function(btn){
+      btn.addEventListener('click', function(){
+        var pre = document.getElementById('dartOrigin-' + btn.dataset.id);
+        var willShow = pre.hidden;
+        pre.hidden = !willShow;
+        btn.textContent = willShow ? '원문 일부 접기 ▴' : '원문 일부 보기 ▾';
+      });
+    });
   }
 
   function renderAll(){
