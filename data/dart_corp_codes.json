@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-09-22T01:12:14.779Z",
+  "resolved": {
+    "hyundai": {
+      "corp_code": "00428251",
+      "corp_name": "현대백화점",
+      "stock_code": "069960",
+      "uncertain": false
+    },
+    "shinsegae": {
+      "corp_code": "01630808",
+      "corp_name": "신세계",
+      "stock_code": "",
+      "uncertain": false
+    },
+    "lotte": {
+      "corp_code": "00120526",
+      "corp_name": "롯데쇼핑",
+      "stock_code": "023530",
+      "uncertain": false
+    },
+    "galleria": {
+      "corp_code": "00162364",
+      "corp_name": "한화갤러리아",
+      "stock_code": "",
+      "uncertain": false
+    },
+    "ak": {
+      "corp_code": "00139472",
+      "corp_name": "애경자산관리",
+      "stock_code": "",
+      "uncertain": false
+    },
+    "ikea": {
+      "corp_code": "01505760",
+      "corp_name": "이케아코리아",
+      "stock_code": "",
+      "uncertain": false
+    },
+    "starfield": {
+      "corp_code": "01003253",
+      "corp_name": "신세계프라퍼티",
+      "stock_code": "",
+      "uncertain": false
+    },
+    "musinsa": {
+      "corp_code": "01137727",
+      "corp_name": "무신사",
+      "stock_code": "",
+      "uncertain": false
+    },
+    "oliveyoung": {
+      "corp_code": "00429870",
+      "corp_name": "씨제이올리브영",
+      "stock_code": "",
+      "uncertain": true
+    },
+    "daiso": {
+      "corp_code": "00411835",
+      "corp_name": "아성다이소",
+      "stock_code": "",
+      "uncertain": false
+    }
+  },
+  "warnings": [
+    "oliveyoung: \"씨제이올리브영\"(corp_code 00429870)로 부분일치 매칭됨 — 확인 필요."
+  ]
+}

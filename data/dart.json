@@ -1,0 +1,2213 @@
+{
+  "generatedAt": "2026-09-22T01:12:14.780Z",
+  "windowDays": 365,
+  "warnings": [
+    "oliveyoung: \"씨제이올리브영\"(corp_code 00429870)로 부분일치 매칭됨 — 확인 필요."
+  ],
+  "companies": {
+    "hyundai": [
+      {
+        "id": "20260915800396",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "현대백화점",
+        "date": "2026-09-15",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915800396"
+      },
+      {
+        "id": "20260831001479",
+        "type": "etc",
+        "important": false,
+        "title": "주식등의대량보유상황보고서(일반)",
+        "submitter": "현대지에프홀딩스",
+        "date": "2026-08-31",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831001479"
+      },
+      {
+        "id": "20260831800308",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "현대백화점",
+        "date": "2026-08-31",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831800308"
+      },
+      {
+        "id": "20260828000580",
+        "type": "etc",
+        "important": false,
+        "title": "대규모기업집단현황공시[분기별공시(개별회사용)]",
+        "submitter": "현대백화점",
+        "date": "2026-08-28",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828000580"
+      },
+      {
+        "id": "20260825800329",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "현대백화점",
+        "date": "2026-08-25",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825800329"
+      },
+      {
+        "id": "20260820800569",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "현대백화점",
+        "date": "2026-08-20",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260820800569"
+      },
+      {
+        "id": "20260814003395",
+        "type": "etc",
+        "important": false,
+        "title": "반기보고서 (2026.06)",
+        "submitter": "현대백화점",
+        "date": "2026-08-14",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003395"
+      },
+      {
+        "id": "20260814000750",
+        "type": "etc",
+        "important": false,
+        "title": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
+        "submitter": "현대백화점",
+        "date": "2026-08-14",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814000750"
+      },
+      {
+        "id": "20260805800359",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "현대백화점",
+        "date": "2026-08-05",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805800359"
+      },
+      {
+        "id": "20260805800355",
+        "type": "etc",
+        "important": false,
+        "title": "현금ㆍ현물배당결정              ",
+        "submitter": "현대백화점",
+        "date": "2026-08-05",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805800355"
+      },
+      {
+        "id": "20260805800352",
+        "type": "etc",
+        "important": false,
+        "title": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정              ",
+        "submitter": "현대백화점",
+        "date": "2026-08-05",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805800352"
+      },
+      {
+        "id": "20260805800338",
+        "type": "earnings",
+        "important": false,
+        "title": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "submitter": "현대백화점",
+        "date": "2026-08-05",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805800338"
+      },
+      {
+        "id": "20260729800697",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "현대백화점",
+        "date": "2026-07-29",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729800697"
+      },
+      {
+        "id": "20260729800689",
+        "type": "earnings",
+        "important": false,
+        "title": "결산실적공시예고(안내공시)              ",
+        "submitter": "현대백화점",
+        "date": "2026-07-29",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729800689"
+      },
+      {
+        "id": "20260724000413",
+        "type": "etc",
+        "important": false,
+        "title": "주식등의대량보유상황보고서(약식)",
+        "submitter": "브이아이피자산운용",
+        "date": "2026-07-24",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724000413"
+      },
+      {
+        "id": "20260703800722",
+        "type": "etc",
+        "important": true,
+        "title": "최대주주등소유주식변동신고서              ",
+        "submitter": "현대백화점",
+        "date": "2026-07-03",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703800722"
+      },
+      {
+        "id": "20260703000461",
+        "type": "etc",
+        "important": false,
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "submitter": "현대지에프홀딩스",
+        "date": "2026-07-03",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703000461"
+      },
+      {
+        "id": "20260703000455",
+        "type": "etc",
+        "important": false,
+        "title": "주식등의대량보유상황보고서(일반)",
+        "submitter": "현대지에프홀딩스",
+        "date": "2026-07-03",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703000455"
+      },
+      {
+        "id": "20260702000268",
+        "type": "etc",
+        "important": false,
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "submitter": "국민연금공단",
+        "date": "2026-07-02",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260702000268"
+      },
+      {
+        "id": "20260630800647",
+        "type": "etc",
+        "important": false,
+        "title": "지속가능경영보고서등관련사항(자율공시)              ",
+        "submitter": "현대백화점",
+        "date": "2026-06-30",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630800647"
+      },
+      {
+        "id": "20260624800715",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "현대백화점",
+        "date": "2026-06-24",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624800715"
+      },
+      {
+        "id": "20260624800710",
+        "type": "etc",
+        "important": true,
+        "title": "최대주주등소유주식변동신고서              ",
+        "submitter": "현대백화점",
+        "date": "2026-06-24",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624800710"
+      },
+      {
+        "id": "20260624000338",
+        "type": "etc",
+        "important": false,
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "submitter": "현대지에프홀딩스",
+        "date": "2026-06-24",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624000338"
+      },
+      {
+        "id": "20260624000332",
+        "type": "etc",
+        "important": false,
+        "title": "주식등의대량보유상황보고서(일반)",
+        "submitter": "현대지에프홀딩스",
+        "date": "2026-06-24",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260624000332"
+      },
+      {
+        "id": "20260617800393",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "현대백화점",
+        "date": "2026-06-17",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260617800393"
+      },
+      {
+        "id": "20260612800917",
+        "type": "etc",
+        "important": true,
+        "title": "최대주주등소유주식변동신고서              ",
+        "submitter": "현대백화점",
+        "date": "2026-06-12",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260612800917"
+      },
+      {
+        "id": "20260612000557",
+        "type": "etc",
+        "important": false,
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "submitter": "현대지에프홀딩스",
+        "date": "2026-06-12",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260612000557"
+      },
+      {
+        "id": "20260612000549",
+        "type": "etc",
+        "important": false,
+        "title": "주식등의대량보유상황보고서(일반)",
+        "submitter": "현대지에프홀딩스",
+        "date": "2026-06-12",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260612000549"
+      },
+      {
+        "id": "20260529001768",
+        "type": "etc",
+        "important": false,
+        "title": "대규모기업집단현황공시[연1회공시및1/4분기용(개별회사)]",
+        "submitter": "현대백화점",
+        "date": "2026-05-29",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529001768"
+      },
+      {
+        "id": "20260529001641",
+        "type": "etc",
+        "important": false,
+        "title": "주식등의대량보유상황보고서(약식)",
+        "submitter": "브이아이피자산운용",
+        "date": "2026-05-29",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529001641"
+      },
+      {
+        "id": "20260529801177",
+        "type": "etc",
+        "important": false,
+        "title": "기업지배구조보고서공시              ",
+        "submitter": "현대백화점",
+        "date": "2026-05-29",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529801177"
+      },
+      {
+        "id": "20260522800632",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "현대백화점",
+        "date": "2026-05-22",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260522800632"
+      },
+      {
+        "id": "20260515001870",
+        "type": "etc",
+        "important": false,
+        "title": "분기보고서 (2026.03)",
+        "submitter": "현대백화점",
+        "date": "2026-05-15",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515001870"
+      },
+      {
+        "id": "20260515800987",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "현대백화점",
+        "date": "2026-05-15",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515800987"
+      },
+      {
+        "id": "20260508000995",
+        "type": "etc",
+        "important": false,
+        "title": "증권발행실적보고서",
+        "submitter": "현대백화점",
+        "date": "2026-05-08",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508000995"
+      },
+      {
+        "id": "20260508000437",
+        "type": "etc",
+        "important": false,
+        "title": "임원ㆍ주요주주특정증권등거래계획보고서",
+        "submitter": "현대지에프홀딩스",
+        "date": "2026-05-08",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508000437"
+      },
+      {
+        "id": "20260508000013",
+        "type": "etc",
+        "important": false,
+        "title": "투자설명서",
+        "submitter": "현대백화점",
+        "date": "2026-05-08",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508000013"
+      },
+      {
+        "id": "20260507000767",
+        "type": "etc",
+        "important": false,
+        "title": "[발행조건확정]증권신고서(채무증권)",
+        "submitter": "현대백화점",
+        "date": "2026-05-07",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260507000767"
+      },
+      {
+        "id": "20260506800438",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "현대백화점",
+        "date": "2026-05-06",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506800438"
+      },
+      {
+        "id": "20260506800422",
+        "type": "etc",
+        "important": false,
+        "title": "기업가치제고계획(자율공시)              (2025년 이행현황)",
+        "submitter": "현대백화점",
+        "date": "2026-05-06",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506800422"
+      },
+      {
+        "id": "20260506800396",
+        "type": "earnings",
+        "important": false,
+        "title": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "submitter": "현대백화점",
+        "date": "2026-05-06",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506800396"
+      },
+      {
+        "id": "20260430001741",
+        "type": "etc",
+        "important": false,
+        "title": "[발행조건확정]증권신고서(채무증권)",
+        "submitter": "현대백화점",
+        "date": "2026-04-30",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001741"
+      },
+      {
+        "id": "20260430001725",
+        "type": "etc",
+        "important": false,
+        "title": "[기재정정]증권신고서(채무증권)",
+        "submitter": "현대백화점",
+        "date": "2026-04-30",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001725"
+      },
+      {
+        "id": "20260430001247",
+        "type": "etc",
+        "important": false,
+        "title": "자기주식취득결과보고서",
+        "submitter": "현대백화점",
+        "date": "2026-04-30",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430001247"
+      },
+      {
+        "id": "20260429800851",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "현대백화점",
+        "date": "2026-04-29",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429800851"
+      },
+      {
+        "id": "20260429800845",
+        "type": "earnings",
+        "important": false,
+        "title": "결산실적공시예고(안내공시)              ",
+        "submitter": "현대백화점",
+        "date": "2026-04-29",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260429800845"
+      },
+      {
+        "id": "20260424000794",
+        "type": "etc",
+        "important": false,
+        "title": "증권신고서(채무증권)",
+        "submitter": "현대백화점",
+        "date": "2026-04-24",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260424000794"
+      },
+      {
+        "id": "20260402800745",
+        "type": "etc",
+        "important": false,
+        "title": "[기재정정]현금ㆍ현물배당결정              ",
+        "submitter": "현대백화점",
+        "date": "2026-04-02",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260402800745"
+      },
+      {
+        "id": "20260402002047",
+        "type": "etc",
+        "important": false,
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "submitter": "국민연금공단",
+        "date": "2026-04-02",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260402002047"
+      },
+      {
+        "id": "20260331802122",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "현대백화점",
+        "date": "2026-03-31",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331802122"
+      },
+      {
+        "id": "20260326802863",
+        "type": "etc",
+        "important": false,
+        "title": "정기주주총회결과              ",
+        "submitter": "현대백화점",
+        "date": "2026-03-26",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260326802863"
+      },
+      {
+        "id": "20260326001366",
+        "type": "etc",
+        "important": false,
+        "title": "독립이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "submitter": "현대백화점",
+        "date": "2026-03-26",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260326001366"
+      },
+      {
+        "id": "20260326001023",
+        "type": "etc",
+        "important": false,
+        "title": "특수관계인에대한출자",
+        "submitter": "현대백화점",
+        "date": "2026-03-26",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260326001023"
+      },
+      {
+        "id": "20260318001314",
+        "type": "etc",
+        "important": false,
+        "title": "사업보고서 (2025.12)",
+        "submitter": "현대백화점",
+        "date": "2026-03-18",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318001314"
+      },
+      {
+        "id": "20260318801434",
+        "type": "etc",
+        "important": false,
+        "title": "감사보고서제출              ",
+        "submitter": "현대백화점",
+        "date": "2026-03-18",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260318801434"
+      },
+      {
+        "id": "20260309001424",
+        "type": "etc",
+        "important": false,
+        "title": "[첨부정정]의결권대리행사권유참고서류",
+        "submitter": "현대백화점",
+        "date": "2026-03-09",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260309001424"
+      },
+      {
+        "id": "20260227003240",
+        "type": "etc",
+        "important": false,
+        "title": "대규모기업집단현황공시[분기별공시(개별회사용)]",
+        "submitter": "현대백화점",
+        "date": "2026-02-27",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227003240"
+      },
+      {
+        "id": "20260225005400",
+        "type": "etc",
+        "important": false,
+        "title": "[기재정정]주주총회소집공고",
+        "submitter": "현대백화점",
+        "date": "2026-02-25",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260225005400"
+      },
+      {
+        "id": "20260225801029",
+        "type": "etc",
+        "important": false,
+        "title": "주주총회소집결의              ",
+        "submitter": "현대백화점",
+        "date": "2026-02-25",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260225801029"
+      },
+      {
+        "id": "20260225004036",
+        "type": "etc",
+        "important": false,
+        "title": "주요사항보고서(감자결정)",
+        "submitter": "현대백화점",
+        "date": "2026-02-25",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260225004036"
+      },
+      {
+        "id": "20260225003928",
+        "type": "etc",
+        "important": false,
+        "title": "의결권대리행사권유참고서류",
+        "submitter": "현대백화점",
+        "date": "2026-02-25",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260225003928"
+      },
+      {
+        "id": "20260225003912",
+        "type": "etc",
+        "important": false,
+        "title": "주주총회소집공고",
+        "submitter": "현대백화점",
+        "date": "2026-02-25",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260225003912"
+      },
+      {
+        "id": "20260213001067",
+        "type": "etc",
+        "important": false,
+        "title": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
+        "submitter": "현대백화점",
+        "date": "2026-02-13",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260213001067"
+      },
+      {
+        "id": "20260211800410",
+        "type": "etc",
+        "important": false,
+        "title": "주식소각결정              ",
+        "submitter": "현대백화점",
+        "date": "2026-02-11",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260211800410"
+      },
+      {
+        "id": "20260211000385",
+        "type": "etc",
+        "important": false,
+        "title": "주요사항보고서(자기주식취득결정)",
+        "submitter": "현대백화점",
+        "date": "2026-02-11",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260211000385"
+      },
+      {
+        "id": "20260211800394",
+        "type": "earnings",
+        "important": false,
+        "title": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "submitter": "현대백화점",
+        "date": "2026-02-11",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260211800394"
+      },
+      {
+        "id": "20260211800398",
+        "type": "earnings",
+        "important": false,
+        "title": "매출액또는손익구조30%(대규모법인은15%)이상변경              ",
+        "submitter": "현대백화점",
+        "date": "2026-02-11",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260211800398"
+      },
+      {
+        "id": "20260211800403",
+        "type": "etc",
+        "important": false,
+        "title": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정              ",
+        "submitter": "현대백화점",
+        "date": "2026-02-11",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260211800403"
+      },
+      {
+        "id": "20260211800400",
+        "type": "etc",
+        "important": false,
+        "title": "현금ㆍ현물배당결정              ",
+        "submitter": "현대백화점",
+        "date": "2026-02-11",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260211800400"
+      },
+      {
+        "id": "20260128800600",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "현대백화점",
+        "date": "2026-01-28",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260128800600"
+      },
+      {
+        "id": "20260128800595",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "현대백화점",
+        "date": "2026-01-28",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260128800595"
+      },
+      {
+        "id": "20260128800589",
+        "type": "earnings",
+        "important": false,
+        "title": "결산실적공시예고(안내공시)              ",
+        "submitter": "현대백화점",
+        "date": "2026-01-28",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260128800589"
+      },
+      {
+        "id": "20260105000292",
+        "type": "etc",
+        "important": false,
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "submitter": "국민연금공단",
+        "date": "2026-01-05",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260105000292"
+      },
+      {
+        "id": "20251215801099",
+        "type": "etc",
+        "important": false,
+        "title": "기타경영사항(자율공시)              (배당기준일 관련 안내)",
+        "submitter": "현대백화점",
+        "date": "2025-12-15",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251215801099"
+      },
+      {
+        "id": "20251215801065",
+        "type": "etc",
+        "important": false,
+        "title": "주주명부폐쇄기간또는기준일설정              ",
+        "submitter": "현대백화점",
+        "date": "2025-12-15",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251215801065"
+      },
+      {
+        "id": "20251128000678",
+        "type": "etc",
+        "important": false,
+        "title": "대규모기업집단현황공시[분기별공시(개별회사용)]",
+        "submitter": "현대백화점",
+        "date": "2025-11-28",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251128000678"
+      },
+      {
+        "id": "20251124800525",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "현대백화점",
+        "date": "2025-11-24",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251124800525"
+      },
+      {
+        "id": "20251117000230",
+        "type": "etc",
+        "important": false,
+        "title": "주식등의대량보유상황보고서(약식)",
+        "submitter": "KopernikGlobalInvestors,LLC",
+        "date": "2025-11-17",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251117000230"
+      },
+      {
+        "id": "20251114002108",
+        "type": "etc",
+        "important": false,
+        "title": "분기보고서 (2025.09)",
+        "submitter": "현대백화점",
+        "date": "2025-11-14",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251114002108"
+      },
+      {
+        "id": "20251105000155",
+        "type": "etc",
+        "important": false,
+        "title": "동일인등출자계열회사와의상품ㆍ용역거래",
+        "submitter": "현대백화점",
+        "date": "2025-11-05",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251105000155"
+      },
+      {
+        "id": "20251105000105",
+        "type": "etc",
+        "important": false,
+        "title": "특수관계인에대한출자",
+        "submitter": "현대백화점",
+        "date": "2025-11-05",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251105000105"
+      },
+      {
+        "id": "20251105800276",
+        "type": "etc",
+        "important": true,
+        "title": "유상증자결정(자율공시)(종속회사의주요경영사항)              ",
+        "submitter": "현대백화점",
+        "date": "2025-11-05",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251105800276"
+      },
+      {
+        "id": "20251105800257",
+        "type": "etc",
+        "important": true,
+        "title": "타법인주식및출자증권취득결정(자율공시)              ",
+        "submitter": "현대백화점",
+        "date": "2025-11-05",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251105800257"
+      },
+      {
+        "id": "20251105800250",
+        "type": "earnings",
+        "important": false,
+        "title": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "submitter": "현대백화점",
+        "date": "2025-11-05",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251105800250"
+      },
+      {
+        "id": "20251029800502",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "현대백화점",
+        "date": "2025-10-29",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251029800502"
+      },
+      {
+        "id": "20251029800498",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "현대백화점",
+        "date": "2025-10-29",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251029800498"
+      },
+      {
+        "id": "20251029800488",
+        "type": "earnings",
+        "important": false,
+        "title": "결산실적공시예고(안내공시)              ",
+        "submitter": "현대백화점",
+        "date": "2025-10-29",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251029800488"
+      },
+      {
+        "id": "20251001000415",
+        "type": "etc",
+        "important": false,
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "submitter": "국민연금공단",
+        "date": "2025-10-01",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251001000415"
+      },
+      {
+        "id": "20251001800182",
+        "type": "etc",
+        "important": true,
+        "title": "최대주주등소유주식변동신고서              ",
+        "submitter": "현대백화점",
+        "date": "2025-10-01",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251001800182"
+      },
+      {
+        "id": "20251001000125",
+        "type": "etc",
+        "important": false,
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "submitter": "현대지에프홀딩스",
+        "date": "2025-10-01",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251001000125"
+      },
+      {
+        "id": "20251001000113",
+        "type": "etc",
+        "important": false,
+        "title": "주식등의대량보유상황보고서(일반)",
+        "submitter": "현대지에프홀딩스",
+        "date": "2025-10-01",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251001000113"
+      },
+      {
+        "id": "20250924800459",
+        "type": "etc",
+        "important": true,
+        "title": "최대주주등소유주식변동신고서              ",
+        "submitter": "현대백화점",
+        "date": "2025-09-24",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250924800459"
+      },
+      {
+        "id": "20250924000366",
+        "type": "etc",
+        "important": false,
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "submitter": "현대지에프홀딩스",
+        "date": "2025-09-24",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250924000366"
+      },
+      {
+        "id": "20250924000359",
+        "type": "etc",
+        "important": false,
+        "title": "주식등의대량보유상황보고서(일반)",
+        "submitter": "현대지에프홀딩스",
+        "date": "2025-09-24",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250924000359"
+      }
+    ],
+    "shinsegae": [],
+    "lotte": [
+      {
+        "id": "20260917800397",
+        "type": "etc",
+        "important": false,
+        "title": "주주명부폐쇄기간또는기준일설정              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-09-17",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917800397"
+      },
+      {
+        "id": "20260917800386",
+        "type": "etc",
+        "important": false,
+        "title": "주주총회소집결의              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-09-17",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917800386"
+      },
+      {
+        "id": "20260915000364",
+        "type": "etc",
+        "important": false,
+        "title": "주식등의대량보유상황보고서(일반)",
+        "submitter": "신동빈",
+        "date": "2026-09-15",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915000364"
+      },
+      {
+        "id": "20260911800635",
+        "type": "etc",
+        "important": true,
+        "title": "최대주주등소유주식변동신고서              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-09-11",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911800635"
+      },
+      {
+        "id": "20260911000512",
+        "type": "etc",
+        "important": false,
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "submitter": "신동빈",
+        "date": "2026-09-11",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911000512"
+      },
+      {
+        "id": "20260903000300",
+        "type": "etc",
+        "important": false,
+        "title": "독립이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "submitter": "롯데쇼핑",
+        "date": "2026-09-03",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903000300"
+      },
+      {
+        "id": "20260903800525",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-09-03",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903800525"
+      },
+      {
+        "id": "20260901800626",
+        "type": "etc",
+        "important": true,
+        "title": "최대주주등소유주식변동신고서              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-09-01",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260901800626"
+      },
+      {
+        "id": "20260901000292",
+        "type": "etc",
+        "important": false,
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "submitter": "신동빈",
+        "date": "2026-09-01",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260901000292"
+      },
+      {
+        "id": "20260827000804",
+        "type": "etc",
+        "important": false,
+        "title": "대규모기업집단현황공시[분기별공시(개별회사용)]",
+        "submitter": "롯데쇼핑",
+        "date": "2026-08-27",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260827000804"
+      },
+      {
+        "id": "20260821800534",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-08-21",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821800534"
+      },
+      {
+        "id": "20260814003975",
+        "type": "etc",
+        "important": false,
+        "title": "반기보고서 (2026.06)",
+        "submitter": "롯데쇼핑",
+        "date": "2026-08-14",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003975"
+      },
+      {
+        "id": "20260814003280",
+        "type": "etc",
+        "important": false,
+        "title": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
+        "submitter": "롯데쇼핑",
+        "date": "2026-08-14",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814003280"
+      },
+      {
+        "id": "20260807800048",
+        "type": "earnings",
+        "important": false,
+        "title": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-08-07",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800048"
+      },
+      {
+        "id": "20260803800760",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-08-03",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260803800760"
+      },
+      {
+        "id": "20260803800753",
+        "type": "etc",
+        "important": true,
+        "title": "최대주주등소유주식변동신고서              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-08-03",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260803800753"
+      },
+      {
+        "id": "20260803000291",
+        "type": "etc",
+        "important": false,
+        "title": "주식등의대량보유상황보고서(일반)",
+        "submitter": "신동빈",
+        "date": "2026-08-03",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260803000291"
+      },
+      {
+        "id": "20260724800836",
+        "type": "earnings",
+        "important": false,
+        "title": "결산실적공시예고(안내공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-07-24",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724800836"
+      },
+      {
+        "id": "20260724800824",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-07-24",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724800824"
+      },
+      {
+        "id": "20260722000467",
+        "type": "etc",
+        "important": false,
+        "title": "임원ㆍ주요주주특정증권등거래계획보고서",
+        "submitter": "신동빈",
+        "date": "2026-07-22",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722000467"
+      },
+      {
+        "id": "20260703000488",
+        "type": "etc",
+        "important": false,
+        "title": "주식등의대량보유상황보고서(일반)",
+        "submitter": "신동빈",
+        "date": "2026-07-03",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703000488"
+      },
+      {
+        "id": "20260702000253",
+        "type": "etc",
+        "important": false,
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "submitter": "국민연금공단",
+        "date": "2026-07-02",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260702000253"
+      },
+      {
+        "id": "20260701800576",
+        "type": "etc",
+        "important": false,
+        "title": "풍문또는보도에대한해명              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-07-01",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701800576"
+      },
+      {
+        "id": "20260701000223",
+        "type": "etc",
+        "important": false,
+        "title": "주식등의대량보유상황보고서(약식)",
+        "submitter": "국민연금공단",
+        "date": "2026-07-01",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701000223"
+      },
+      {
+        "id": "20260629800555",
+        "type": "etc",
+        "important": false,
+        "title": "지속가능경영보고서등관련사항(자율공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-06-29",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260629800555"
+      },
+      {
+        "id": "20260611800842",
+        "type": "etc",
+        "important": false,
+        "title": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-06-11",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260611800842"
+      },
+      {
+        "id": "20260611800834",
+        "type": "etc",
+        "important": false,
+        "title": "현금ㆍ현물배당결정              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-06-11",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260611800834"
+      },
+      {
+        "id": "20260611800275",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-06-11",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260611800275"
+      },
+      {
+        "id": "20260610000519",
+        "type": "etc",
+        "important": false,
+        "title": "증권발행실적보고서",
+        "submitter": "롯데쇼핑",
+        "date": "2026-06-10",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260610000519"
+      },
+      {
+        "id": "20260610000008",
+        "type": "etc",
+        "important": false,
+        "title": "투자설명서",
+        "submitter": "롯데쇼핑",
+        "date": "2026-06-10",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260610000008"
+      },
+      {
+        "id": "20260609000513",
+        "type": "etc",
+        "important": false,
+        "title": "[발행조건확정]증권신고서(채무증권)",
+        "submitter": "롯데쇼핑",
+        "date": "2026-06-09",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260609000513"
+      },
+      {
+        "id": "20260604000510",
+        "type": "etc",
+        "important": false,
+        "title": "[발행조건확정]증권신고서(채무증권)",
+        "submitter": "롯데쇼핑",
+        "date": "2026-06-04",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260604000510"
+      },
+      {
+        "id": "20260604000500",
+        "type": "etc",
+        "important": false,
+        "title": "[기재정정]증권신고서(채무증권)",
+        "submitter": "롯데쇼핑",
+        "date": "2026-06-04",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260604000500"
+      },
+      {
+        "id": "20260529002340",
+        "type": "etc",
+        "important": false,
+        "title": "대규모기업집단현황공시[연1회공시및1/4분기용(개별회사)]",
+        "submitter": "롯데쇼핑",
+        "date": "2026-05-29",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529002340"
+      },
+      {
+        "id": "20260529801048",
+        "type": "etc",
+        "important": false,
+        "title": "기업지배구조보고서공시              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-05-29",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529801048"
+      },
+      {
+        "id": "20260528001026",
+        "type": "etc",
+        "important": false,
+        "title": "증권신고서(채무증권)",
+        "submitter": "롯데쇼핑",
+        "date": "2026-05-28",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260528001026"
+      },
+      {
+        "id": "20260515002817",
+        "type": "etc",
+        "important": false,
+        "title": "분기보고서 (2026.03)",
+        "submitter": "롯데쇼핑",
+        "date": "2026-05-15",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515002817"
+      },
+      {
+        "id": "20260511800070",
+        "type": "earnings",
+        "important": false,
+        "title": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-05-11",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260511800070"
+      },
+      {
+        "id": "20260508001034",
+        "type": "etc",
+        "important": false,
+        "title": "주식등의대량보유상황보고서(일반)",
+        "submitter": "신동빈",
+        "date": "2026-05-08",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508001034"
+      },
+      {
+        "id": "20260508801186",
+        "type": "etc",
+        "important": true,
+        "title": "최대주주등소유주식변동신고서              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-05-08",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260508801186"
+      },
+      {
+        "id": "20260506800660",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-05-06",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260506800660"
+      },
+      {
+        "id": "20260406800955",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-04-06",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260406800955"
+      },
+      {
+        "id": "20260406800951",
+        "type": "earnings",
+        "important": false,
+        "title": "결산실적공시예고(안내공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-04-06",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260406800951"
+      },
+      {
+        "id": "20260402001942",
+        "type": "etc",
+        "important": false,
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "submitter": "국민연금공단",
+        "date": "2026-04-02",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260402001942"
+      },
+      {
+        "id": "20260401004336",
+        "type": "etc",
+        "important": false,
+        "title": "주식등의대량보유상황보고서(약식)",
+        "submitter": "국민연금공단",
+        "date": "2026-04-01",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260401004336"
+      },
+      {
+        "id": "20260401801051",
+        "type": "etc",
+        "important": false,
+        "title": "풍문또는보도에대한해명(미확정)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-04-01",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260401801051"
+      },
+      {
+        "id": "20260323801195",
+        "type": "etc",
+        "important": false,
+        "title": "기업가치제고계획(자율공시)              (2026년 이행현황)",
+        "submitter": "롯데쇼핑",
+        "date": "2026-03-23",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260323801195"
+      },
+      {
+        "id": "20260320802026",
+        "type": "etc",
+        "important": true,
+        "title": "최대주주등소유주식변동신고서              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-03-20",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320802026"
+      },
+      {
+        "id": "20260320802025",
+        "type": "etc",
+        "important": false,
+        "title": "대표이사(대표집행임원)변경(안내공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-03-20",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320802025"
+      },
+      {
+        "id": "20260320802012",
+        "type": "etc",
+        "important": false,
+        "title": "정기주주총회결과              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-03-20",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320802012"
+      },
+      {
+        "id": "20260320001344",
+        "type": "etc",
+        "important": false,
+        "title": "독립이사의선임ㆍ해임또는중도퇴임에관한신고",
+        "submitter": "롯데쇼핑",
+        "date": "2026-03-20",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320001344"
+      },
+      {
+        "id": "20260320000431",
+        "type": "etc",
+        "important": false,
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "submitter": "국민연금공단",
+        "date": "2026-03-20",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260320000431"
+      },
+      {
+        "id": "20260312001405",
+        "type": "etc",
+        "important": false,
+        "title": "사업보고서 (2025.12)",
+        "submitter": "롯데쇼핑",
+        "date": "2026-03-12",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312001405"
+      },
+      {
+        "id": "20260312801872",
+        "type": "etc",
+        "important": false,
+        "title": "감사보고서제출              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-03-12",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260312801872"
+      },
+      {
+        "id": "20260305001600",
+        "type": "etc",
+        "important": false,
+        "title": "의결권대리행사권유참고서류",
+        "submitter": "롯데쇼핑",
+        "date": "2026-03-05",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260305001600"
+      },
+      {
+        "id": "20260305001587",
+        "type": "etc",
+        "important": false,
+        "title": "주주총회소집공고",
+        "submitter": "롯데쇼핑",
+        "date": "2026-03-05",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260305001587"
+      },
+      {
+        "id": "20260305001544",
+        "type": "etc",
+        "important": false,
+        "title": "특수관계인에대한출자",
+        "submitter": "롯데쇼핑",
+        "date": "2026-03-05",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260305001544"
+      },
+      {
+        "id": "20260305800002",
+        "type": "etc",
+        "important": false,
+        "title": "주주총회소집결의              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-03-05",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260305800002"
+      },
+      {
+        "id": "20260305800003",
+        "type": "etc",
+        "important": false,
+        "title": "공정거래자율준수프로그램운영현황(안내공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-03-05",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260305800003"
+      },
+      {
+        "id": "20260227002366",
+        "type": "etc",
+        "important": false,
+        "title": "대규모기업집단현황공시[분기별공시(개별회사용)]",
+        "submitter": "롯데쇼핑",
+        "date": "2026-02-27",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227002366"
+      },
+      {
+        "id": "20260213002465",
+        "type": "etc",
+        "important": false,
+        "title": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
+        "submitter": "롯데쇼핑",
+        "date": "2026-02-13",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260213002465"
+      },
+      {
+        "id": "20260206800071",
+        "type": "earnings",
+        "important": false,
+        "title": "[기재정정]장래사업ㆍ경영계획(공정공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-02-06",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260206800071"
+      },
+      {
+        "id": "20260206800063",
+        "type": "earnings",
+        "important": false,
+        "title": "[기재정정]장래사업ㆍ경영계획(공정공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-02-06",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260206800063"
+      },
+      {
+        "id": "20260206800057",
+        "type": "earnings",
+        "important": false,
+        "title": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-02-06",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260206800057"
+      },
+      {
+        "id": "20260205800941",
+        "type": "etc",
+        "important": false,
+        "title": "현금ㆍ현물배당결정              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-02-05",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260205800941"
+      },
+      {
+        "id": "20260205800919",
+        "type": "etc",
+        "important": false,
+        "title": "현금ㆍ현물배당을위한주주명부폐쇄(기준일)결정              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-02-05",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260205800919"
+      },
+      {
+        "id": "20260205800883",
+        "type": "earnings",
+        "important": false,
+        "title": "매출액또는손익구조30%(대규모법인은15%)이상변경              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-02-05",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260205800883"
+      },
+      {
+        "id": "20260203800949",
+        "type": "etc",
+        "important": true,
+        "title": "최대주주등소유주식변동신고서              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-02-03",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260203800949"
+      },
+      {
+        "id": "20260203800924",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-02-03",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260203800924"
+      },
+      {
+        "id": "20260130000342",
+        "type": "etc",
+        "important": false,
+        "title": "증권발행실적보고서",
+        "submitter": "롯데쇼핑",
+        "date": "2026-01-30",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260130000342"
+      },
+      {
+        "id": "20260130000017",
+        "type": "etc",
+        "important": false,
+        "title": "투자설명서",
+        "submitter": "롯데쇼핑",
+        "date": "2026-01-30",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260130000017"
+      },
+      {
+        "id": "20260129000745",
+        "type": "etc",
+        "important": false,
+        "title": "[발행조건확정]증권신고서(채무증권)",
+        "submitter": "롯데쇼핑",
+        "date": "2026-01-29",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260129000745"
+      },
+      {
+        "id": "20260128000438",
+        "type": "etc",
+        "important": false,
+        "title": "주식등의대량보유상황보고서(일반)",
+        "submitter": "신동빈",
+        "date": "2026-01-28",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260128000438"
+      },
+      {
+        "id": "20260126000444",
+        "type": "etc",
+        "important": false,
+        "title": "[발행조건확정]증권신고서(채무증권)",
+        "submitter": "롯데쇼핑",
+        "date": "2026-01-26",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260126000444"
+      },
+      {
+        "id": "20260126000437",
+        "type": "etc",
+        "important": false,
+        "title": "[기재정정]증권신고서(채무증권)",
+        "submitter": "롯데쇼핑",
+        "date": "2026-01-26",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260126000437"
+      },
+      {
+        "id": "20260123800179",
+        "type": "etc",
+        "important": false,
+        "title": "풍문또는보도에대한해명(미확정)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-01-23",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260123800179"
+      },
+      {
+        "id": "20260120000258",
+        "type": "etc",
+        "important": false,
+        "title": "증권신고서(채무증권)",
+        "submitter": "롯데쇼핑",
+        "date": "2026-01-20",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260120000258"
+      },
+      {
+        "id": "20260112800391",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-01-12",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260112800391"
+      },
+      {
+        "id": "20260112800389",
+        "type": "earnings",
+        "important": false,
+        "title": "결산실적공시예고(안내공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2026-01-12",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260112800389"
+      },
+      {
+        "id": "20251216800867",
+        "type": "etc",
+        "important": false,
+        "title": "주주명부폐쇄기간또는기준일설정              ",
+        "submitter": "롯데쇼핑",
+        "date": "2025-12-16",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251216800867"
+      },
+      {
+        "id": "20251216800779",
+        "type": "etc",
+        "important": false,
+        "title": "기타경영사항(자율공시)              (배당기준일 변경 안내)",
+        "submitter": "롯데쇼핑",
+        "date": "2025-12-16",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251216800779"
+      },
+      {
+        "id": "20251208000049",
+        "type": "etc",
+        "important": false,
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "submitter": "차우철",
+        "date": "2025-12-08",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251208000049"
+      },
+      {
+        "id": "20251128001342",
+        "type": "etc",
+        "important": false,
+        "title": "대규모기업집단현황공시[분기별공시(개별회사용)]",
+        "submitter": "롯데쇼핑",
+        "date": "2025-11-28",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251128001342"
+      },
+      {
+        "id": "20251126800752",
+        "type": "etc",
+        "important": false,
+        "title": "대표이사(대표집행임원)변경(안내공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2025-11-26",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251126800752"
+      },
+      {
+        "id": "20251114002971",
+        "type": "etc",
+        "important": false,
+        "title": "분기보고서 (2025.09)",
+        "submitter": "롯데쇼핑",
+        "date": "2025-11-14",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251114002971"
+      },
+      {
+        "id": "20251113000745",
+        "type": "etc",
+        "important": false,
+        "title": "임원ㆍ주요주주특정증권등소유상황보고서",
+        "submitter": "김종환",
+        "date": "2025-11-13",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251113000745"
+      },
+      {
+        "id": "20251113000686",
+        "type": "etc",
+        "important": false,
+        "title": "특수관계인으로부터주식의취득",
+        "submitter": "롯데쇼핑",
+        "date": "2025-11-13",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251113000686"
+      },
+      {
+        "id": "20251107800308",
+        "type": "etc",
+        "important": true,
+        "title": "최대주주등소유주식변동신고서              ",
+        "submitter": "롯데쇼핑",
+        "date": "2025-11-07",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251107800308"
+      },
+      {
+        "id": "20251107800038",
+        "type": "earnings",
+        "important": false,
+        "title": "연결재무제표기준영업(잠정)실적(공정공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2025-11-07",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251107800038"
+      },
+      {
+        "id": "20251103800475",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2025-11-03",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251103800475"
+      },
+      {
+        "id": "20251031000474",
+        "type": "etc",
+        "important": false,
+        "title": "증권발행실적보고서",
+        "submitter": "롯데쇼핑",
+        "date": "2025-10-31",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251031000474"
+      },
+      {
+        "id": "20251031000012",
+        "type": "etc",
+        "important": false,
+        "title": "투자설명서",
+        "submitter": "롯데쇼핑",
+        "date": "2025-10-31",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251031000012"
+      },
+      {
+        "id": "20251021000410",
+        "type": "etc",
+        "important": false,
+        "title": "증권신고서(채무증권)",
+        "submitter": "롯데쇼핑",
+        "date": "2025-10-21",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251021000410"
+      },
+      {
+        "id": "20251016800337",
+        "type": "etc",
+        "important": false,
+        "title": "기업가치제고계획(자율공시)              (2025년 이행현황)",
+        "submitter": "롯데쇼핑",
+        "date": "2025-10-16",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251016800337"
+      },
+      {
+        "id": "20251013800414",
+        "type": "etc",
+        "important": false,
+        "title": "기업설명회(IR)개최(안내공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2025-10-13",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251013800414"
+      },
+      {
+        "id": "20251013800404",
+        "type": "earnings",
+        "important": false,
+        "title": "결산실적공시예고(안내공시)              ",
+        "submitter": "롯데쇼핑",
+        "date": "2025-10-13",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251013800404"
+      },
+      {
+        "id": "20251001000404",
+        "type": "etc",
+        "important": false,
+        "title": "주식등의대량보유상황보고서(약식)",
+        "submitter": "국민연금공단",
+        "date": "2025-10-01",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251001000404"
+      }
+    ],
+    "galleria": [],
+    "ak": [
+      {
+        "id": "20260828000030",
+        "type": "etc",
+        "important": false,
+        "title": "대규모기업집단현황공시[분기별공시(개별회사용)]",
+        "submitter": "애경자산관리",
+        "date": "2026-08-28",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260828000030"
+      },
+      {
+        "id": "20260826000578",
+        "type": "etc",
+        "important": false,
+        "title": "특수관계인에대한자금대여",
+        "submitter": "애경자산관리",
+        "date": "2026-08-26",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000578"
+      },
+      {
+        "id": "20260826000572",
+        "type": "etc",
+        "important": false,
+        "title": "특수관계인에대한자산양도",
+        "submitter": "애경자산관리",
+        "date": "2026-08-26",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260826000572"
+      },
+      {
+        "id": "20260813001291",
+        "type": "etc",
+        "important": false,
+        "title": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
+        "submitter": "애경자산관리",
+        "date": "2026-08-13",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001291"
+      },
+      {
+        "id": "20260702000211",
+        "type": "etc",
+        "important": false,
+        "title": "특수관계인으로부터자산양수",
+        "submitter": "애경자산관리",
+        "date": "2026-07-02",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260702000211"
+      },
+      {
+        "id": "20260529000625",
+        "type": "etc",
+        "important": false,
+        "title": "대규모기업집단현황공시[연1회공시및1/4분기용(개별회사)]",
+        "submitter": "애경자산관리",
+        "date": "2026-05-29",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529000625"
+      },
+      {
+        "id": "20260413000214",
+        "type": "etc",
+        "important": true,
+        "title": "전환사채발행결정",
+        "submitter": "애경자산관리",
+        "date": "2026-04-13",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260413000214"
+      },
+      {
+        "id": "20260410002617",
+        "type": "etc",
+        "important": false,
+        "title": "감사보고서 (2025.12)",
+        "submitter": "예일회계법인",
+        "date": "2026-04-10",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260410002617"
+      },
+      {
+        "id": "20260330001189",
+        "type": "etc",
+        "important": false,
+        "title": "특수관계인에대한자금대여",
+        "submitter": "애경자산관리",
+        "date": "2026-03-30",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260330001189"
+      },
+      {
+        "id": "20260326000370",
+        "type": "etc",
+        "important": false,
+        "title": "[기재정정]비유동자산처분결정",
+        "submitter": "애경자산관리",
+        "date": "2026-03-26",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260326000370"
+      },
+      {
+        "id": "20260225002041",
+        "type": "etc",
+        "important": false,
+        "title": "대규모기업집단현황공시[분기별공시(개별회사용)]",
+        "submitter": "애경자산관리",
+        "date": "2026-02-25",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260225002041"
+      },
+      {
+        "id": "20260220002000",
+        "type": "etc",
+        "important": false,
+        "title": "[기재정정]비유동자산처분결정",
+        "submitter": "애경자산관리",
+        "date": "2026-02-20",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260220002000"
+      },
+      {
+        "id": "20260212001681",
+        "type": "etc",
+        "important": false,
+        "title": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
+        "submitter": "애경자산관리",
+        "date": "2026-02-12",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260212001681"
+      },
+      {
+        "id": "20251128000814",
+        "type": "etc",
+        "important": false,
+        "title": "대규모기업집단현황공시[분기별공시(개별회사용)]",
+        "submitter": "애경자산관리",
+        "date": "2025-11-28",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251128000814"
+      },
+      {
+        "id": "20251111000362",
+        "type": "etc",
+        "important": false,
+        "title": "[기재정정]특수관계인에대한담보제공",
+        "submitter": "애경자산관리",
+        "date": "2025-11-11",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251111000362"
+      },
+      {
+        "id": "20251021000183",
+        "type": "etc",
+        "important": false,
+        "title": "비유동자산처분결정",
+        "submitter": "애경자산관리",
+        "date": "2025-10-21",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251021000183"
+      },
+      {
+        "id": "20250929000120",
+        "type": "etc",
+        "important": false,
+        "title": "특수관계인에대한담보제공",
+        "submitter": "애경자산관리",
+        "date": "2025-09-29",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250929000120"
+      }
+    ],
+    "ikea": [
+      {
+        "id": "20251212000322",
+        "type": "etc",
+        "important": false,
+        "title": "감사보고서 (2025.08)",
+        "submitter": "삼정회계법인",
+        "date": "2025-12-12",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251212000322"
+      }
+    ],
+    "starfield": [
+      {
+        "id": "20260903000259",
+        "type": "etc",
+        "important": false,
+        "title": "특수관계인에대한출자",
+        "submitter": "신세계프라퍼티",
+        "date": "2026-09-03",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903000259"
+      },
+      {
+        "id": "20260831001307",
+        "type": "etc",
+        "important": false,
+        "title": "대규모기업집단현황공시[분기별공시(개별회사용)]",
+        "submitter": "신세계프라퍼티",
+        "date": "2026-08-31",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831001307"
+      },
+      {
+        "id": "20260814002311",
+        "type": "etc",
+        "important": false,
+        "title": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
+        "submitter": "신세계프라퍼티",
+        "date": "2026-08-14",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814002311"
+      },
+      {
+        "id": "20260805000472",
+        "type": "etc",
+        "important": false,
+        "title": "특수관계인과의내부거래",
+        "submitter": "신세계프라퍼티",
+        "date": "2026-08-05",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260805000472"
+      },
+      {
+        "id": "20260716000841",
+        "type": "etc",
+        "important": false,
+        "title": "특수관계인에대한출자",
+        "submitter": "신세계프라퍼티",
+        "date": "2026-07-16",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716000841"
+      },
+      {
+        "id": "20260601001714",
+        "type": "etc",
+        "important": false,
+        "title": "대규모기업집단현황공시[연1회공시및1/4분기용(개별회사)]",
+        "submitter": "신세계프라퍼티",
+        "date": "2026-06-01",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260601001714"
+      },
+      {
+        "id": "20260409002735",
+        "type": "etc",
+        "important": false,
+        "title": "특수관계인과의내부거래",
+        "submitter": "신세계프라퍼티",
+        "date": "2026-04-09",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260409002735"
+      },
+      {
+        "id": "20260407000174",
+        "type": "etc",
+        "important": false,
+        "title": "연결감사보고서 (2025.12)",
+        "submitter": "삼정회계법인",
+        "date": "2026-04-07",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260407000174"
+      },
+      {
+        "id": "20260407000170",
+        "type": "etc",
+        "important": false,
+        "title": "감사보고서 (2025.12)",
+        "submitter": "삼정회계법인",
+        "date": "2026-04-07",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260407000170"
+      },
+      {
+        "id": "20260402000817",
+        "type": "etc",
+        "important": false,
+        "title": "타인을위한채무보증결정",
+        "submitter": "신세계프라퍼티",
+        "date": "2026-04-02",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260402000817"
+      },
+      {
+        "id": "20260227006654",
+        "type": "etc",
+        "important": false,
+        "title": "대규모기업집단현황공시[분기별공시(개별회사용)]",
+        "submitter": "신세계프라퍼티",
+        "date": "2026-02-27",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227006654"
+      },
+      {
+        "id": "20260212001361",
+        "type": "etc",
+        "important": false,
+        "title": "지급수단별ㆍ지급기간별지급금액및분쟁조정기구에관한사항",
+        "submitter": "신세계프라퍼티",
+        "date": "2026-02-12",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260212001361"
+      },
+      {
+        "id": "20260203000272",
+        "type": "etc",
+        "important": false,
+        "title": "특수관계인에대한출자",
+        "submitter": "신세계프라퍼티",
+        "date": "2026-02-03",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260203000272"
+      },
+      {
+        "id": "20260122000525",
+        "type": "etc",
+        "important": false,
+        "title": "특수관계인에대한출자",
+        "submitter": "신세계프라퍼티",
+        "date": "2026-01-22",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260122000525"
+      },
+      {
+        "id": "20251128001593",
+        "type": "etc",
+        "important": false,
+        "title": "대규모기업집단현황공시[분기별공시(개별회사용)]",
+        "submitter": "신세계프라퍼티",
+        "date": "2025-11-28",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251128001593"
+      },
+      {
+        "id": "20251120000575",
+        "type": "etc",
+        "important": false,
+        "title": "특수관계인과의내부거래",
+        "submitter": "신세계프라퍼티",
+        "date": "2025-11-20",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251120000575"
+      },
+      {
+        "id": "20250926000515",
+        "type": "etc",
+        "important": false,
+        "title": "특수관계인에대한출자",
+        "submitter": "신세계프라퍼티",
+        "date": "2025-09-26",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250926000515"
+      }
+    ],
+    "musinsa": [
+      {
+        "id": "20260831000288",
+        "type": "etc",
+        "important": false,
+        "title": "반기보고서 (2026.06)",
+        "submitter": "무신사",
+        "date": "2026-08-31",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831000288"
+      },
+      {
+        "id": "20260813001369",
+        "type": "etc",
+        "important": false,
+        "title": "주요사항보고서(자기주식처분결정)",
+        "submitter": "무신사",
+        "date": "2026-08-13",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813001369"
+      },
+      {
+        "id": "20260701000691",
+        "type": "etc",
+        "important": false,
+        "title": "[기재정정]주요사항보고서(자기주식처분결정)",
+        "submitter": "무신사",
+        "date": "2026-07-01",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260701000691"
+      },
+      {
+        "id": "20260605000598",
+        "type": "etc",
+        "important": false,
+        "title": "주요사항보고서(자기주식처분결정)",
+        "submitter": "무신사",
+        "date": "2026-06-05",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260605000598"
+      },
+      {
+        "id": "20260527000075",
+        "type": "etc",
+        "important": false,
+        "title": "분기보고서 (2026.03)",
+        "submitter": "무신사",
+        "date": "2026-05-27",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260527000075"
+      },
+      {
+        "id": "20260511000496",
+        "type": "etc",
+        "important": false,
+        "title": "주요사항보고서(자기주식처분결정)",
+        "submitter": "무신사",
+        "date": "2026-05-11",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260511000496"
+      },
+      {
+        "id": "20260331003116",
+        "type": "etc",
+        "important": false,
+        "title": "사업보고서 (2025.12)",
+        "submitter": "무신사",
+        "date": "2026-03-31",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260331003116"
+      },
+      {
+        "id": "20260324001028",
+        "type": "etc",
+        "important": false,
+        "title": "[기재정정]주요사항보고서(자기주식처분결정)",
+        "submitter": "무신사",
+        "date": "2026-03-25",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324001028"
+      },
+      {
+        "id": "20260324000966",
+        "type": "etc",
+        "important": false,
+        "title": "주요사항보고서(자기주식처분결정)",
+        "submitter": "무신사",
+        "date": "2026-03-24",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260324000966"
+      },
+      {
+        "id": "20260114000391",
+        "type": "etc",
+        "important": true,
+        "title": "[첨부정정]주요사항보고서(회사합병결정)",
+        "submitter": "무신사",
+        "date": "2026-01-14",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260114000391"
+      },
+      {
+        "id": "20260107000725",
+        "type": "etc",
+        "important": true,
+        "title": "주요사항보고서(회사합병결정)",
+        "submitter": "무신사",
+        "date": "2026-01-07",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260107000725"
+      },
+      {
+        "id": "20251224000600",
+        "type": "etc",
+        "important": true,
+        "title": "[첨부정정]주요사항보고서(회사합병결정)",
+        "submitter": "무신사",
+        "date": "2025-12-24",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251224000600"
+      },
+      {
+        "id": "20251216000514",
+        "type": "etc",
+        "important": true,
+        "title": "주요사항보고서(회사합병결정)",
+        "submitter": "무신사",
+        "date": "2025-12-16",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251216000514"
+      },
+      {
+        "id": "20251216000378",
+        "type": "etc",
+        "important": false,
+        "title": "주요사항보고서(자기주식처분결정)",
+        "submitter": "무신사",
+        "date": "2025-12-16",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251216000378"
+      },
+      {
+        "id": "20251125000352",
+        "type": "etc",
+        "important": false,
+        "title": "분기보고서 (2025.09)",
+        "submitter": "무신사",
+        "date": "2025-11-25",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251125000352"
+      },
+      {
+        "id": "20250923000322",
+        "type": "etc",
+        "important": false,
+        "title": "주요사항보고서(자기주식처분결정)",
+        "submitter": "무신사",
+        "date": "2025-09-23",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250923000322"
+      }
+    ],
+    "oliveyoung": [],
+    "daiso": [
+      {
+        "id": "20260414001559",
+        "type": "etc",
+        "important": false,
+        "title": "감사보고서 (2025.12)",
+        "submitter": "안진회계법인",
+        "date": "2026-04-14",
+        "originUrl": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260414001559"
+      }
+    ]
+  }
+}
