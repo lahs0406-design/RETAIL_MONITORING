@@ -1,8 +1,36 @@
 {
-  "generatedAt": "2026-10-03T00:18:54.324Z",
+  "generatedAt": "2026-10-03T23:40:27.423Z",
   "windowDays": 60,
   "stores": {
     "hd-yeouido": [
+      {
+        "title": "[비즈앤피플] 커진 ‘아기 울음소리’… 분유·영유아용품 ‘훈풍’",
+        "link": "https://www.busan.com/view/busan/view.php?code=2026100117211934493",
+        "source": "busan.com",
+        "pubDate": "Sun, 04 Oct 2026 08:01:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "비그룸, 7일까지 EQL 성수서 두 번째 남성 뷰티 팝업스토어 운영...현장...",
+        "link": "https://www.itbiznews.com/news/articleView.html?idxno=226362",
+        "source": "itbiznews.com",
+        "pubDate": "Sun, 04 Oct 2026 08:00:00 +0900",
+        "category": "popup"
+      },
+      {
+        "title": "백화점 '빅3' 가을 세일…연휴 수요 공략",
+        "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5068117",
+        "source": "shinailbo.co.kr",
+        "pubDate": "Sun, 04 Oct 2026 08:00:00 +0900",
+        "category": "sale"
+      },
+      {
+        "title": "에비스 한 잔, 따르는 법만 바꿨더니…풍미 싹 달라졌다[르포]",
+        "link": "https://www.news1.kr/industry/distribution/6309458",
+        "source": "news1.kr",
+        "pubDate": "Sun, 04 Oct 2026 07:30:00 +0900",
+        "category": "etc"
+      },
       {
         "title": "‘일주일 새 연휴가 두번이나’…가을 나들이 장소로 변신한 유통가",
         "link": "https://www.sedaily.com/article/20097866?ref=naver",
@@ -16,34 +44,6 @@
         "source": "topstarnews.net",
         "pubDate": "Sat, 03 Oct 2026 09:00:00 +0900",
         "category": "etc"
-      },
-      {
-        "title": "[패션엔 포토] 미야오 엘라, 가을을 닮은 인형 비주얼! 체크 미니 뷔스...",
-        "link": "http://www.fashionn.com/board/read_new.php?table=1023&number=62676",
-        "source": "fashionn.com",
-        "pubDate": "Sat, 03 Oct 2026 08:58:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "[주말 장보기] \"연휴 먹거리 뭐 살까\"…이마트·롯데마트, 5일까지 할인",
-        "link": "https://www.kizmom.com/news/articleView.html?idxno=113089",
-        "source": "kizmom.com",
-        "pubDate": "Sat, 03 Oct 2026 08:23:00 +0900",
-        "category": "sale"
-      },
-      {
-        "title": "中 국경절 ‘유커 특수’ 잡아라…유통가 손님맞이 분주",
-        "link": "https://www.sentv.co.kr/article/view/sentv202610020095",
-        "source": "sentv.co.kr",
-        "pubDate": "Sat, 03 Oct 2026 08:02:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "백화점에 김밥축제·만화·호텔이…개천절 연휴 이색 팝업 눈길",
-        "link": "https://www.etoday.co.kr/news/view/2631139",
-        "source": "etoday.co.kr",
-        "pubDate": "Sat, 03 Oct 2026 08:00:00 +0900",
-        "category": "popup"
       }
     ],
     "ss-timesq": [
@@ -101,6 +101,20 @@
     ],
     "lt-gimpo": [
       {
+        "title": "백화점 '빅3' 가을 세일…연휴 수요 공략",
+        "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5068117",
+        "source": "shinailbo.co.kr",
+        "pubDate": "Sun, 04 Oct 2026 08:00:00 +0900",
+        "category": "sale"
+      },
+      {
+        "title": "[이주의 유통포인트] 롯데百, 레저 시즌 '롯데 액티브 위크' 진행…신세...",
+        "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=321251",
+        "source": "pointdaily.co.kr",
+        "pubDate": "Sat, 03 Oct 2026 18:44:00 +0900",
+        "category": "etc"
+      },
+      {
         "title": "삼겹살 반값·K2 패딩 60%·서울랜드 1+1…10월 연휴 할인 쏟아진다",
         "link": "https://www.segye.com/newsView/20261003501996?OutUrl=naver",
         "source": "segye.com",
@@ -127,23 +141,23 @@
         "source": "newskr.kr",
         "pubDate": "Sat, 03 Oct 2026 00:10:00 +0900",
         "category": "etc"
-      },
-      {
-        "title": "17년 만에 확 바꾼 유니클로 목동점…키즈 앞세워 가족 수요 공략 [현장...",
-        "link": "https://www.kukinews.com/article/view/kuk202610020116",
-        "source": "kukinews.com",
-        "pubDate": "Fri, 02 Oct 2026 16:06:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "연휴 특수 이어간다...백화점 3사, 가을 세일 총력",
-        "link": "https://www.ntoday.co.kr/news/articleView.html?idxno=129761",
-        "source": "ntoday.co.kr",
-        "pubDate": "Thu, 01 Oct 2026 13:20:00 +0900",
-        "category": "sale"
       }
     ],
     "hd-mokdong": [
+      {
+        "title": "견본주택 벗어난 건설사들…'MZ 성지' 성수동서 미래 고객 잡는다",
+        "link": "https://www.news1.kr/realestate/general/6309292",
+        "source": "news1.kr",
+        "pubDate": "Sun, 04 Oct 2026 07:05:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "[A 현장] 키즈는 입구로, 피팅룸은 세 배로...새단장한 유니클로 목동점",
+        "link": "https://www.asiaa.co.kr/news/articleView.html?idxno=265067",
+        "source": "asiaa.co.kr",
+        "pubDate": "Sat, 03 Oct 2026 11:22:00 +0900",
+        "category": "etc"
+      },
       {
         "title": "[패션브리핑] 휠라, '휠라 꼴로레' 두 번째 전시 개최 외",
         "link": "https://www.seoulfn.com/news/articleView.html?idxno=639307",
@@ -170,20 +184,6 @@
         "link": "https://www.s-journal.co.kr/news/articleView.html?idxno=44190",
         "source": "s-journal.co.kr",
         "pubDate": "Fri, 02 Oct 2026 17:02:00 +0900",
-        "category": "open"
-      },
-      {
-        "title": "유니클로, 현대百 목동점 2배 키워 재개장… 롯데몰 의왕점도 오픈",
-        "link": "https://biz.chosun.com/distribution/fashion-beauty/2026/10/02/NBBGRM5BOZBTNKDRUFVTG5V23A/?utm_source=naver&utm_medium=original&utm_campaign=biz",
-        "source": "biz.chosun.com",
-        "pubDate": "Fri, 02 Oct 2026 16:59:00 +0900",
-        "category": "open"
-      },
-      {
-        "title": "유니클로, 현대백화점 목동점 1.9배 확장 리뉴얼",
-        "link": "https://www.mt.co.kr/living/2026/10/02/2026100216510893077",
-        "source": "mt.co.kr",
-        "pubDate": "Fri, 02 Oct 2026 16:53:00 +0900",
         "category": "open"
       }
     ],
@@ -233,6 +233,13 @@
     ],
     "ss-gangnam": [
       {
+        "title": "[비즈앤피플] 커진 ‘아기 울음소리’… 분유·영유아용품 ‘훈풍’",
+        "link": "https://www.busan.com/view/busan/view.php?code=2026100117211934493",
+        "source": "busan.com",
+        "pubDate": "Sun, 04 Oct 2026 08:01:00 +0900",
+        "category": "etc"
+      },
+      {
         "title": "[주말 장보기] \"연휴 먹거리 뭐 살까\"…이마트·롯데마트, 5일까지 할인",
         "link": "https://www.kizmom.com/news/articleView.html?idxno=113089",
         "source": "kizmom.com",
@@ -266,13 +273,6 @@
         "source": "thebilliards.kr",
         "pubDate": "Fri, 02 Oct 2026 14:48:00 +0900",
         "category": "etc"
-      },
-      {
-        "title": "피크퍼포먼스, '힐리움 유틸리티 다운 후드' 출시 및 팝업 운영",
-        "link": "https://www.mydaily.co.kr/page/view/2026100214435090388",
-        "source": "mydaily.co.kr",
-        "pubDate": "Fri, 02 Oct 2026 14:44:00 +0900",
-        "category": "popup"
       }
     ],
     "lt-gangnam": [
@@ -497,7 +497,14 @@
     ],
     "ss-bon": [
       {
-        "title": "\"커플키링할 사람\" 올데프 애니가 굿즈 단 439만원 명품백[누구템]",
+        "title": "“가수는 절대 NO”라던 정유경…이젠 ‘애니맘’, 딸 뮤비는 신세계 전...",
+        "link": "https://www.sportsseoul.com/news/read/1639223?ref=naver",
+        "source": "sportsseoul.com",
+        "pubDate": "Sat, 03 Oct 2026 17:36:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "'재벌돌' 올데프 애니, 키링보다 눈길 끈 439만원 명품백[누구템]",
         "link": "https://www.edaily.co.kr/News/Read?newsId=01735126645609312&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
         "source": "edaily.co.kr",
         "pubDate": "Sat, 03 Oct 2026 07:02:00 +0900",
@@ -701,18 +708,18 @@
         "category": "etc"
       },
       {
-        "title": "가을 향수부터 먹거리까지…유통가 '황금연휴' 겨냥 할인전[위클리 쇼핑...",
-        "link": "https://www.newsis.com/view/NISX20261002_0003812906",
-        "source": "newsis.com",
-        "pubDate": "Sat, 03 Oct 2026 07:00:00 +0900",
-        "category": "sale"
-      },
-      {
         "title": "[이번주뭘살까] 가을 나들이 시즌…아웃도어 할인·김천김밥 팝업",
         "link": "https://www.yna.co.kr/view/AKR20261002093600030?input=1195m",
         "source": "yna.co.kr",
         "pubDate": "Sat, 03 Oct 2026 07:00:00 +0900",
         "category": "popup"
+      },
+      {
+        "title": "가을 향수부터 먹거리까지…유통가 '황금연휴' 겨냥 할인전[위클리 쇼핑...",
+        "link": "https://www.newsis.com/view/NISX20261002_0003812906",
+        "source": "newsis.com",
+        "pubDate": "Sat, 03 Oct 2026 07:00:00 +0900",
+        "category": "sale"
       },
       {
         "title": "롯데백화점 잠실점 '키네틱 그라운드', 10월 11일까지 1주년 행사",
@@ -969,17 +976,17 @@
     ],
     "lt-bonjeom": [
       {
+        "title": "[화보] 장원영이 서둘러 끌어다 놓은 겨울의 향기",
+        "link": "https://www.mediapen.com/news/view/1127746",
+        "source": "mediapen.com",
+        "pubDate": "Sat, 03 Oct 2026 13:40:00 +0900",
+        "category": "etc"
+      },
+      {
         "title": "타린로즈, 롯데백화점 본점에 첫 단독 팝업…오프라인 접점 확대",
         "link": "https://theviewers.co.kr/View.aspx?No=4250593",
         "source": "theviewers.co.kr",
         "pubDate": "Sat, 03 Oct 2026 09:02:00 +0900",
-        "category": "popup"
-      },
-      {
-        "title": "타린로즈, 롯데백화점 본점에 첫 단독 팝업",
-        "link": "https://www.fashionbiz.co.kr/article/230013",
-        "source": "fashionbiz.co.kr",
-        "pubDate": "Sat, 03 Oct 2026 09:00:00 +0900",
         "category": "popup"
       },
       {
@@ -997,17 +1004,17 @@
         "category": "popup"
       },
       {
+        "title": "타린로즈, 롯데백화점 본점에 첫 단독 팝업",
+        "link": "https://www.fashionbiz.co.kr/article/230013",
+        "source": "fashionbiz.co.kr",
+        "pubDate": "Sat, 03 Oct 2026 09:00:00 +0900",
+        "category": "popup"
+      },
+      {
         "title": "롯데백화점, 식품관 넘어 '머무는 식당' 키운다…아웃백 강남점 브런치...",
         "link": "https://sateconomy.co.kr/news/view/1065587964820322",
         "source": "sateconomy.co.kr",
         "pubDate": "Fri, 02 Oct 2026 14:00:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "결혼 성수기 돌아왔다…백화점, 예비부부 모시기 경쟁 '치열'",
-        "link": "https://daily.hankooki.com/news/articleView.html?idxno=1411717",
-        "source": "daily.hankooki.com",
-        "pubDate": "Fri, 02 Oct 2026 12:32:00 +0900",
         "category": "etc"
       }
     ],
@@ -1057,6 +1064,13 @@
     ],
     "ga-apgujeong": [
       {
+        "title": "갤러리아 명품관에 '국새 키캡' 떴다…K-콘텐츠로 中 국경절 공략",
+        "link": "https://www.apnews.kr/news/articleView.html?idxno=3051711",
+        "source": "apnews.kr",
+        "pubDate": "Sat, 03 Oct 2026 13:00:00 +0900",
+        "category": "etc"
+      },
+      {
         "title": "히어로즈 오브 코리아, 전시형 팝업스토어...스킨1004, 플래그십 스토어...",
         "link": "https://www.slist.kr/news/articleView.html?idxno=770663",
         "source": "slist.kr",
@@ -1089,13 +1103,6 @@
         "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=869739",
         "source": "hansbiz.co.kr",
         "pubDate": "Fri, 02 Oct 2026 16:22:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "에스티 로더, 34년 핑크리본 헤리티지 올해는 '한옥'에서 이어간다",
-        "link": "https://www.meconomynews.com/news/articleView.html?idxno=202185",
-        "source": "meconomynews.com",
-        "pubDate": "Fri, 02 Oct 2026 16:12:00 +0900",
         "category": "etc"
       }
     ],
@@ -1207,6 +1214,20 @@
     "daiso-seongsu": [],
     "hd-pangyo": [
       {
+        "title": "에이슬립, 현대건설·삼성전자와 '수면 오케스트라'…\"침실의 월패드 만...",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=01115206645609640&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "source": "edaily.co.kr",
+        "pubDate": "Sun, 04 Oct 2026 07:03:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "알디원 협업 브라운브레스, 현대百 판교점 팝업 오픈",
+        "link": "https://www.slist.kr/news/articleView.html?idxno=770769",
+        "source": "slist.kr",
+        "pubDate": "Sat, 03 Oct 2026 09:24:00 +0900",
+        "category": "open"
+      },
+      {
         "title": "브라운브레스X알파드라이브원, 판교 팝업",
         "link": "https://www.bntnews.co.kr/article/view/bnt202610030100",
         "source": "bntnews.co.kr",
@@ -1233,23 +1254,23 @@
         "source": "gpkorea.com",
         "pubDate": "Fri, 02 Oct 2026 20:02:00 +0900",
         "category": "popup"
-      },
-      {
-        "title": "백화점ㆍ편의점서 수십억씩 팔려나가는 찹썰떡…왜 사나 봤더니 [MTN 픽...",
-        "link": "https://news.mtn.co.kr/news-detail/2026100217131965773",
-        "source": "news.mtn.co.kr",
-        "pubDate": "Fri, 02 Oct 2026 17:40:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "현대百 판교점서 헤어케어 특별전...브랜디노, 오라리쉬 3종 선봬",
-        "link": "https://www.thepublic.kr/news/articleView.html?idxno=321035",
-        "source": "thepublic.kr",
-        "pubDate": "Fri, 02 Oct 2026 17:12:00 +0900",
-        "category": "etc"
       }
     ],
     "ss-hanam": [
+      {
+        "title": "[식사합시다] 에베레스트",
+        "link": "https://www.newsclaim.co.kr/news/articleView.html?idxno=3076978",
+        "source": "newsclaim.co.kr",
+        "pubDate": "Sun, 04 Oct 2026 06:00:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "아로퓸, 10월 6일 스타필드 하남서 이준혁 팬사인회 개최",
+        "link": "https://www.gosiweek.com/article/1065577009467117",
+        "source": "gosiweek.com",
+        "pubDate": "Sat, 03 Oct 2026 11:06:00 +0900",
+        "category": "etc"
+      },
       {
         "title": "‘일주일 새 연휴가 두번이나’…가을 나들이 장소로 변신한 유통가",
         "link": "https://www.sedaily.com/article/20097866?ref=naver",
@@ -1276,20 +1297,6 @@
         "link": "https://www.ngetnews.com/news/articleView.html?idxno=554036",
         "source": "ngetnews.com",
         "pubDate": "Sat, 03 Oct 2026 07:00:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "[주간 게임 워치] 컴투스 '제우스: 오만의 신', 점령전·아카디아 제전...",
-        "link": "https://www.goodkyung.com/news/articleView.html?idxno=292012",
-        "source": "goodkyung.com",
-        "pubDate": "Sat, 03 Oct 2026 06:30:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "낮엔 스타필드 축제, 밤엔 롯데월드타워 불빛…가을 주말 도심 나들이",
-        "link": "https://www.newspim.com/news/view/20261002001097",
-        "source": "newspim.com",
-        "pubDate": "Sat, 03 Oct 2026 06:01:00 +0900",
         "category": "etc"
       }
     ],
@@ -1557,13 +1564,6 @@
         "source": "joongboo.com",
         "pubDate": "Mon, 17 Aug 2026 14:58:00 +0900",
         "category": "etc"
-      },
-      {
-        "title": "버릴 뻔한 커튼·쿠션에 새 가치…이케아에 들어온 사회적기업 재봉 서...",
-        "link": "https://futurechosun.com/?p=156419",
-        "source": "futurechosun.com",
-        "pubDate": "Tue, 04 Aug 2026 11:14:00 +0900",
-        "category": "etc"
       }
     ],
     "hd-space1": [
@@ -1656,6 +1656,13 @@
     ],
     "ak-bundang": [
       {
+        "title": "'사과빵'으로 대박 나더니…3040에 인기 폭발한 빵집 [권용훈의 트렌드...",
+        "link": "https://www.hankyung.com/article/202610020192i",
+        "source": "hankyung.com",
+        "pubDate": "Sun, 04 Oct 2026 06:01:00 +0900",
+        "category": "etc"
+      },
+      {
         "title": "‘더샵 분당하이스트’, 22일 1순위 해당지역 청약 접수",
         "link": "https://biz.heraldcorp.com/article/10881664?ref=naver",
         "source": "biz.heraldcorp.com",
@@ -1689,13 +1696,6 @@
         "source": "zdnet.co.kr",
         "pubDate": "Sun, 13 Sep 2026 08:45:00 +0900",
         "category": "etc"
-      },
-      {
-        "title": "직주근접에 대규모 커뮤니티까지…'더샵 분당하이스트' 분양",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=04083606645579136&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-        "source": "edaily.co.kr",
-        "pubDate": "Fri, 11 Sep 2026 15:34:00 +0900",
-        "category": "etc"
       }
     ],
     "ak-giheung": [
@@ -1708,6 +1708,13 @@
       }
     ],
     "lt-incheon": [
+      {
+        "title": "매드포갈릭, 향진원·PXG와 아동 복지 위해 맞손…외식 지원 프로그램 ...",
+        "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=321249",
+        "source": "pointdaily.co.kr",
+        "pubDate": "Sat, 03 Oct 2026 16:44:00 +0900",
+        "category": "etc"
+      },
       {
         "title": "팝업부터 러닝·캠퍼스까지... K뷰티, 내수시장도 '소비자 접점' 전쟁",
         "link": "https://www.meconomynews.com/news/articleView.html?idxno=202191",
@@ -1742,16 +1749,16 @@
         "source": "thefirstmedia.net",
         "pubDate": "Wed, 30 Sep 2026 16:17:00 +0900",
         "category": "etc"
-      },
-      {
-        "title": "올다무도 中 국경절 '대목' 잡는다…결제 할인·팝업 총력전",
-        "link": "https://www.news1.kr/industry/distribution/6306309",
-        "source": "news1.kr",
-        "pubDate": "Wed, 30 Sep 2026 16:03:00 +0900",
-        "category": "popup"
       }
     ],
     "hd-songdo": [
+      {
+        "title": "매드포갈릭, '유럽 거리 풍경' 담아 송도 공략…현대아울렛 신규 오픈",
+        "link": "https://www.apnews.kr/news/articleView.html?idxno=3051712",
+        "source": "apnews.kr",
+        "pubDate": "Sat, 03 Oct 2026 13:08:00 +0900",
+        "category": "open"
+      },
       {
         "title": "[SV 유통 단신] 롯데칠성음료, 과즙 20% 담은 ‘칠성사이다 RICH’ 출시 ...",
         "link": "https://www.socialvalue.kr/news/view/1065600413052448",
@@ -1786,13 +1793,6 @@
         "source": "ziksir.com",
         "pubDate": "Fri, 02 Oct 2026 14:52:00 +0900",
         "category": "etc"
-      },
-      {
-        "title": "매드포갈릭, '현대프리미엄아울렛 송도점' 신규 오픈…\"특별 프로모션\"",
-        "link": "https://www.businessplus.kr/news/articleView.html?idxno=117633",
-        "source": "businessplus.kr",
-        "pubDate": "Fri, 02 Oct 2026 12:22:00 +0900",
-        "category": "open"
       }
     ],
     "ikea-songdo": [],
@@ -1843,6 +1843,13 @@
     ],
     "lt-jungdong": [
       {
+        "title": "\"할인 있어요\"…씰리침대, '롯데 웨딩페어' 참가",
+        "link": "https://www.newsis.com/view/NISX20261002_0003811787",
+        "source": "newsis.com",
+        "pubDate": "Sat, 03 Oct 2026 12:01:00 +0900",
+        "category": "sale"
+      },
+      {
         "title": "씰리침대, 롯데백화점 웨딩페어 참여",
         "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=869777",
         "source": "hansbiz.co.kr",
@@ -1876,17 +1883,17 @@
         "source": "ikld.kr",
         "pubDate": "Fri, 02 Oct 2026 09:16:00 +0900",
         "category": "gift"
-      },
-      {
-        "title": "\"예비부부 혼수 부담 던다\"…씰리침대, 롯데百 웨딩페어 참여",
-        "link": "https://www.news1.kr/industry/general-industry/6308355",
-        "source": "news1.kr",
-        "pubDate": "Fri, 02 Oct 2026 08:54:00 +0900",
-        "category": "etc"
       }
     ],
     "hd-kintex": [],
     "lt-ilsan": [
+      {
+        "title": "에따 리브르 도랑쥬, 20주년 맞이 향수→프란시스 커정, 바디·헤어 케어...",
+        "link": "https://www.slist.kr/news/articleView.html?idxno=770894",
+        "source": "slist.kr",
+        "pubDate": "Sun, 04 Oct 2026 08:32:00 +0900",
+        "category": "etc"
+      },
       {
         "title": "[똑똑한유통] CJ프레시웨이 식봄 품질보장 확대·롯데리아 한글날 팝업...",
         "link": "https://www.ekn.kr/web/view.php?key=20261002020381879",
@@ -1921,13 +1928,6 @@
         "source": "finomy.com",
         "pubDate": "Fri, 02 Oct 2026 17:14:00 +0900",
         "category": "open"
-      },
-      {
-        "title": "[오늘의 먹거리] 매드포갈릭·아웃백·테이크·백미당·교촌치킨·롯데...",
-        "link": "http://www.financialreview.co.kr/news/articleView.html?idxno=45283",
-        "source": "financialreview.co.kr",
-        "pubDate": "Fri, 02 Oct 2026 17:02:00 +0900",
-        "category": "etc"
       }
     ],
     "sf-goyang": [
@@ -2156,6 +2156,13 @@
     "lt-pyeongc": [],
     "lt-dongtan": [
       {
+        "title": "슬렙트, 롯데백화점 동탄점서 신혼 침대 팝업스토어 운영",
+        "link": "http://www.sisunnews.co.kr/news/articleView.html?idxno=246982",
+        "source": "sisunnews.co.kr",
+        "pubDate": "Sat, 03 Oct 2026 10:00:00 +0900",
+        "category": "popup"
+      },
+      {
         "title": "갤러리티 동탄점 최윤정 개인전 '빛을 닮아가는 시간' 개최",
         "link": "https://www.gokorea.kr/news/articleView.html?idxno=880315",
         "source": "gokorea.kr",
@@ -2189,16 +2196,16 @@
         "source": "weeklytoday.com",
         "pubDate": "Thu, 01 Oct 2026 14:10:00 +0900",
         "category": "popup"
-      },
-      {
-        "title": "성수석 이천시장, ‘현장 행정’ 결실… 아파트 오수 갈등 풀고 도자 판...",
-        "link": "https://www.segye.com/newsView/20261001508555?OutUrl=naver",
-        "source": "segye.com",
-        "pubDate": "Thu, 01 Oct 2026 11:33:00 +0900",
-        "category": "etc"
       }
     ],
     "sf-anseong": [
+      {
+        "title": "반려동물 동반 식당 2700곳 돌파… 집 밖으로 나온 펫푸드",
+        "link": "https://biz.chosun.com/distribution/food/2026/10/04/DMEOV5JNGJDL5E43WIPMQAFJGY/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+        "source": "biz.chosun.com",
+        "pubDate": "Sun, 04 Oct 2026 06:01:00 +0900",
+        "category": "etc"
+      },
       {
         "title": "수원·하남·고양·안성, 스타필드 '4색 가을 축제'로 물든다",
         "link": "https://www.ngetnews.com/news/articleView.html?idxno=554036",
@@ -2233,17 +2240,31 @@
         "source": "donga.com",
         "pubDate": "Fri, 02 Oct 2026 17:21:00 +0900",
         "category": "etc"
-      },
-      {
-        "title": "백미당, 경기권 넓힌다···일산·화정·동탄 3곳 출점",
-        "link": "http://www.finomy.com/news/articleView.html?idxno=262846",
-        "source": "finomy.com",
-        "pubDate": "Fri, 02 Oct 2026 17:14:00 +0900",
-        "category": "open"
       }
     ],
     "lt-suwon": [],
     "sf-suwon": [
+      {
+        "title": "“진짜 커피 맛이?”...카페인 피하는 사람들이 찾는 ‘이것’",
+        "link": "https://www.kyeonggi.com/article/20261001580293",
+        "source": "kyeonggi.com",
+        "pubDate": "Sat, 03 Oct 2026 16:02:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "춘천 감자밭, 수원 스타필드에 떴다…'밭캉스'로 춘천 관광 홍보",
+        "link": "https://www.newstnt.com/news/articleView.html?idxno=721410",
+        "source": "newstnt.com",
+        "pubDate": "Sat, 03 Oct 2026 11:18:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "수원시, KT위즈파크·NC수원터미널점 식품안심구역 지정",
+        "link": "https://www.kihoilbo.co.kr/news/articleView.html?idxno=3036544",
+        "source": "kihoilbo.co.kr",
+        "pubDate": "Sat, 03 Oct 2026 11:04:00 +0900",
+        "category": "etc"
+      },
       {
         "title": "‘일주일 새 연휴가 두번이나’…가을 나들이 장소로 변신한 유통가",
         "link": "https://www.sedaily.com/article/20097866?ref=naver",
@@ -2263,27 +2284,6 @@
         "link": "https://www.ngetnews.com/news/articleView.html?idxno=554036",
         "source": "ngetnews.com",
         "pubDate": "Sat, 03 Oct 2026 07:00:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "낮엔 스타필드 축제, 밤엔 롯데월드타워 불빛…가을 주말 도심 나들이",
-        "link": "https://www.newspim.com/news/view/20261002001097",
-        "source": "newspim.com",
-        "pubDate": "Sat, 03 Oct 2026 06:01:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "스타필드, 가을 나들이족 잡는다…감자밭·반려견·게임·생태체험 한자...",
-        "link": "https://www.joongangenews.com/news/articleView.html?idxno=552484",
-        "source": "joongangenews.com",
-        "pubDate": "Fri, 02 Oct 2026 17:30:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "[유통브리핑] 컬리, 넥스트키친 완전자회사 편입 외",
-        "link": "https://www.seoulfn.com/news/articleView.html?idxno=639302",
-        "source": "seoulfn.com",
-        "pubDate": "Fri, 02 Oct 2026 16:52:00 +0900",
         "category": "etc"
       }
     ],
@@ -2540,16 +2540,16 @@
     ],
     "ak-pyeongtaek": [
       {
-        "title": "에이페이블, AK플라자 평택서 팝업스토어 개최…체험형 공간 통해 제품...",
-        "link": "http://www.sisunnews.co.kr/news/articleView.html?idxno=244331",
-        "source": "sisunnews.co.kr",
+        "title": "에이페이블, AK플라자 평택점서 팝업 진행",
+        "link": "https://www.handmk.com/news/articleView.html?idxno=42209",
+        "source": "handmk.com",
         "pubDate": "Sun, 16 Aug 2026 10:00:00 +0900",
         "category": "popup"
       },
       {
-        "title": "에이페이블, AK플라자 평택점서 팝업 진행",
-        "link": "https://www.handmk.com/news/articleView.html?idxno=42209",
-        "source": "handmk.com",
+        "title": "에이페이블, AK플라자 평택서 팝업스토어 개최…체험형 공간 통해 제품...",
+        "link": "http://www.sisunnews.co.kr/news/articleView.html?idxno=244331",
+        "source": "sisunnews.co.kr",
         "pubDate": "Sun, 16 Aug 2026 10:00:00 +0900",
         "category": "popup"
       },
@@ -2568,16 +2568,16 @@
         "category": "popup"
       },
       {
-        "title": "에이페이블, 향수 '505 썸머 제주 포레스트' 팝업서 공개",
-        "link": "https://www.nbntv.co.kr/news/articleView.html?idxno=4023830",
-        "source": "nbntv.co.kr",
+        "title": "에이페이블, AK플라자 평택점에 팝업 공간 마련…한국적 미의식 담은 향...",
+        "link": "https://www.gokorea.kr/news/articleView.html?idxno=874912",
+        "source": "gokorea.kr",
         "pubDate": "Fri, 14 Aug 2026 10:00:00 +0900",
         "category": "popup"
       },
       {
-        "title": "에이페이블, AK플라자 평택점에 팝업 공간 마련…한국적 미의식 담은 향...",
-        "link": "https://www.gokorea.kr/news/articleView.html?idxno=874912",
-        "source": "gokorea.kr",
+        "title": "에이페이블, 향수 '505 썸머 제주 포레스트' 팝업서 공개",
+        "link": "https://www.nbntv.co.kr/news/articleView.html?idxno=4023830",
+        "source": "nbntv.co.kr",
         "pubDate": "Fri, 14 Aug 2026 10:00:00 +0900",
         "category": "popup"
       }
@@ -2853,6 +2853,13 @@
     ],
     "ss-cheonan": [
       {
+        "title": "천안 향토기업 아라리오, 지역 문화예술에 5000만원 기부",
+        "link": "https://www.segye.com/newsView/20261002503282?OutUrl=naver",
+        "source": "segye.com",
+        "pubDate": "Sat, 03 Oct 2026 10:54:00 +0900",
+        "category": "etc"
+      },
+      {
         "title": "무인양품, 신세계백화점 천안아산점 개점",
         "link": "https://www.smarttoday.co.kr/ko-kr/articles/112262",
         "source": "smarttoday.co.kr",
@@ -2885,13 +2892,6 @@
         "link": "https://www.kukinews.com/article/view/kuk202609300092",
         "source": "kukinews.com",
         "pubDate": "Wed, 30 Sep 2026 11:42:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "아라리오, 천안문화재단에 5000만원 기부",
-        "link": "https://www.hankyung.com/article/202609293057h",
-        "source": "hankyung.com",
-        "pubDate": "Tue, 29 Sep 2026 22:23:00 +0900",
         "category": "etc"
       }
     ],
@@ -3184,16 +3184,16 @@
         "category": "etc"
       },
       {
-        "title": "농협창업농지원센터, 롯데백화점과 손잡고 청년농업인 육성",
-        "link": "http://www.bokuennews.com/news/article.html?no=284217",
-        "source": "bokuennews.com",
+        "title": "농협, 청년농 판로 확대 나선다",
+        "link": "https://www.farmnmarket.com/news/article.html?no=27846",
+        "source": "farmnmarket.com",
         "pubDate": "Tue, 15 Sep 2026 10:16:00 +0900",
         "category": "etc"
       },
       {
-        "title": "농협, 청년농 판로 확대 나선다",
-        "link": "https://www.farmnmarket.com/news/article.html?no=27846",
-        "source": "farmnmarket.com",
+        "title": "농협창업농지원센터, 롯데백화점과 손잡고 청년농업인 육성",
+        "link": "http://www.bokuennews.com/news/article.html?no=284217",
+        "source": "bokuennews.com",
         "pubDate": "Tue, 15 Sep 2026 10:16:00 +0900",
         "category": "etc"
       },
@@ -3485,14 +3485,14 @@
       },
       {
         "title": "추석 연휴 쇼핑하고 전통공연도 보고",
-        "link": "https://www.newsis.com/view/NISI20260926_0021458840",
+        "link": "https://www.newsis.com/view/NISI20260926_0021458853",
         "source": "newsis.com",
         "pubDate": "Sat, 26 Sep 2026 16:36:00 +0900",
         "category": "etc"
       },
       {
         "title": "추석 연휴 쇼핑하고 전통공연도 보고",
-        "link": "https://www.newsis.com/view/NISI20260926_0021458831",
+        "link": "https://www.newsis.com/view/NISI20260926_0021458834",
         "source": "newsis.com",
         "pubDate": "Sat, 26 Sep 2026 16:36:00 +0900",
         "category": "etc"
