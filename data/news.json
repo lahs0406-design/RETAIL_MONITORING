@@ -1,49 +1,49 @@
 {
-  "generatedAt": "2026-10-20T00:10:35.176Z",
+  "generatedAt": "2026-10-20T23:42:18.255Z",
   "windowDays": 60,
   "stores": {
     "hd-yeouido": [
       {
-        "title": "'더현대 서울' 성공 방정식 통할까…현대百, 부산서 신세계와 정면승부",
-        "link": "https://www.newstopkorea.com/news/articleView.html?idxno=48260",
-        "source": "newstopkorea.com",
-        "pubDate": "Tue, 20 Oct 2026 06:30:00 +0900",
+        "title": "한섬, 럭셔리 이어 러닝으로…佛 ‘새티스파이’ 국내 독점 운영",
+        "link": "https://www.dailian.co.kr/news/view/1703905/?sc=Naver",
+        "source": "dailian.co.kr",
+        "pubDate": "Wed, 21 Oct 2026 08:32:00 +0900",
         "category": "etc"
       },
       {
-        "title": "디저트 먹으러 왔다가 옷도 산다…백화점 식품관에 2030 몰리는 이유",
-        "link": "https://www.news1.kr/industry/distribution/6324684",
+        "title": "마뗑킴, 전세계 아티스트와 파사드 협업 진행",
+        "link": "https://www.slist.kr/news/articleView.html?idxno=775070",
+        "source": "slist.kr",
+        "pubDate": "Wed, 21 Oct 2026 08:28:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "한섬, 해외패션 포트폴리오 스포츠로 확대…'새티스파이' 독점 운영",
+        "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=497051",
+        "source": "pinpointnews.co.kr",
+        "pubDate": "Wed, 21 Oct 2026 08:26:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "[비바100] 피자 올리고 과일 품고… 유통가 홀린 쫀득한 ‘떡’ 한 입",
+        "link": "https://www.viva100.com/article/20261019500978",
+        "source": "viva100.com",
+        "pubDate": "Wed, 21 Oct 2026 07:02:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "\"불매운동은 옛말\"…3분기 日 맥주 수입액 1000억 돌파",
+        "link": "https://www.news1.kr/industry/distribution/6325929",
         "source": "news1.kr",
-        "pubDate": "Tue, 20 Oct 2026 06:15:00 +0900",
+        "pubDate": "Wed, 21 Oct 2026 06:40:00 +0900",
         "category": "etc"
       },
       {
-        "title": "에버에이유, 갤러리아 명품관 WEST 팝업스토어 오픈",
-        "link": "https://sports.khan.co.kr/article/202610200128003?pt=nv",
-        "source": "sports.khan.co.kr",
-        "pubDate": "Tue, 20 Oct 2026 01:29:00 +0900",
-        "category": "open"
-      },
-      {
-        "title": "무신사, 부산서 Y-3 장기 팝업…글로벌 브랜드 지방 상권 공략 확대",
-        "link": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065618955922276",
-        "source": "megaeconomy.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 22:18:00 +0900",
-        "category": "popup"
-      },
-      {
-        "title": "[패션·잡화 트렌드] 로라로라, 장원영과 함께한 26 겨울 컬렉션 2차 라...",
-        "link": "https://www.ibabynews.com/news/articleView.html?idxno=155327",
-        "source": "ibabynews.com",
-        "pubDate": "Mon, 19 Oct 2026 21:02:00 +0900",
+        "title": "크리스마스 두달 전부터 '들썩'…백화점 트리 설치에 '티켓팅 전쟁' 예...",
+        "link": "https://www.newsis.com/view/NISX20261020_0003833576",
+        "source": "newsis.com",
+        "pubDate": "Wed, 21 Oct 2026 04:10:00 +0900",
         "category": "etc"
-      },
-      {
-        "title": "무신사, 'Y-3' 부산 신세계百 센텀시티점 앵콜 팝업 개최",
-        "link": "http://www.biztribune.co.kr/news/articleView.html?idxno=360860",
-        "source": "biztribune.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 20:36:00 +0900",
-        "category": "popup"
       }
     ],
     "ss-timesq": [
@@ -152,6 +152,34 @@
     ],
     "hd-mokdong": [
       {
+        "title": "파세코 ‘스타더스트’, 주요 백화점 팝업 확대…프리미엄 주방후드 시...",
+        "link": "https://sports.khan.co.kr/article/202610201745003?pt=nv",
+        "source": "sports.khan.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 17:46:00 +0900",
+        "category": "popup"
+      },
+      {
+        "title": "현대홈쇼핑, 뮤지컬 '시카고' 안방으로···배우 라이브 공연도",
+        "link": "http://www.finomy.com/news/articleView.html?idxno=264131",
+        "source": "finomy.com",
+        "pubDate": "Tue, 20 Oct 2026 16:30:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "'30조 재건축' 목동 수주전 달아오른다…7·14단지 대형사 격돌",
+        "link": "http://www.inews24.com/view/2016966",
+        "source": "inews24.com",
+        "pubDate": "Tue, 20 Oct 2026 15:10:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "파세코, ‘스타더스트’ 백화점 팝업 전국 확대",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=03060246645614888&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "source": "edaily.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 10:00:00 +0900",
+        "category": "popup"
+      },
+      {
         "title": "파세코, 주방후드 스타더스트 백화점 팝업스토어 확대 운영",
         "link": "https://www.lawissue.co.kr/view.php?ud=202610191811529957204ead0791_12",
         "source": "lawissue.co.kr",
@@ -164,126 +192,127 @@
         "source": "ekn.kr",
         "pubDate": "Mon, 19 Oct 2026 16:46:00 +0900",
         "category": "popup"
-      },
-      {
-        "title": "파세코, ‘스타더스트’로 프리미엄 주방가전 시장 공략 나선다… 백화...",
-        "link": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065597330910823",
-        "source": "megaeconomy.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 16:22:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "[더벨][백화점 속 하나증권 WM] 문화센터 고객 접점 확대…문화예술 상...",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202610141635532480101590",
-        "source": "thebell.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 15:02:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "파세코, 프리미엄 주방후드 ‘스타더스트’ 백화점 팝업 확대",
-        "link": "https://www.etoday.co.kr/news/view/2637342",
-        "source": "etoday.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 13:28:00 +0900",
-        "category": "popup"
-      },
-      {
-        "title": "파세코 ‘스타더스트’, 프리미엄 주방후드 시장 공략 본격화..주요 백...",
-        "link": "https://kpenews.com/View.aspx?No=4269236",
-        "source": "kpenews.com",
-        "pubDate": "Mon, 19 Oct 2026 12:34:00 +0900",
-        "category": "etc"
       }
     ],
     "lt-gwanak": [
       {
-        "title": "BYC 본사 떠난 자리, 40층 오피스텔 들어선다…구로디지털단지역 '직통...",
-        "link": "https://realty.chosun.com/site/data/html_dir/2026/10/07/2026100701182.html",
-        "source": "realty.chosun.com",
-        "pubDate": "Wed, 07 Oct 2026 10:14:00 +0900",
+        "title": "BYC, 구로디지털단지역 직통 ‘GD메트로타워’ 23일 분양… 오피스텔 77...",
+        "link": "https://www.g-enews.com/view.php?ud=202610201457065555a9fc143920_1",
+        "source": "g-enews.com",
+        "pubDate": "Tue, 20 Oct 2026 16:18:00 +0900",
         "category": "etc"
       },
       {
-        "title": "17년 만에 확 바꾼 유니클로 목동점…키즈 앞세워 가족 수요 공략 [현장...",
-        "link": "https://www.kukinews.com/article/view/kuk202610020116",
-        "source": "kukinews.com",
-        "pubDate": "Fri, 02 Oct 2026 16:06:00 +0900",
+        "title": "BYC, 구로디지털단지역 직통 연결 'GD메트로타워' 23일 견본주택 개관",
+        "link": "https://www.fnnews.com/news/202610201546268819",
+        "source": "fnnews.com",
+        "pubDate": "Tue, 20 Oct 2026 16:10:00 +0900",
         "category": "etc"
       },
       {
-        "title": "구디역 직통연결 계획에 G밸리 배후수요…‘GD메트로타워’ 들어선다",
-        "link": "https://biz.heraldcorp.com/article/10877255?ref=naver",
-        "source": "biz.heraldcorp.com",
-        "pubDate": "Thu, 17 Sep 2026 15:04:00 +0900",
+        "title": "“구로디지털단지역 직결 초역세권”…BYC ‘GD메트로타워’ 23일부터 본...",
+        "link": "https://www.mediapen.com/news/view/1130496",
+        "source": "mediapen.com",
+        "pubDate": "Tue, 20 Oct 2026 14:38:00 +0900",
         "category": "etc"
       },
       {
-        "title": "2호선 구로디지털단지역 연결 ‘GD메트로타워’ 770실 분양",
-        "link": "https://www.hankyung.com/article/202609170377i",
-        "source": "hankyung.com",
-        "pubDate": "Thu, 17 Sep 2026 09:32:00 +0900",
+        "title": "BYC 옛 본사 터 'GD메트로타워' 분양…구로디지털단지역 직통 연결",
+        "link": "https://www.straightnews.co.kr/news/articleView.html?idxno=313522",
+        "source": "straightnews.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 13:24:00 +0900",
         "category": "etc"
       },
       {
-        "title": "\"구로디지털단지역 직결\" BYC, 서울 주거용 오피스텔 'GD메트로타워' 다...",
-        "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260916010006203",
-        "source": "asiatoday.co.kr",
-        "pubDate": "Wed, 16 Sep 2026 17:56:00 +0900",
+        "title": "BYC, ‘GD메트로타워’ 베일 푼다... 오는 23일 ‘견본주택’ 개관",
+        "link": "http://www.beyondpost.co.kr/view.php?ud=20261020103530252818ef25b590_30",
+        "source": "beyondpost.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 10:38:00 +0900",
         "category": "etc"
       },
       {
-        "title": "BYC, 옛 본사 부지 'GD메트로타워'로 탈바꿈…3940억 투입",
-        "link": "https://www.newsway.co.kr/news/view?ud=2026091616070059159",
-        "source": "newsway.co.kr",
-        "pubDate": "Wed, 16 Sep 2026 16:50:00 +0900",
+        "title": "BYC, 옛 본사 부지 'GD메트로타워' 견본주택 개관…오피스텔 770실 공급",
+        "link": "https://www.businessplus.kr/news/articleView.html?idxno=118437",
+        "source": "businessplus.kr",
+        "pubDate": "Tue, 20 Oct 2026 10:36:00 +0900",
         "category": "etc"
       }
     ],
     "ss-gangnam": [
       {
-        "title": "'헤지스·던스트'로 해외 판로 넓히고 '아떼'로 뷰티 키우고…LF의 성장...",
-        "link": "https://www.news2day.co.kr/article/20261019500300",
-        "source": "news2day.co.kr",
-        "pubDate": "Tue, 20 Oct 2026 06:46:00 +0900",
+        "title": "동작구 고가 분양도 잇단 계약 마감…반포·잠원 후속 공급 주목",
+        "link": "https://www.pointdaily.co.kr/news/articleView.html?idxno=322990",
+        "source": "pointdaily.co.kr",
+        "pubDate": "Wed, 21 Oct 2026 08:30:00 +0900",
         "category": "etc"
       },
       {
-        "title": "LF 포르테포르테, 한국 시장 공략 본격화…신세계 강남점서 팝업 진행",
-        "link": "https://www.thepublic.kr/news/articleView.html?idxno=322827",
-        "source": "thepublic.kr",
-        "pubDate": "Tue, 20 Oct 2026 06:36:00 +0900",
-        "category": "popup"
-      },
-      {
-        "title": "디저트 먹으러 왔다가 옷도 산다…백화점 식품관에 2030 몰리는 이유",
-        "link": "https://www.news1.kr/industry/distribution/6324684",
-        "source": "news1.kr",
-        "pubDate": "Tue, 20 Oct 2026 06:15:00 +0900",
+        "title": "[비바100] 피자 올리고 과일 품고… 유통가 홀린 쫀득한 ‘떡’ 한 입",
+        "link": "https://www.viva100.com/article/20261019500978",
+        "source": "viva100.com",
+        "pubDate": "Wed, 21 Oct 2026 07:02:00 +0900",
         "category": "etc"
       },
       {
-        "title": "'상습 정체' 강남고속터미널 '교통 지옥' 된다, 복합개발 연내 협상 무산",
-        "link": "https://realty.chosun.com/site/data/html_dir/2026/10/19/2026101902853.html",
-        "source": "realty.chosun.com",
-        "pubDate": "Tue, 20 Oct 2026 06:02:00 +0900",
+        "title": "텐먼스, 신세계 百 강남점 팝업 오픈→막스마라, 아우터웨어 팝업 운영",
+        "link": "https://www.slist.kr/news/articleView.html?idxno=774973",
+        "source": "slist.kr",
+        "pubDate": "Tue, 20 Oct 2026 21:46:00 +0900",
+        "category": "open"
+      },
+      {
+        "title": "한국인은 성심당 줄 설때…‘빵지순례’ 외국인은 프랜차이즈로 몰렸다",
+        "link": "https://www.mk.co.kr/article/12181086",
+        "source": "mk.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 21:25:00 +0900",
         "category": "etc"
       },
       {
-        "title": "LF 포르테포르테, 한국서 키운 상품 기획력 글로벌 컬렉션에 반영",
-        "link": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065618416119160",
-        "source": "megaeconomy.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 22:10:00 +0900",
+        "title": "일도강정, 영등포구청점 흥행 앞세워 저자본 창업시장 공략",
+        "link": "https://www.job-post.co.kr/news/articleView.html?idxno=233507",
+        "source": "job-post.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 21:12:00 +0900",
         "category": "etc"
       },
       {
-        "title": "[패션·잡화 트렌드] 로라로라, 장원영과 함께한 26 겨울 컬렉션 2차 라...",
-        "link": "https://www.ibabynews.com/news/articleView.html?idxno=155327",
-        "source": "ibabynews.com",
-        "pubDate": "Mon, 19 Oct 2026 21:02:00 +0900",
+        "title": "유럽연합·신세계백화점, 유럽 식문화 한자리에…전통 식재료 체험 행사",
+        "link": "https://www.e-science.co.kr/news/articleView.html?idxno=137764",
+        "source": "e-science.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 17:26:00 +0900",
         "category": "etc"
       }
     ],
-    "lt-gangnam": [],
+    "lt-gangnam": [
+      {
+        "title": "아웃백, 12월 여의도 IFC 입점…가족·몰링족 '정조준'",
+        "link": "https://www.goodkyung.com/news/articleView.html?idxno=292584",
+        "source": "goodkyung.com",
+        "pubDate": "Tue, 20 Oct 2026 14:44:00 +0900",
+        "category": "popup"
+      }
+    ],
     "hd-apgujeong": [
+      {
+        "title": "[아웃도어트렌드] 내셔널지오그래픽 어패럴, 허남준과 함께한 26FW 화보...",
+        "link": "https://www.ibabynews.com/news/articleView.html?idxno=155387",
+        "source": "ibabynews.com",
+        "pubDate": "Tue, 20 Oct 2026 15:58:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "급한마음탕수육, 현대백화점 3개 지점 팝업 마무리",
+        "link": "https://www.ziksir.com/news/articleView.html?idxno=150066",
+        "source": "ziksir.com",
+        "pubDate": "Tue, 20 Oct 2026 15:32:00 +0900",
+        "category": "popup"
+      },
+      {
+        "title": "[패션·잡화트렌드] 리모와·마이키타, 신제품 아이웨어 컬렉션 출시 外",
+        "link": "https://www.ibabynews.com/news/articleView.html?idxno=155347",
+        "source": "ibabynews.com",
+        "pubDate": "Tue, 20 Oct 2026 15:06:00 +0900",
+        "category": "etc"
+      },
       {
         "title": "에버에이유, 갤러리아 명품관 WEST 팝업스토어 오픈",
         "link": "https://sports.khan.co.kr/article/202610200128003?pt=nv",
@@ -304,27 +333,6 @@
         "source": "newspim.com",
         "pubDate": "Mon, 19 Oct 2026 16:18:00 +0900",
         "category": "popup"
-      },
-      {
-        "title": "에버에이유, 갤러리아 명품관 WEST 팝업스토어 오픈…슈즈 넘어 가방까...",
-        "link": "https://www.geconomy.co.kr/news/article.html?no=324551",
-        "source": "geconomy.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 15:52:00 +0900",
-        "category": "open"
-      },
-      {
-        "title": "에버에이유, 갤러리아 명품관 팝업 운영…가방·겨울 액세서리로 상품 ...",
-        "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=211153",
-        "source": "thefirstmedia.net",
-        "pubDate": "Mon, 19 Oct 2026 15:34:00 +0900",
-        "category": "popup"
-      },
-      {
-        "title": "현대백화점, 에코백 재사용 장바구니 '리백' 캠페인 전개",
-        "link": "https://www.cnbnews.com/news/articleView.html?idxno=1019848",
-        "source": "cnbnews.com",
-        "pubDate": "Mon, 19 Oct 2026 14:52:00 +0900",
-        "category": "etc"
       }
     ],
     "hd-muyeok": [
@@ -355,67 +363,67 @@
         "source": "fashionn.com",
         "pubDate": "Thu, 27 Aug 2026 11:04:00 +0900",
         "category": "etc"
-      },
-      {
-        "title": "베니니, 새로운 '부로(BURRO)' 컬렉션 공개",
-        "link": "https://www.businesskorea.co.kr/news/articleView.html?idxno=275297",
-        "source": "businesskorea.co.kr",
-        "pubDate": "Fri, 21 Aug 2026 18:12:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "베니니, 지중해의 여름 담은 새로운 컬러 '부로' 공개",
-        "link": "https://www.stardailynews.co.kr/news/articleView.html?idxno=546774",
-        "source": "stardailynews.co.kr",
-        "pubDate": "Fri, 21 Aug 2026 18:10:00 +0900",
-        "category": "etc"
       }
     ],
     "sf-coex": [
       {
-        "title": "영풍문고 북크닉 '흡연 대신 독서를'…김민경과 책 이야기",
-        "link": "https://www.news1.kr/life-culture/general-cultural/6323026",
+        "title": "'월드 웹툰 페스티벌' 홍보대사에 배우 김재원…12월 코엑스",
+        "link": "https://www.news1.kr/life-culture/book/6326275",
         "source": "news1.kr",
-        "pubDate": "Mon, 19 Oct 2026 06:03:00 +0900",
+        "pubDate": "Wed, 21 Oct 2026 06:40:00 +0900",
         "category": "etc"
       },
       {
-        "title": "[Weekly 이모저모] 경동나비엔·영풍문고·에스원",
-        "link": "https://www.startuptoday.co.kr/news/articleView.html?idxno=816078",
-        "source": "startuptoday.co.kr",
-        "pubDate": "Sat, 17 Oct 2026 07:00:00 +0900",
+        "title": "'2026 월드 웹툰 페스티벌' 12월 2일 개막…김재원 홍보대사로 참여",
+        "link": "https://www.newstnt.com/news/articleView.html?idxno=723970",
+        "source": "newstnt.com",
+        "pubDate": "Tue, 20 Oct 2026 16:44:00 +0900",
         "category": "etc"
       },
       {
-        "title": "영풍문고, 청소년·청년 120여 명과 독서 행사",
-        "link": "http://www.ikld.kr/news/articleView.html?idxno=342407",
-        "source": "ikld.kr",
-        "pubDate": "Fri, 16 Oct 2026 18:18:00 +0900",
+        "title": "마초의사춘기, 굿윌스토어 물품 기증 이어가…공간과 사회적 가치 연결",
+        "link": "http://www.sisunnews.co.kr/news/articleView.html?idxno=248084",
+        "source": "sisunnews.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 15:24:00 +0900",
         "category": "etc"
       },
       {
-        "title": "영풍문고, 보건복지부 '노담소셜클럽'과 청계천서 야외 북크닉 개최",
-        "link": "https://www.pointe.co.kr/news/articleView.html?idxno=86171",
-        "source": "pointe.co.kr",
-        "pubDate": "Fri, 16 Oct 2026 16:36:00 +0900",
+        "title": "신세계 센텀시티서 '응 커피' 만나세요…퍼센트 아라비카 팝업",
+        "link": "https://www.news1.kr/local/busan-gyeongnam/6325976",
+        "source": "news1.kr",
+        "pubDate": "Tue, 20 Oct 2026 14:50:00 +0900",
+        "category": "popup"
+      },
+      {
+        "title": "'윰세3' 김재원, '2026 월드 웹툰 페스티벌' 홍보대사 위촉",
+        "link": "https://www.hg-times.com/news/articleView.html?idxno=306230",
+        "source": "hg-times.com",
+        "pubDate": "Tue, 20 Oct 2026 14:12:00 +0900",
         "category": "etc"
       },
       {
-        "title": "낮엔 아직 더운데 패딩부터 샀다…거래량 335% 폭증, 벌써 겨울 경쟁",
-        "link": "https://www.segye.com/newsView/20261016514394?OutUrl=naver",
-        "source": "segye.com",
-        "pubDate": "Fri, 16 Oct 2026 15:30:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "영풍문고, 청소년 흡연 예방 캠페인 동참 … '노담 북클럽' 진행",
-        "link": "https://biz.newdaily.co.kr/site/data/html/2026/10/16/2026101600208.html",
-        "source": "biz.newdaily.co.kr",
-        "pubDate": "Fri, 16 Oct 2026 14:44:00 +0900",
+        "title": "마초의사춘기, 굿윌스토어에 물품 기증…공간 디자인 넘어 사회적 가치...",
+        "link": "https://edu.donga.com/news/articleView.html?idxno=112973",
+        "source": "edu.donga.com",
+        "pubDate": "Tue, 20 Oct 2026 14:12:00 +0900",
         "category": "etc"
       }
     ],
     "hd-cheonho": [
+      {
+        "title": "신입사원 출신을 양아들로 입양해 연매출 5498억 회사 물려줘... 오늘 전...",
+        "link": "https://www.wikitree.co.kr/articles/1167690",
+        "source": "wikitree.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 15:02:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "벨리시앙, 현대백화점 천호점 오픈…신촌점 이어 6개월 만에 추가 출점",
+        "link": "https://www.news1.kr/industry/distribution/6325697",
+        "source": "news1.kr",
+        "pubDate": "Tue, 20 Oct 2026 11:24:00 +0900",
+        "category": "open"
+      },
       {
         "title": "김용훈 윤숲 셰프, 미국 유제품 브랜드 ‘챌린지’ 초청… 창작 디저트...",
         "link": "https://www.etoday.co.kr/news/view/2637383",
@@ -443,63 +451,49 @@
         "source": "handmk.com",
         "pubDate": "Fri, 16 Oct 2026 09:30:00 +0900",
         "category": "etc"
-      },
-      {
-        "title": "현대퓨처넷, 신진 미디어아트 작가 선정작 3점 공개",
-        "link": "https://www.gokorea.kr/news/articleView.html?idxno=881550",
-        "source": "gokorea.kr",
-        "pubDate": "Thu, 15 Oct 2026 18:02:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "현대퓨처넷, 미디어아트 공모전 ‘하트애비뉴’ 선정작 3점 공개",
-        "link": "https://www.g-enews.com/view.php?ud=202610151726189346056c162803_1",
-        "source": "g-enews.com",
-        "pubDate": "Thu, 15 Oct 2026 17:32:00 +0900",
-        "category": "etc"
       }
     ],
     "ss-bon": [
       {
-        "title": "\"차 빼세요\" vs \"편히 대세요\"…백화점 빅4 '무료주차' 동상이몽",
-        "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1728314",
-        "source": "ebn.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 12:24:00 +0900",
+        "title": "아이돌 하고 싶으면 대학부터?…아이비리그·이화여대 거쳐 무대 오른 ...",
+        "link": "https://www.segye.com/newsView/20261020505866?OutUrl=naver",
+        "source": "segye.com",
+        "pubDate": "Wed, 21 Oct 2026 04:59:00 +0900",
         "category": "etc"
       },
       {
-        "title": "“英 ‘마가렛 호웰’ 철학 공감하는 한국 팬 만들고 싶어”",
-        "link": "https://biz.heraldcorp.com/article/10907085?ref=naver",
-        "source": "biz.heraldcorp.com",
-        "pubDate": "Mon, 19 Oct 2026 11:31:00 +0900",
+        "title": "범삼성가, 중앙일보 인수에 뭉쳤다…CJ 이어 신세계도 합류",
+        "link": "https://www.abcn.kr/news/articleView.html?idxno=93354",
+        "source": "abcn.kr",
+        "pubDate": "Tue, 20 Oct 2026 15:56:00 +0900",
         "category": "etc"
       },
       {
-        "title": "신세계, 아웃바운드 수요↑...백화점 매출은 '둔화'",
-        "link": "http://www.newsfc.co.kr/news/articleView.html?idxno=81782",
+        "title": "다우키움·CJ 이어 신세계까지...중앙일보 인수 '3자 연합' 윤곽",
+        "link": "http://www.newsfc.co.kr/news/articleView.html?idxno=81865",
         "source": "newsfc.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 09:40:00 +0900",
+        "pubDate": "Tue, 20 Oct 2026 15:02:00 +0900",
         "category": "etc"
       },
       {
-        "title": "잘나가던 백화점 ‘숨고르기’…3분기 실적 눈높이 줄하향",
-        "link": "https://www.sedaily.com/article/20102963?ref=naver",
-        "source": "sedaily.com",
-        "pubDate": "Sun, 18 Oct 2026 17:41:00 +0900",
+        "title": "범삼성가, 중앙일보 인수 나선다…신세계도 합류",
+        "link": "http://www.segyebiz.com/newsView/20261020513845?OutUrl=naver",
+        "source": "segyebiz.com",
+        "pubDate": "Tue, 20 Oct 2026 14:20:00 +0900",
         "category": "etc"
       },
       {
-        "title": "[기획]광고·집객·K-컬처 다 잡은 '신세계스퀘어'…'한국판 타임스퀘어...",
-        "link": "https://www.sentv.co.kr/article/view/sentv202610150174",
-        "source": "sentv.co.kr",
-        "pubDate": "Sat, 17 Oct 2026 07:02:00 +0900",
+        "title": "중앙일보 인수에 힘 모은 범(汎)삼성가…CJ 이어 신세계도 지분 투자",
+        "link": "https://www.newspim.com/news/view/20261020000692",
+        "source": "newspim.com",
+        "pubDate": "Tue, 20 Oct 2026 14:04:00 +0900",
         "category": "etc"
       },
       {
-        "title": "수입 브랜드 넓히고 자체 브랜드 키우고···삼성물산 패션, 수익성 회...",
-        "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2481083",
-        "source": "enewstoday.co.kr",
-        "pubDate": "Fri, 16 Oct 2026 15:00:00 +0900",
+        "title": "중앙일보 위해 뭉친 범삼성가…CJ '경영 참여'·신세계 '지분 투자'(종합...",
+        "link": "https://www.news1.kr/industry/distribution/6325822",
+        "source": "news1.kr",
+        "pubDate": "Tue, 20 Oct 2026 13:39:00 +0900",
         "category": "etc"
       }
     ],
@@ -549,6 +543,34 @@
     ],
     "hd-sinchon": [
       {
+        "title": "파세코 ‘스타더스트’, 주요 백화점 팝업 확대…프리미엄 주방후드 시...",
+        "link": "https://sports.khan.co.kr/article/202610201745003?pt=nv",
+        "source": "sports.khan.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 17:46:00 +0900",
+        "category": "popup"
+      },
+      {
+        "title": "[아웃도어트렌드] 내셔널지오그래픽 어패럴, 허남준과 함께한 26FW 화보...",
+        "link": "https://www.ibabynews.com/news/articleView.html?idxno=155387",
+        "source": "ibabynews.com",
+        "pubDate": "Tue, 20 Oct 2026 15:58:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "벨리시앙, 현대백화점 천호점 오픈…신촌점 이어 6개월 만에 추가 출점",
+        "link": "https://www.news1.kr/industry/distribution/6325697",
+        "source": "news1.kr",
+        "pubDate": "Tue, 20 Oct 2026 11:24:00 +0900",
+        "category": "open"
+      },
+      {
+        "title": "파세코, ‘스타더스트’ 백화점 팝업 전국 확대",
+        "link": "https://www.edaily.co.kr/News/Read?newsId=03060246645614888&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+        "source": "edaily.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 10:00:00 +0900",
+        "category": "popup"
+      },
+      {
         "title": "[뷰티 트렌드] 마몽드, '크리미 틴트 컬러 밤' 출시 10주년 맞아 리뉴얼...",
         "link": "https://www.ibabynews.com/news/articleView.html?idxno=155332",
         "source": "ibabynews.com",
@@ -561,34 +583,6 @@
         "source": "mt.co.kr",
         "pubDate": "Mon, 19 Oct 2026 18:34:00 +0900",
         "category": "popup"
-      },
-      {
-        "title": "파세코 ‘스타더스트’, 주요 백화점 팝업 확대",
-        "link": "https://www.ekn.kr/web/view.php?key=20261019022008146",
-        "source": "ekn.kr",
-        "pubDate": "Mon, 19 Oct 2026 16:46:00 +0900",
-        "category": "popup"
-      },
-      {
-        "title": "파세코, ‘스타더스트’로 프리미엄 주방가전 시장 공략 나선다… 백화...",
-        "link": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065597330910823",
-        "source": "megaeconomy.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 16:22:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "파세코, 프리미엄 주방후드 ‘스타더스트’ 백화점 팝업 확대",
-        "link": "https://www.etoday.co.kr/news/view/2637342",
-        "source": "etoday.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 13:28:00 +0900",
-        "category": "popup"
-      },
-      {
-        "title": "파세코 ‘스타더스트’, 프리미엄 주방후드 시장 공략 본격화..주요 백...",
-        "link": "https://kpenews.com/View.aspx?No=4269236",
-        "source": "kpenews.com",
-        "pubDate": "Mon, 19 Oct 2026 12:34:00 +0900",
-        "category": "etc"
       }
     ],
     "hd-mia": [
@@ -637,6 +631,13 @@
     ],
     "lt-mia": [],
     "lt-nowon": [
+      {
+        "title": "[현장]\"프리미엄 브런치도 가성비로 든든하게\" 매드포갈릭 '글로우 테이...",
+        "link": "https://www.newsis.com/view/NISX20261020_0003833511",
+        "source": "newsis.com",
+        "pubDate": "Tue, 20 Oct 2026 15:38:00 +0900",
+        "category": "etc"
+      },
       {
         "title": "\"고객이 직접 느껴야 혁신\"...방준혁 의지 싣고 전국으로 달리는 '코웨이...",
         "link": "https://www.techm.kr/news/articleView.html?idxno=155978",
@@ -705,89 +706,75 @@
     ],
     "lt-kondae": [
       {
+        "title": "앤커 브랜드, 하나로 묶는다···충전 넘어 일상 전반 커버하는 신제품...",
+        "link": "https://www.cnet.co.kr/view/?no=20261020192912",
+        "source": "cnet.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 19:40:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "[신제품 발표 현장] 앤커코리아, '유튜버의 배터리'가 프리미엄이 된 이...",
+        "link": "https://kr.aving.net/news/articleView.html?idxno=1815805",
+        "source": "kr.aving.net",
+        "pubDate": "Tue, 20 Oct 2026 16:18:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "앤커, 충전·음향·가전 브랜드 하나로…'원 앤커' 전략 본격화",
+        "link": "https://www.ddaily.co.kr/page/view/2026102015211391152",
+        "source": "ddaily.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 15:40:00 +0900",
+        "category": "etc"
+      },
+      {
         "title": "신촌 이어 건대까지 상권 붕괴…백화점 떠나고 상가엔 임대주택",
         "link": "https://realty.chosun.com/site/data/html_dir/2026/10/16/2026101601033.html",
         "source": "realty.chosun.com",
         "pubDate": "Sun, 18 Oct 2026 06:02:00 +0900",
         "category": "etc"
-      },
-      {
-        "title": "안 되는 점포 접고 잘되는 곳 키운다…백화점 3사의 ‘선택과 집중’",
-        "link": "https://www.mydaily.co.kr/page/view/2026100201102135667",
-        "source": "mydaily.co.kr",
-        "pubDate": "Tue, 06 Oct 2026 14:08:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "더블 역세권·1695가구…모아타운 덩치도 입지도 상전벽해[부동산 심머...",
-        "link": "https://www.mk.co.kr/article/12165318",
-        "source": "mk.co.kr",
-        "pubDate": "Wed, 30 Sep 2026 20:54:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "롯데百, 엇갈린 점포 전략···잠실은 키우고, 미아·건대 '불투명'",
-        "link": "http://www.finomy.com/news/articleView.html?idxno=262608",
-        "source": "finomy.com",
-        "pubDate": "Wed, 30 Sep 2026 17:24:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "건대 상권에 무슨 일이? 20년 지킨 롯데백화점 전격 폐점 결정",
-        "link": "https://realty.chosun.com/site/data/html_dir/2026/09/30/2026093003366.html",
-        "source": "realty.chosun.com",
-        "pubDate": "Wed, 30 Sep 2026 13:32:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "롯데百, 예고된 영업종료 '건대스타시티점'…새 임차인 물색",
-        "link": "https://www.fetv.co.kr/news/articleView.html?idxno=310967",
-        "source": "fetv.co.kr",
-        "pubDate": "Tue, 29 Sep 2026 18:42:00 +0900",
-        "category": "etc"
       }
     ],
     "lt-jamsil": [
       {
-        "title": "데무, 롯데백화점 잠실점 리뉴얼…박춘무 시그니처 컬렉션 공개",
-        "link": "https://www.nbntv.co.kr/news/articleView.html?idxno=4026228",
-        "source": "nbntv.co.kr",
-        "pubDate": "Tue, 20 Oct 2026 09:00:00 +0900",
-        "category": "open"
-      },
-      {
-        "title": "데무, 롯데백화점 잠실점 리뉴얼... 박춘무 시그니처 컬렉션 국내 첫선",
-        "link": "https://www.handmk.com/news/articleView.html?idxno=44241",
-        "source": "handmk.com",
-        "pubDate": "Tue, 20 Oct 2026 09:00:00 +0900",
-        "category": "open"
-      },
-      {
-        "title": "필드 밖에서 만난 김효주…어메이징크리, 팬 사인회 진행",
-        "link": "https://www.dailian.co.kr/news/view/1703421/?sc=Naver",
-        "source": "dailian.co.kr",
-        "pubDate": "Tue, 20 Oct 2026 08:14:00 +0900",
+        "title": "[부활하는 롯데百] ①실적 역대급, 점포도 사람도 줄인다…'선택과 집중...",
+        "link": "http://www.biztribune.co.kr/news/articleView.html?idxno=360881",
+        "source": "biztribune.co.kr",
+        "pubDate": "Wed, 21 Oct 2026 08:18:00 +0900",
         "category": "etc"
       },
       {
-        "title": "‘어도어 복귀’ 뉴진스 해린, 볼살 쏙 빠졌네…미녀 고양이",
-        "link": "https://www.newsen.com/news_view.php?uid=202610200804240410",
-        "source": "newsen.com",
-        "pubDate": "Tue, 20 Oct 2026 08:13:00 +0900",
+        "title": "앤커, '브랜드 통합'…충전·오디오·스마트홈 신제품 9종 공개",
+        "link": "https://www.cstimes.com/news/articleView.html?idxno=724621",
+        "source": "cstimes.com",
+        "pubDate": "Wed, 21 Oct 2026 08:00:00 +0900",
         "category": "etc"
       },
       {
-        "title": "데무, 롯데백화점 잠실점 새단장…'PARKCHOONMOO' 국내 첫 공개",
-        "link": "https://www.gokorea.kr/news/articleView.html?idxno=881923",
-        "source": "gokorea.kr",
-        "pubDate": "Tue, 20 Oct 2026 08:00:00 +0900",
+        "title": "앤커, 충전기 넘어 오디오·스마트홈까지…브랜드 전면 개편",
+        "link": "https://www.sedaily.com/article/20103931?ref=naver",
+        "source": "sedaily.com",
+        "pubDate": "Wed, 21 Oct 2026 06:01:00 +0900",
         "category": "etc"
       },
       {
-        "title": "뉴진스 해린, 이 얼굴을 1년 6개월이나 못 봤다니…확 달라진 분위기",
-        "link": "https://www.mydaily.co.kr/page/view/2026101919133339978",
-        "source": "mydaily.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 19:24:00 +0900",
+        "title": "“위스키 ‘맥캘란’ 신제품 맛보세요”",
+        "link": "https://www.donga.com/news/Economy/article/all/20261020/134877520/2",
+        "source": "donga.com",
+        "pubDate": "Wed, 21 Oct 2026 00:31:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "“원액 그대로의 묵직한 타격감”… 롯데백화점, ‘맥캘란 110 프루프’...",
+        "link": "https://www.geconomy.co.kr/news/article.html?no=324629",
+        "source": "geconomy.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 23:24:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "앤커 브랜드, 하나로 묶는다···충전 넘어 일상 전반 커버하는 신제품...",
+        "link": "https://www.cnet.co.kr/view/?no=20261020192912",
+        "source": "cnet.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 19:40:00 +0900",
         "category": "etc"
       }
     ],
@@ -881,6 +868,13 @@
     ],
     "ms-seongsu": [
       {
+        "title": "무신사 뷰티 90m 앞 올영…연무장길 동편, 신흥 뷰티 ‘핫플’로",
+        "link": "https://biz.heraldcorp.com/article/10908525?ref=naver",
+        "source": "biz.heraldcorp.com",
+        "pubDate": "Tue, 20 Oct 2026 11:48:00 +0900",
+        "category": "etc"
+      },
+      {
         "title": "무신사뷰티 앞에 올영 ‘핫플’…성수, 뷰티 판 커진다 [언박싱]",
         "link": "https://biz.heraldcorp.com/article/10906770?ref=naver",
         "source": "biz.heraldcorp.com",
@@ -889,6 +883,13 @@
       }
     ],
     "ms-mega-seongsu": [
+      {
+        "title": "쇼핑·체험·관광 다 잡는다…뷰티·패션 대형 매장 경쟁",
+        "link": "https://www.newsway.co.kr/news/view?ud=2026102014570969528",
+        "source": "newsway.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 15:44:00 +0900",
+        "category": "etc"
+      },
       {
         "title": "G마켓도 성수로…유통기업 집결에 '커머스 거점' 부상",
         "link": "https://www.sentv.co.kr/article/view/sentv202610160113",
@@ -923,16 +924,37 @@
         "source": "apparelnews.co.kr",
         "pubDate": "Fri, 16 Oct 2026 09:10:00 +0900",
         "category": "etc"
-      },
-      {
-        "title": "'10조 IPO' 청신호 켜진 무신사…8500억 부채 부담 덜고 글로벌 성장 가...",
-        "link": "https://www.techm.kr/news/articleView.html?idxno=156133",
-        "source": "techm.kr",
-        "pubDate": "Thu, 15 Oct 2026 12:56:00 +0900",
-        "category": "etc"
       }
     ],
     "ov-seongsu": [
+      {
+        "title": "센트온 점포 없이 정기 계약으로 승부하는 B2B 향기 창업 선보여",
+        "link": "https://www.econovill.com/news/articleView.html?idxno=754321",
+        "source": "econovill.com",
+        "pubDate": "Wed, 21 Oct 2026 07:54:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "방한객 쇼핑 1위 화장품…귀국 후 재구매까지 이어지려면",
+        "link": "https://www.donga.com/news/Economy/article/all/20261020/134877014/2",
+        "source": "donga.com",
+        "pubDate": "Tue, 20 Oct 2026 18:01:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "쇼핑·체험·관광 다 잡는다…뷰티·패션 대형 매장 경쟁",
+        "link": "https://www.newsway.co.kr/news/view?ud=2026102014570969528",
+        "source": "newsway.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 15:44:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "무신사 뷰티 90m 앞 올영…연무장길 동편, 신흥 뷰티 ‘핫플’로",
+        "link": "https://biz.heraldcorp.com/article/10908525?ref=naver",
+        "source": "biz.heraldcorp.com",
+        "pubDate": "Tue, 20 Oct 2026 11:48:00 +0900",
+        "category": "etc"
+      },
       {
         "title": "센녹, 유통·카테고리 확장…'K배스'로 오프라인 승부수",
         "link": "http://www.apparelnews.co.kr/news/news_view/?idx=228330",
@@ -945,34 +967,6 @@
         "link": "https://www.hankyung.com/article/2026101914421",
         "source": "hankyung.com",
         "pubDate": "Mon, 19 Oct 2026 17:46:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "\"방한 기념품 노려라\"…식품업계, 안방서 'K푸드' 외국인 수요 공략",
-        "link": "https://www.goodkyung.com/news/articleView.html?idxno=292548",
-        "source": "goodkyung.com",
-        "pubDate": "Mon, 19 Oct 2026 17:28:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "무신사뷰티 앞에 올영 ‘핫플’…성수, 뷰티 판 커진다 [언박싱]",
-        "link": "https://biz.heraldcorp.com/article/10906770?ref=naver",
-        "source": "biz.heraldcorp.com",
-        "pubDate": "Mon, 19 Oct 2026 15:01:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "G마켓도 성수로…유통기업 집결에 '커머스 거점' 부상",
-        "link": "https://www.sentv.co.kr/article/view/sentv202610160113",
-        "source": "sentv.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 08:28:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "올리브영, '뷰티 컨설턴트'로 차별화…상품 추천 넘어 매장 경험 승부수",
-        "link": "https://www.etnews.com/20261016000229",
-        "source": "etnews.com",
-        "pubDate": "Sun, 18 Oct 2026 12:01:00 +0900",
         "category": "etc"
       }
     ],
@@ -1023,134 +1017,134 @@
     ],
     "hd-gasan": [
       {
-        "title": "BYC 본사 떠난 자리, 40층 오피스텔 들어선다…구로디지털단지역 '직통...",
-        "link": "https://realty.chosun.com/site/data/html_dir/2026/10/07/2026100701182.html",
-        "source": "realty.chosun.com",
-        "pubDate": "Wed, 07 Oct 2026 10:14:00 +0900",
+        "title": "BYC, 구로디지털단지역 직통 ‘GD메트로타워’ 23일 분양… 오피스텔 77...",
+        "link": "https://www.g-enews.com/view.php?ud=202610201457065555a9fc143920_1",
+        "source": "g-enews.com",
+        "pubDate": "Tue, 20 Oct 2026 16:18:00 +0900",
         "category": "etc"
       },
       {
-        "title": "정비사업에 대한 주민들의 이해 돕는다...금천구, '제8기 주거정비아카...",
-        "link": "https://www.cnbizm.com/news/articleView.html?idxno=316954",
-        "source": "cnbizm.com",
-        "pubDate": "Fri, 02 Oct 2026 14:02:00 +0900",
+        "title": "BYC, 구로디지털단지역 직통 연결 'GD메트로타워' 23일 견본주택 개관",
+        "link": "https://www.fnnews.com/news/202610201546268819",
+        "source": "fnnews.com",
+        "pubDate": "Tue, 20 Oct 2026 16:10:00 +0900",
         "category": "etc"
       },
       {
-        "title": "구디역 직통연결 계획에 G밸리 배후수요…‘GD메트로타워’ 들어선다",
-        "link": "https://biz.heraldcorp.com/article/10877255?ref=naver",
-        "source": "biz.heraldcorp.com",
-        "pubDate": "Thu, 17 Sep 2026 15:04:00 +0900",
+        "title": "“구로디지털단지역 직결 초역세권”…BYC ‘GD메트로타워’ 23일부터 본...",
+        "link": "https://www.mediapen.com/news/view/1130496",
+        "source": "mediapen.com",
+        "pubDate": "Tue, 20 Oct 2026 14:38:00 +0900",
         "category": "etc"
       },
       {
-        "title": "2호선 구로디지털단지역 연결 ‘GD메트로타워’ 770실 분양",
-        "link": "https://www.hankyung.com/article/202609170377i",
-        "source": "hankyung.com",
-        "pubDate": "Thu, 17 Sep 2026 09:32:00 +0900",
+        "title": "BYC 옛 본사 터 'GD메트로타워' 분양…구로디지털단지역 직통 연결",
+        "link": "https://www.straightnews.co.kr/news/articleView.html?idxno=313522",
+        "source": "straightnews.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 13:24:00 +0900",
         "category": "etc"
       },
       {
-        "title": "\"구로디지털단지역 직결\" BYC, 서울 주거용 오피스텔 'GD메트로타워' 다...",
-        "link": "https://www.asiatoday.co.kr/kn/view.php?key=20260916010006203",
-        "source": "asiatoday.co.kr",
-        "pubDate": "Wed, 16 Sep 2026 17:56:00 +0900",
+        "title": "BYC, ‘GD메트로타워’ 베일 푼다... 오는 23일 ‘견본주택’ 개관",
+        "link": "http://www.beyondpost.co.kr/view.php?ud=20261020103530252818ef25b590_30",
+        "source": "beyondpost.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 10:38:00 +0900",
         "category": "etc"
       },
       {
-        "title": "BYC, 옛 본사 부지 'GD메트로타워'로 탈바꿈…3940억 투입",
-        "link": "https://www.newsway.co.kr/news/view?ud=2026091616070059159",
-        "source": "newsway.co.kr",
-        "pubDate": "Wed, 16 Sep 2026 16:50:00 +0900",
+        "title": "BYC, 옛 본사 부지 'GD메트로타워' 견본주택 개관…오피스텔 770실 공급",
+        "link": "https://www.businessplus.kr/news/articleView.html?idxno=118437",
+        "source": "businessplus.kr",
+        "pubDate": "Tue, 20 Oct 2026 10:36:00 +0900",
         "category": "etc"
       }
     ],
     "lt-bonjeom": [
       {
-        "title": "롯데백화점, 보훈부와 업무협약…매장·고객 접점서 '일상 속 보훈' 확산",
-        "link": "https://www.ajunews.com/view/20261020084004306",
-        "source": "ajunews.com",
-        "pubDate": "Tue, 20 Oct 2026 08:44:00 +0900",
+        "title": "앤커, '브랜드 통합'…충전·오디오·스마트홈 신제품 9종 공개",
+        "link": "https://www.cstimes.com/news/articleView.html?idxno=724621",
+        "source": "cstimes.com",
+        "pubDate": "Wed, 21 Oct 2026 08:00:00 +0900",
         "category": "etc"
       },
       {
-        "title": "\"외국인 매출 1조\" 롯데百, K-패션·미식으로 성장축 넓힌다",
-        "link": "https://www.ezyeconomy.com/news/articleView.html?idxno=240939",
-        "source": "ezyeconomy.com",
-        "pubDate": "Tue, 20 Oct 2026 07:00:00 +0900",
+        "title": "앤커, 충전기 넘어 오디오·스마트홈까지…브랜드 전면 개편",
+        "link": "https://www.sedaily.com/article/20103931?ref=naver",
+        "source": "sedaily.com",
+        "pubDate": "Wed, 21 Oct 2026 06:01:00 +0900",
         "category": "etc"
       },
       {
-        "title": "\"방한 기념품 노려라\"…식품업계, 안방서 'K푸드' 외국인 수요 공략",
-        "link": "https://www.goodkyung.com/news/articleView.html?idxno=292548",
-        "source": "goodkyung.com",
-        "pubDate": "Mon, 19 Oct 2026 17:28:00 +0900",
+        "title": "한국인은 성심당 줄 설때…‘빵지순례’ 외국인은 프랜차이즈로 몰렸다",
+        "link": "https://www.mk.co.kr/article/12181086",
+        "source": "mk.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 21:25:00 +0900",
         "category": "etc"
       },
       {
-        "title": "'쇼핑 1번지' 명동의 부활···K패션 글로벌 시험무대로",
-        "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2481664",
-        "source": "enewstoday.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 14:39:00 +0900",
+        "title": "앤커 브랜드, 하나로 묶는다···충전 넘어 일상 전반 커버하는 신제품...",
+        "link": "https://www.cnet.co.kr/view/?no=20261020192912",
+        "source": "cnet.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 19:40:00 +0900",
         "category": "etc"
       },
       {
-        "title": "롯데쇼핑 주가 장중 10%대 강세, 백화점·마트 등 본업 성장에 3분기 실...",
-        "link": "https://www.businesspost.co.kr/BP?command=article_view&num=449674",
-        "source": "businesspost.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 13:00:00 +0900",
+        "title": "앤커코리아, 프리미엄 라이프스타일 테크 브랜드로 리브랜딩",
+        "link": "https://www.datanet.co.kr/news/articleView.html?idxno=215225",
+        "source": "datanet.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 19:10:00 +0900",
         "category": "etc"
       },
       {
-        "title": "백화점 성장 쉬어가는 3분기…원화 강세에 '숨 고르기'",
-        "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4439857",
-        "source": "news.einfomax.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 10:14:00 +0900",
+        "title": "앤커, 사운드코어·유피 '앤커'로 통합⋯프리미엄 테크 브랜드 전환",
+        "link": "https://www.autodaily.co.kr/news/articleView.html?idxno=601323",
+        "source": "autodaily.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 18:46:00 +0900",
         "category": "etc"
       }
     ],
     "sfm-wolgye": [
       {
-        "title": "이마트, 22일 은평ㆍ월계 시작으로 초저가 균일가샵 ‘와우샵’ 단독 매...",
-        "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610191058482540109",
+        "title": "이마트, 초저가 생활용품 전문점 ‘와우샵’ 본격 가동",
+        "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610210836102500404",
         "source": "dnews.co.kr",
-        "pubDate": "Tue, 20 Oct 2026 06:00:00 +0900",
-        "category": "popup"
-      },
-      {
-        "title": "슈퍼셀 '브롤스타즈' 한국 정서 파고 들다",
-        "link": "https://www.tgdaily.co.kr/news/articleView.html?idxno=407492",
-        "source": "tgdaily.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 15:48:00 +0900",
+        "pubDate": "Wed, 21 Oct 2026 08:40:00 +0900",
         "category": "etc"
       },
       {
-        "title": "칠성사이다·나랑드사이다도 아이돌 마케팅…식음료업계 아이돌·게임 ...",
-        "link": "https://www.polinews.co.kr/news/articleView.html?idxno=745945",
-        "source": "polinews.co.kr",
-        "pubDate": "Fri, 16 Oct 2026 17:03:00 +0900",
+        "title": "이마트, 초저가 생활용품 '와우샵' 대공개…다이소와의 경쟁 뜨거워진다",
+        "link": "https://www.gokorea.kr/news/articleView.html?idxno=882175",
+        "source": "gokorea.kr",
+        "pubDate": "Wed, 21 Oct 2026 08:38:00 +0900",
         "category": "etc"
       },
       {
-        "title": "[푸드·다이닝트렌드] 켈로그, 브롤스타즈 한정판 기획팩 총 10만 팩 출...",
-        "link": "https://www.ibabynews.com/news/articleView.html?idxno=155285",
-        "source": "ibabynews.com",
-        "pubDate": "Fri, 16 Oct 2026 11:34:00 +0900",
+        "title": "이마트, 초저가 생활용품 전문점 '와우샵' 본격 확대...상품 개발·글로...",
+        "link": "https://www.ilyoseoul.co.kr/news/articleView.html?idxno=523956",
+        "source": "ilyoseoul.co.kr",
+        "pubDate": "Wed, 21 Oct 2026 08:30:00 +0900",
         "category": "etc"
       },
       {
-        "title": "[G-MEGA 패치] 소울 스트라이크 성장 시스템 확장·배틀그라운드 벤틀리...",
-        "link": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065602452220519",
-        "source": "megaeconomy.co.kr",
-        "pubDate": "Thu, 15 Oct 2026 17:42:00 +0900",
+        "title": "5000원 이하 1만2000여종…이마트 ‘와우샵’, 초저가 시장 키운다",
+        "link": "https://biz.heraldcorp.com/article/10909355?ref=naver",
+        "source": "biz.heraldcorp.com",
+        "pubDate": "Wed, 21 Oct 2026 08:28:00 +0900",
         "category": "etc"
       },
       {
-        "title": "[똑똑한신상] 롯데웰푸드 치플레 협업 치즈 디저트·CJ프레시웨이 저당...",
-        "link": "https://www.ekn.kr/web/view.php?key=20261015023146832",
-        "source": "ekn.kr",
-        "pubDate": "Thu, 15 Oct 2026 17:36:00 +0900",
+        "title": "“다이소에 도전장”…이마트, 1만원 이하 ‘와우샵’ 본격 확대",
+        "link": "https://www.fntimes.com/html/view.php?ud=20261021081535882b5b890e35c_18",
+        "source": "fntimes.com",
+        "pubDate": "Wed, 21 Oct 2026 08:20:00 +0900",
         "category": "etc"
+      },
+      {
+        "title": "이마트 할인행사, 프라이팬 5000원·이불 5000원…'와우샵' 문 연다",
+        "link": "https://www.kizmom.com/news/articleView.html?idxno=113428",
+        "source": "kizmom.com",
+        "pubDate": "Wed, 21 Oct 2026 08:06:00 +0900",
+        "category": "sale"
       }
     ],
     "ga-apgujeong": [
@@ -1243,6 +1237,13 @@
     ],
     "daiso-myeongdong": [
       {
+        "title": "[기획] 다이소, 글로벌 쇼핑 성지 '승승장구'",
+        "link": "https://www.kfenews.co.kr/news/articleView.html?idxno=666643",
+        "source": "kfenews.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 19:20:00 +0900",
+        "category": "etc"
+      },
+      {
         "title": "아성다이소, 본업은 물류·모회사는 명동 1280억…커지는 자본배분",
         "link": "http://sateconomy.co.kr/news/view/1065589906379902",
         "source": "sateconomy.co.kr",
@@ -1276,13 +1277,6 @@
         "source": "nongaek.com",
         "pubDate": "Mon, 21 Sep 2026 12:12:00 +0900",
         "category": "etc"
-      },
-      {
-        "title": "다이소, ‘SPF 미달’ 논란 반박…“선크림 8종 식약처 기준 충족”",
-        "link": "https://www.socialvalue.kr/news/view/1065578984702702",
-        "source": "socialvalue.kr",
-        "pubDate": "Mon, 21 Sep 2026 11:12:00 +0900",
-        "category": "etc"
       }
     ],
     "daiso-gangnam": [],
@@ -1298,49 +1292,63 @@
     "daiso-seongsu": [],
     "hd-pangyo": [
       {
-        "title": "\"캪틴큐 한잔에 피자설기 한입\"…유통가, '뉴트로' 승부수 띄었다",
-        "link": "https://www.ziksir.com/news/articleView.html?idxno=149871",
+        "title": "[패트롤] 구미시-김천시-문경시",
+        "link": "https://www.ekn.kr/web/view.php?key=20261021025278866",
+        "source": "ekn.kr",
+        "pubDate": "Wed, 21 Oct 2026 06:40:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "문경감홍사과, 백화점 3사서 판매 시작…공급물량 대폭 확대",
+        "link": "https://www.gukjenews.com/news/articleView.html?idxno=3727279",
+        "source": "gukjenews.com",
+        "pubDate": "Tue, 20 Oct 2026 20:56:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "문경감홍사과, 백화점 판로 넓혀 프리미엄 시장 공략",
+        "link": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4087857",
+        "source": "kyongbuk.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 17:36:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "포포라보, 출시 6개월 만에 올인원 샴푸&바디워시 10만 병 판매",
+        "link": "https://www.kizmom.com/news/articleView.html?idxno=113420",
+        "source": "kizmom.com",
+        "pubDate": "Tue, 20 Oct 2026 16:39:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "급한마음탕수육, 현대백화점 3개 지점 팝업 마무리",
+        "link": "https://www.ziksir.com/news/articleView.html?idxno=150066",
         "source": "ziksir.com",
-        "pubDate": "Mon, 19 Oct 2026 14:00:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "프리미엄 양모 수면 브랜드 '92도씨', 현대백화점 판교점 팝업 성료",
-        "link": "https://www.woodkorea.co.kr/news/articleView.html?idxno=91928",
-        "source": "woodkorea.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 13:04:00 +0900",
+        "pubDate": "Tue, 20 Oct 2026 15:32:00 +0900",
         "category": "popup"
       },
       {
-        "title": "“입점 제안 거절했지만”…로꽁이 키디키디와 손잡은 이유",
-        "link": "https://economist.co.kr/article/view/ecn202610130037",
-        "source": "economist.co.kr",
-        "pubDate": "Sun, 18 Oct 2026 07:01:00 +0900",
-        "category": "popup"
-      },
-      {
-        "title": "‘인스타 브랜드’ 찾아 키운다…키즈 플랫폼이 신생 브랜드에 꽂힌 이...",
-        "link": "https://economist.co.kr/article/view/ecn202610140014",
-        "source": "economist.co.kr",
-        "pubDate": "Sun, 18 Oct 2026 06:01:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "“1인용 훠궈도 나왔다”…中 하이디라오, 한국서 몸집 키운다[푸드360]",
-        "link": "https://biz.heraldcorp.com/article/10905313?ref=naver",
-        "source": "biz.heraldcorp.com",
-        "pubDate": "Sat, 17 Oct 2026 11:51:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "비블리안, 터키산 석류 함유 샴푸 2종 출시",
-        "link": "https://www.vegannews.co.kr/news/article.html?no=392469",
-        "source": "vegannews.co.kr",
-        "pubDate": "Sat, 17 Oct 2026 09:02:00 +0900",
+        "title": "\"훈남이 구우니 2시간 대기\"⋯팬덤 몰고 다니는 '붕어빵 장사'",
+        "link": "http://www.inews24.com/view/2016863",
+        "source": "inews24.com",
+        "pubDate": "Tue, 20 Oct 2026 15:31:00 +0900",
         "category": "etc"
       }
     ],
     "ss-hanam": [
+      {
+        "title": "유통은 전문화, AI·콘텐츠엔 1조원대 투자…정용진의 '선택과 확장'",
+        "link": "https://www.news1.kr/industry/distribution/6326316",
+        "source": "news1.kr",
+        "pubDate": "Wed, 21 Oct 2026 06:10:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "홈카페 넘어 사무실로 진출…동서식품, '카누 바리스타' 판 키운다",
+        "link": "https://www.newsway.co.kr/news/view?ud=2026102009510536061",
+        "source": "newsway.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 10:02:00 +0900",
+        "category": "etc"
+      },
       {
         "title": "[위클리오늘] 내년 도서관에서 뭐 배울까? 하남시, 독서문화 프로그램 ...",
         "link": "http://www.weeklytoday.com/news/articleView.html?idxno=798642",
@@ -1368,63 +1376,49 @@
         "source": "fashionbiz.co.kr",
         "pubDate": "Mon, 19 Oct 2026 14:24:00 +0900",
         "category": "etc"
-      },
-      {
-        "title": "헌터, 기능성과 디자인 겸비한 겨울 웨더웨어 제안",
-        "link": "http://www.apparelnews.co.kr/news/news_view/?idx=228336",
-        "source": "apparelnews.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 13:26:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "\"차 빼세요\" vs \"편히 대세요\"…백화점 빅4 '무료주차' 동상이몽",
-        "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1728314",
-        "source": "ebn.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 12:24:00 +0900",
-        "category": "etc"
       }
     ],
     "sf-wirye": [
       {
-        "title": "“쇼핑하며 무형유산 만나요”…국가유산체험센터, 스타필드 시티·빌리...",
-        "link": "https://biz.heraldcorp.com/article/10907201?ref=naver",
-        "source": "biz.heraldcorp.com",
-        "pubDate": "Mon, 19 Oct 2026 13:48:00 +0900",
+        "title": "앤커, '브랜드 통합'…충전·오디오·스마트홈 신제품 9종 공개",
+        "link": "https://www.cstimes.com/news/articleView.html?idxno=724621",
+        "source": "cstimes.com",
+        "pubDate": "Wed, 21 Oct 2026 08:00:00 +0900",
         "category": "etc"
       },
       {
-        "title": "이가자헤어비스, 2026 강남페스티벌 K컬쳐 페스타서 헤어쇼 선보여",
-        "link": "https://www.bntnews.co.kr/article/view/bnt202610130257",
-        "source": "bntnews.co.kr",
-        "pubDate": "Tue, 13 Oct 2026 14:32:00 +0900",
+        "title": "앤커, 충전기 넘어 오디오·스마트홈까지…브랜드 전면 개편",
+        "link": "https://www.sedaily.com/article/20103931?ref=naver",
+        "source": "sedaily.com",
+        "pubDate": "Wed, 21 Oct 2026 06:01:00 +0900",
         "category": "etc"
       },
       {
-        "title": "예비차 없이 3대로 달리던 송파01번 마을버스, 한 대 더 달린다",
-        "link": "https://www.womennews.co.kr/news/articleView.html?idxno=283013",
-        "source": "womennews.co.kr",
-        "pubDate": "Wed, 07 Oct 2026 11:25:00 +0900",
+        "title": "앤커 브랜드, 하나로 묶는다···충전 넘어 일상 전반 커버하는 신제품...",
+        "link": "https://www.cnet.co.kr/view/?no=20261020192912",
+        "source": "cnet.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 19:40:00 +0900",
         "category": "etc"
       },
       {
-        "title": "송파구, 출퇴근길 주민들의 버스 대기시간 줄이기 위해 마을버스 '송파...",
-        "link": "https://www.cnbizm.com/news/articleView.html?idxno=316876",
-        "source": "cnbizm.com",
-        "pubDate": "Thu, 01 Oct 2026 17:24:00 +0900",
+        "title": "앤커코리아, 프리미엄 라이프스타일 테크 브랜드로 리브랜딩",
+        "link": "https://www.datanet.co.kr/news/articleView.html?idxno=215225",
+        "source": "datanet.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 19:10:00 +0900",
         "category": "etc"
       },
       {
-        "title": "송파구, 송파01번 마을버스 증차…배차간격 3~4분 단축",
-        "link": "https://www.fntimes.com/html/view.php?ud=202610011709314604b372994c95_18",
-        "source": "fntimes.com",
-        "pubDate": "Thu, 01 Oct 2026 17:14:00 +0900",
+        "title": "앤커, 사운드코어·유피 '앤커'로 통합⋯프리미엄 테크 브랜드 전환",
+        "link": "https://www.autodaily.co.kr/news/articleView.html?idxno=601323",
+        "source": "autodaily.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 18:46:00 +0900",
         "category": "etc"
       },
       {
-        "title": "송파구, 마을버스 송파01번 1대 증차··· 배차간격 3~4분 단축",
-        "link": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160291529150390",
-        "source": "siminilbo.co.kr",
-        "pubDate": "Thu, 01 Oct 2026 16:32:00 +0900",
+        "title": "[현장] 앤커, 브랜드 통합으로 프리미엄 공략",
+        "link": "https://www.kfenews.co.kr/news/articleView.html?idxno=666625",
+        "source": "kfenews.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 18:16:00 +0900",
         "category": "etc"
       }
     ],
@@ -1807,6 +1801,13 @@
     ],
     "lt-incheon": [
       {
+        "title": "더휴식, 메리어트 협업 '아늑 시그니처 인천 구월' 20일 개관",
+        "link": "https://www.mt.co.kr/industry/2026/10/20/2026102009474233094",
+        "source": "mt.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 17:51:00 +0900",
+        "category": "etc"
+      },
+      {
         "title": "페퍼앤솔트, 롯데와 텔레토비 가을 팝업… '도심 속 특별한 피크닉'",
         "link": "https://www.fashionbiz.co.kr/article/230390",
         "source": "fashionbiz.co.kr",
@@ -1840,13 +1841,6 @@
         "source": "lcnews.co.kr",
         "pubDate": "Wed, 14 Oct 2026 06:00:00 +0900",
         "category": "popup"
-      },
-      {
-        "title": "장난감에 ‘진심’인 어른들… ‘키덜트’ 공략 나선 인천 유통가",
-        "link": "https://www.kyeongin.com/article/1772376",
-        "source": "kyeongin.com",
-        "pubDate": "Mon, 12 Oct 2026 19:22:00 +0900",
-        "category": "etc"
       }
     ],
     "hd-songdo": [
@@ -1941,6 +1935,27 @@
     ],
     "lt-jungdong": [
       {
+        "title": "부천시, 소중한 것을 나누는 기쁨 '제7회 소·나·기' 행사 성료",
+        "link": "https://www.kmaeil.com/news/articleView.html?idxno=654971",
+        "source": "kmaeil.com",
+        "pubDate": "Tue, 20 Oct 2026 14:26:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "부천시, 11개 기업·단체와 나눔장터 개최…수익금 전액 기부",
+        "link": "https://www.m-i.kr/news/articleView.html?idxno=2008009",
+        "source": "m-i.kr",
+        "pubDate": "Tue, 20 Oct 2026 13:12:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "경기 부천시, '소·나·기' 나눔 행사 개최…판매 수익금 전액 기부",
+        "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5073582",
+        "source": "shinailbo.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 10:02:00 +0900",
+        "category": "etc"
+      },
+      {
         "title": "중동역 걸어서 누리는 새 아파트… ‘중동역 다채로움 더원’ 19일부터...",
         "link": "https://www.dt.co.kr/article/12089879?ref=naver",
         "source": "dt.co.kr",
@@ -1960,30 +1975,30 @@
         "source": "newsis.com",
         "pubDate": "Sat, 03 Oct 2026 12:01:00 +0900",
         "category": "sale"
-      },
-      {
-        "title": "씰리침대, 롯데백화점 웨딩페어 참여",
-        "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=869777",
-        "source": "hansbiz.co.kr",
-        "pubDate": "Fri, 02 Oct 2026 16:38:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "씰리침대, 롯데백화점 웨딩페어 참여···신혼부부 풍성한 혜택 제공",
-        "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2476451",
-        "source": "enewstoday.co.kr",
-        "pubDate": "Fri, 02 Oct 2026 13:26:00 +0900",
-        "category": "gift"
-      },
-      {
-        "title": "씰리침대, 롯데백화점 웨딩페어 참여…\"전국 18개 매장서 신혼부부 위한...",
-        "link": "http://www.paxetv.com/news/articleView.html?idxno=283230",
-        "source": "paxetv.com",
-        "pubDate": "Fri, 02 Oct 2026 09:42:00 +0900",
-        "category": "etc"
       }
     ],
     "hd-kintex": [
+      {
+        "title": ". \"비만치료 주사가 답일까\"…일산백병원, 건강한 체중관리 강좌 마련",
+        "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=211383",
+        "source": "thefirstmedia.net",
+        "pubDate": "Wed, 21 Oct 2026 00:42:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "\"전시·관광 융합한 마이스 새 모델\"…'GCC 고양 페스타', 6천명 북적",
+        "link": "http://www.bizwnews.com/news/articleView.html?idxno=149453",
+        "source": "bizwnews.com",
+        "pubDate": "Tue, 20 Oct 2026 18:24:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "[건강뉴스] 성북구, 직원 정신건강 챙기는 '마음 챙김데이' 운영 外",
+        "link": "https://www.ibabynews.com/news/articleView.html?idxno=155379",
+        "source": "ibabynews.com",
+        "pubDate": "Tue, 20 Oct 2026 14:08:00 +0900",
+        "category": "etc"
+      },
       {
         "title": "일산백병원, 비만치료 주사 효과·생활 속 예방법 건강강좌 개최",
         "link": "http://www.docdocdoc.co.kr/news/articleView.html?idxno=3043752",
@@ -2003,27 +2018,6 @@
         "link": "http://www.doctorstimes.com/news/articleView.html?idxno=240551",
         "source": "doctorstimes.com",
         "pubDate": "Mon, 19 Oct 2026 16:06:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "일산백병원, '비만 예방' 건강강좌...비만치료 주사 효과·체중관리법 등...",
-        "link": "https://www.rapportian.com/news/articleView.html?idxno=241402",
-        "source": "rapportian.com",
-        "pubDate": "Mon, 19 Oct 2026 13:10:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "일산백병원, 24일 '비만 예방' 건강강좌 개최…체중관리법 소개",
-        "link": "https://www.medipana.com/news/articleView.html?idxno=419584",
-        "source": "medipana.com",
-        "pubDate": "Mon, 19 Oct 2026 11:44:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "반복되는 다이어트와 요요, 건강한 체중관리 방법은?",
-        "link": "https://www.ekn.kr/web/view.php?key=20261019021467876",
-        "source": "ekn.kr",
-        "pubDate": "Mon, 19 Oct 2026 10:14:00 +0900",
         "category": "etc"
       }
     ],
@@ -2073,6 +2067,20 @@
     ],
     "sf-goyang": [
       {
+        "title": "[오늘의 주요일정]경기북부(10월21일 수요일)",
+        "link": "https://www.newsis.com/view/NISX20261019_0003831145",
+        "source": "newsis.com",
+        "pubDate": "Wed, 21 Oct 2026 05:00:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "투우사의 빨간 천 닮은 우산…또도아 개인전 'On My Way'",
+        "link": "https://www.hankyung.com/article/202610203201i",
+        "source": "hankyung.com",
+        "pubDate": "Tue, 20 Oct 2026 15:09:00 +0900",
+        "category": "etc"
+      },
+      {
         "title": "[오늘의 주요일정]경기북부(10월20일 화요일)",
         "link": "https://www.newsis.com/view/NISX20261019_0003831142",
         "source": "newsis.com",
@@ -2098,20 +2106,6 @@
         "link": "http://www.kdfnews.com/news/articleView.html?idxno=189534",
         "source": "kdfnews.com",
         "pubDate": "Mon, 19 Oct 2026 17:08:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "\"19일 호텔침대모노 등 '인기6종' 최저가\" 한샘 '쌤페스타' 4주차 혜택집...",
-        "link": "https://www.catchnews.kr/news/articleView.html?idxno=129467",
-        "source": "catchnews.kr",
-        "pubDate": "Mon, 19 Oct 2026 15:54:00 +0900",
-        "category": "gift"
-      },
-      {
-        "title": "헌터, 기능성과 디자인 겸비한 겨울 웨더웨어 제안",
-        "link": "http://www.apparelnews.co.kr/news/news_view/?idx=228336",
-        "source": "apparelnews.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 13:26:00 +0900",
         "category": "etc"
       }
     ],
@@ -2184,6 +2178,13 @@
     ],
     "lt-paju": [
       {
+        "title": "[위클리오늘] 파주시, '2026년 제2차 가치동행 페스타' 성황리 마무리",
+        "link": "http://www.weeklytoday.com/news/articleView.html?idxno=798725",
+        "source": "weeklytoday.com",
+        "pubDate": "Tue, 20 Oct 2026 11:14:00 +0900",
+        "category": "etc"
+      },
+      {
         "title": "[Weekly New키즈] 스탬프 모으고 고래 만나고 … 가을 아울렛서 '체험 나...",
         "link": "https://biz.newdaily.co.kr/site/data/html/2026/10/08/2026100800039.html",
         "source": "biz.newdaily.co.kr",
@@ -2217,17 +2218,24 @@
         "source": "sateconomy.co.kr",
         "pubDate": "Fri, 18 Sep 2026 21:26:00 +0900",
         "category": "etc"
-      },
-      {
-        "title": "[금주의 파주시] 파주포크페스티벌, '뉴 웨이브'로 포크의 새로운 가능...",
-        "link": "https://www.joongboo.com/news/articleView.html?idxno=363737037",
-        "source": "joongboo.com",
-        "pubDate": "Fri, 18 Sep 2026 10:00:00 +0900",
-        "category": "etc"
       }
     ],
     "ss-siheung": [],
     "lt-ansan": [
+      {
+        "title": "쇼핑바구니 가득 안경테…K안경점, 관광명소로 뜬다",
+        "link": "https://www.sedaily.com/article/20104001?ref=naver",
+        "source": "sedaily.com",
+        "pubDate": "Wed, 21 Oct 2026 06:10:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "“세련되고 저렴한데 제작도 빨라요”…올다무·약국 이어 ‘K안경’에...",
+        "link": "https://www.sedaily.com/article/20103896?ref=naver",
+        "source": "sedaily.com",
+        "pubDate": "Tue, 20 Oct 2026 17:14:00 +0900",
+        "category": "etc"
+      },
       {
         "title": "'로봇·AI 메카' 도약하는 안산...옛 홈플러스 부지 '아르뮤제자이' 수혜...",
         "link": "https://www.fnnews.com/news/202610141628400202",
@@ -2260,6 +2268,27 @@
     "lt-gwangmy": [],
     "ikea-gwangmy": [
       {
+        "title": "[CAR 브리프] KG모빌리티ㆍ한국타이어ㆍBMWㆍ폭스바겐코리아ㆍ아우토크...",
+        "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610201740097690385",
+        "source": "dnews.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 18:20:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "휘슬, 광명시 주정차 단속 알림 서비스 시작…관광·쇼핑객 편의 확대",
+        "link": "http://www.thefirstmedia.net/news/articleView.html?idxno=211262",
+        "source": "thefirstmedia.net",
+        "pubDate": "Tue, 20 Oct 2026 14:34:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "휘슬, 광명시 주정차 단속 알림 서비스 제공",
+        "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=708362",
+        "source": "digitaltoday.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 09:18:00 +0900",
+        "category": "etc"
+      },
+      {
         "title": "이케아, 히말라야 야생동물 어린이 컬렉션 '알프탈(ALPTALL)'",
         "link": "https://www.imwood.co.kr/news/articleView.html?idxno=42051",
         "source": "imwood.co.kr",
@@ -2279,30 +2308,16 @@
         "source": "munhwa.com",
         "pubDate": "Sun, 27 Sep 2026 00:00:00 +0900",
         "category": "etc"
-      },
-      {
-        "title": "추석 당일에도 문 여는 아울렛 있다…추석 연휴 문 여는 곳·쉬는 곳 한...",
-        "link": "https://www.wikitree.co.kr/articles/1161298",
-        "source": "wikitree.co.kr",
-        "pubDate": "Thu, 24 Sep 2026 05:12:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "[더벨][이케아코리아 리빌딩] '이케아=블루박스' 공식 탈피…12년만의 독...",
-        "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609211201218320106978",
-        "source": "thebell.co.kr",
-        "pubDate": "Wed, 23 Sep 2026 14:28:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "\"성과를 공유하고 다름을 이해할 때\" 지속가능한 협력의 조건",
-        "link": "https://futurechosun.com/?p=160175",
-        "source": "futurechosun.com",
-        "pubDate": "Tue, 22 Sep 2026 07:06:00 +0900",
-        "category": "etc"
       }
     ],
     "lt-pyeongc": [
+      {
+        "title": "[르포] \"매드포갈릭 = 스테이크, 고정관념 깬다\" 매드포갈릭의 브런치 ...",
+        "link": "https://biz.newdaily.co.kr/site/data/html/2026/10/20/2026102000245.html",
+        "source": "biz.newdaily.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 15:32:00 +0900",
+        "category": "etc"
+      },
       {
         "title": "안양시, 여성 진로 페스티벌 개최",
         "link": "http://www.metroseoul.co.kr/article/20261015500473",
@@ -2337,16 +2352,16 @@
         "source": "globalepic.co.kr",
         "pubDate": "Thu, 15 Oct 2026 21:16:00 +0900",
         "category": "etc"
-      },
-      {
-        "title": "안양시, 16일 범계역 광장서 여성 진로 페스티벌",
-        "link": "https://www.siminilbo.co.kr/news/newsview.php?ncode=1160274088340422",
-        "source": "siminilbo.co.kr",
-        "pubDate": "Thu, 15 Oct 2026 17:16:00 +0900",
-        "category": "etc"
       }
     ],
     "lt-dongtan": [
+      {
+        "title": "[21일 화성시] 베트남 ‘하노이 기계전시회’서 74건 수출상담 등",
+        "link": "https://www.asiatime.co.kr/article/20261021500027",
+        "source": "asiatime.co.kr",
+        "pubDate": "Wed, 21 Oct 2026 08:36:00 +0900",
+        "category": "etc"
+      },
       {
         "title": "완성형 신도시, 인프라 경쟁력에 신축 희소성 더해져… 신규 분양 관심",
         "link": "https://www.eroun.net/news/articleView.html?idxno=92831",
@@ -2381,16 +2396,37 @@
         "source": "wowtv.co.kr",
         "pubDate": "Mon, 19 Oct 2026 09:45:00 +0900",
         "category": "etc"
-      },
-      {
-        "title": "달리며 지키는 우리 동네… 화성동탄署, 민·관·경 합동 ‘러닝 순찰’...",
-        "link": "https://www.kgnews.co.kr/news/article.html?no=915431",
-        "source": "kgnews.co.kr",
-        "pubDate": "Sun, 18 Oct 2026 18:50:00 +0900",
-        "category": "etc"
       }
     ],
     "sf-anseong": [
+      {
+        "title": "문화도시 안성의 새로운 실험, 그림책과 공예를 잇다",
+        "link": "https://www.gukjenews.com/news/articleView.html?idxno=3727375",
+        "source": "gukjenews.com",
+        "pubDate": "Tue, 20 Oct 2026 23:00:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "'매출 감소' 매드포갈릭, '모두의 다이닝'으로 반등 승부수",
+        "link": "https://news.bizwatch.co.kr/article/consumer/2026/10/20/0038",
+        "source": "news.bizwatch.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 16:35:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "[20일 안성시] 민관경 합동 체납차량 일제단속 등",
+        "link": "https://www.asiatime.co.kr/article/20261020500303",
+        "source": "asiatime.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 14:58:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "안성시, 스타필드서 23~25일 '별이야 그림책 놀이축제'",
+        "link": "https://www.newsis.com/view/NISX20261020_0003833484",
+        "source": "newsis.com",
+        "pubDate": "Tue, 20 Oct 2026 14:49:00 +0900",
+        "category": "etc"
+      },
       {
         "title": "[스타트UP] “어린이 숏폼 넘어 성장 플랫폼으로” 키즐링, AI로 어린이...",
         "link": "https://biz.chosun.com/industry/business-venture/2026/10/17/AKQLOO5VEJHWRATHXR65ZKCYLM/?utm_source=naver&utm_medium=original&utm_campaign=biz",
@@ -2403,34 +2439,6 @@
         "link": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5071346",
         "source": "shinailbo.co.kr",
         "pubDate": "Tue, 13 Oct 2026 16:20:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "평택 핵심 입지 자랑… 지제역 인프라 공유",
-        "link": "https://www.seoul.co.kr/news/economy/estate/2026/10/13/20261013016003?wlog_tag3=naver",
-        "source": "seoul.co.kr",
-        "pubDate": "Tue, 13 Oct 2026 05:03:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "‘삼전 평택캠퍼스 직주근접’ 한화포레나 지제역, 이달 분양",
-        "link": "https://www.edaily.co.kr/News/Read?newsId=02955286645611936&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-        "source": "edaily.co.kr",
-        "pubDate": "Sun, 11 Oct 2026 18:25:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "'광동 V라인 슬림핏', 올리브베러 입점...\"몸은 가볍게 루틴은 가깝게\"",
-        "link": "http://www.metroseoul.co.kr/article/20261011500230",
-        "source": "metroseoul.co.kr",
-        "pubDate": "Sun, 11 Oct 2026 15:38:00 +0900",
-        "category": "popup"
-      },
-      {
-        "title": "BYD코리아, 씨라이언 6 전국 연비 챌린지...10일부터 진행",
-        "link": "https://www.news2day.co.kr/article/20261008500336",
-        "source": "news2day.co.kr",
-        "pubDate": "Fri, 09 Oct 2026 06:32:00 +0900",
         "category": "etc"
       }
     ],
@@ -2481,6 +2489,27 @@
     ],
     "lt-uiwang": [
       {
+        "title": "우니꼬코리아, '멜로우TV 팀나빠, 파티타임!' 팝업스토어 누적 방문객 약...",
+        "link": "https://www.gukjenews.com/news/articleView.html?idxno=3726461",
+        "source": "gukjenews.com",
+        "pubDate": "Tue, 20 Oct 2026 09:50:00 +0900",
+        "category": "popup"
+      },
+      {
+        "title": "우니꼬코리아, 의왕·동부산서 '멜로우TV 팀나빠, 파티타임!' 팝업스토어...",
+        "link": "http://www.e2news.com/news/articleView.html?idxno=335244",
+        "source": "e2news.com",
+        "pubDate": "Tue, 20 Oct 2026 09:46:00 +0900",
+        "category": "popup"
+      },
+      {
+        "title": "우니꼬코리아, ‘멜로우TV 팀나빠, 파티타임!’ 팝업 종료… 누적 방문...",
+        "link": "https://www.segye.com/newsView/20261020506778?OutUrl=naver",
+        "source": "segye.com",
+        "pubDate": "Tue, 20 Oct 2026 09:42:00 +0900",
+        "category": "popup"
+      },
+      {
         "title": "우니꼬코리아, ‘멜로우TV 팀나빠, 파티타임!’ 팝업스토어 성료",
         "link": "https://www.dt.co.kr/article/12090007?ref=naver",
         "source": "dt.co.kr",
@@ -2500,27 +2529,6 @@
         "source": "donga.com",
         "pubDate": "Sun, 18 Oct 2026 15:30:00 +0900",
         "category": "popup"
-      },
-      {
-        "title": "의왕시청소년재단, 'TENsion UP!' 참가 동아리 모집",
-        "link": "https://www.m-i.kr/news/articleView.html?idxno=2005750",
-        "source": "m-i.kr",
-        "pubDate": "Wed, 14 Oct 2026 13:06:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "“치즈가 좋아 물소 24마리를 들였다”…두 창업자의 ‘국내 첫 물소농...",
-        "link": "https://www.etoday.co.kr/news/view/2634180",
-        "source": "etoday.co.kr",
-        "pubDate": "Mon, 12 Oct 2026 05:02:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "온라인 시대인데 매장은 더 커졌다…유니클로·자라·무신사 오프라인 ...",
-        "link": "https://www.segye.com/newsView/20261011503221?OutUrl=naver",
-        "source": "segye.com",
-        "pubDate": "Sun, 11 Oct 2026 06:40:00 +0900",
-        "category": "etc"
       }
     ],
     "hd-gimpo": [
@@ -2569,6 +2577,20 @@
     ],
     "ss-uijeongbu": [
       {
+        "title": "‘제2의 매드포갈릭’ 까사페드로 출격… 엠에프지코리아, 외식사업 다...",
+        "link": "https://www.ekn.kr/web/view.php?key=20261020029568712",
+        "source": "ekn.kr",
+        "pubDate": "Tue, 20 Oct 2026 15:02:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "아웃백, 12월 여의도 IFC 입점…가족·몰링족 '정조준'",
+        "link": "https://www.goodkyung.com/news/articleView.html?idxno=292584",
+        "source": "goodkyung.com",
+        "pubDate": "Tue, 20 Oct 2026 14:44:00 +0900",
+        "category": "popup"
+      },
+      {
         "title": "경기 출산율 오르자 유통가 '아이 모시기' 경쟁 나섰다",
         "link": "https://www.incheonilbo.com/news/articleView.html?idxno=1334521",
         "source": "incheonilbo.com",
@@ -2594,20 +2616,6 @@
         "link": "https://magazine.hankyung.com/business/article/202610141320b",
         "source": "magazine.hankyung.com",
         "pubDate": "Wed, 14 Oct 2026 13:32:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "의정부 원도심 신축 아파트 '의정부역 해링턴플레이스'···즉시 입주 가...",
-        "link": "http://www.koreastocknews.com/news/articleView.html?idxno=121726",
-        "source": "koreastocknews.com",
-        "pubDate": "Tue, 13 Oct 2026 16:58:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "양우건설, 49층 랜드마크 ‘의정부역 펠리스타워 양우내안애’ 10월 분양",
-        "link": "https://www.fntimes.com/html/view.php?ud=202610061250416858048b718333_18",
-        "source": "fntimes.com",
-        "pubDate": "Tue, 06 Oct 2026 13:12:00 +0900",
         "category": "etc"
       }
     ],
@@ -2657,6 +2665,13 @@
     ],
     "sfm-ilsan": [
       {
+        "title": "\"전시·관광 융합한 마이스 새 모델\"…'GCC 고양 페스타', 6천명 북적",
+        "link": "http://www.bizwnews.com/news/articleView.html?idxno=149453",
+        "source": "bizwnews.com",
+        "pubDate": "Tue, 20 Oct 2026 18:24:00 +0900",
+        "category": "etc"
+      },
+      {
         "title": "무신사 스탠다드, 경남 첫 매장 '롯데백화점 창원점' 공식 오픈",
         "link": "http://www.biztribune.co.kr/news/articleView.html?idxno=360704",
         "source": "biztribune.co.kr",
@@ -2689,13 +2704,6 @@
         "link": "https://www.news1.kr/local/gyeonggi/6313276",
         "source": "news1.kr",
         "pubDate": "Wed, 07 Oct 2026 16:19:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "고양국제박람회재단, 체험·소비 결합형 MICE 축제 '2026 GCC 고양 페스타...",
-        "link": "https://www.discoverynews.kr/news/articleView.html?idxno=1103383",
-        "source": "discoverynews.kr",
-        "pubDate": "Tue, 06 Oct 2026 16:26:00 +0900",
         "category": "etc"
       }
     ],
@@ -2844,6 +2852,13 @@
     ],
     "ga-gwanggyo": [
       {
+        "title": "효율ㆍ환경ㆍ미관 다잡은 ‘아트 페이퍼’ 주목",
+        "link": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202610202130087100392",
+        "source": "dnews.co.kr",
+        "pubDate": "Wed, 21 Oct 2026 06:20:00 +0900",
+        "category": "etc"
+      },
+      {
         "title": "마켓틸다·틸다뷰티, 갤러리아백화점 광교점 첫 입점, K-뷰티 경쟁력 강...",
         "link": "https://www.gokorea.kr/news/articleView.html?idxno=881718",
         "source": "gokorea.kr",
@@ -2876,13 +2891,6 @@
         "link": "https://www.newstnt.com/news/articleView.html?idxno=722998",
         "source": "newstnt.com",
         "pubDate": "Wed, 14 Oct 2026 18:34:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "제24회 수원시 주민자치박람회 44개동 다양한 활동 성과 선봬",
-        "link": "https://www.onews.tv/news/articleView.html?idxno=289112",
-        "source": "onews.tv",
-        "pubDate": "Wed, 14 Oct 2026 13:46:00 +0900",
         "category": "etc"
       }
     ],
@@ -2933,45 +2941,45 @@
     ],
     "hd-daejeon-o": [
       {
-        "title": "'7명 사망' 대전 현대아울렛 화재 관계자 4명 실형",
-        "link": "https://www.ggilbo.com/news/articleView.html?idxno=1187528",
-        "source": "ggilbo.com",
-        "pubDate": "Sun, 18 Oct 2026 16:32:00 +0900",
+        "title": "'류현진·배지현 부부가 직접 나선다' 대전서 생애 첫 나눔 플리마켓 개...",
+        "link": "https://www.starnewskorea.com/sports/2026/10/21/2026102014401065401",
+        "source": "starnewskorea.com",
+        "pubDate": "Wed, 21 Oct 2026 04:29:00 +0900",
         "category": "etc"
       },
       {
-        "title": "현대아울렛 화재 참사, 소방업체 소장 징역 3년·점장 징역 1년",
-        "link": "http://www.chungnamilbo.co.kr/news/articleView.html?idxno=915253",
-        "source": "chungnamilbo.co.kr",
-        "pubDate": "Sun, 18 Oct 2026 11:38:00 +0900",
+        "title": "‘7명 사망’ 현대아울렛 화재… 소방업체 소장 등 4명 실형",
+        "link": "http://fpn119.co.kr/258155",
+        "source": "fpn119.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 19:12:00 +0900",
         "category": "etc"
       },
       {
-        "title": "[기자수첩] 현대아울렛 참사 4년 만의 처벌…안전은 달라졌나",
-        "link": "https://www.bzeronews.com/news/articleView.html?idxno=823968",
-        "source": "bzeronews.com",
-        "pubDate": "Sat, 17 Oct 2026 09:14:00 +0900",
+        "title": "한화 류현진-배지현 부부, 생애 첫 플리마켓… 친필 사인 유니폼 등 나...",
+        "link": "https://www.daejonilbo.com/news/articleView.html?idxno=2308289",
+        "source": "daejonilbo.com",
+        "pubDate": "Tue, 20 Oct 2026 16:59:00 +0900",
         "category": "etc"
       },
       {
-        "title": "김민석, 조희대 탄핵 논의 공식화…민주당 내 신중론도[오늘아침]",
-        "link": "https://www.nocutnews.co.kr/news/6592886?utm_source=naver&utm_medium=article&utm_campaign=20261017092820",
-        "source": "nocutnews.co.kr",
-        "pubDate": "Sat, 17 Oct 2026 07:04:00 +0900",
+        "title": "‘64억 자택 거주’ 류현진♥배지현, 애장품 내놓는다‥통 큰 플리마켓...",
+        "link": "https://www.newsen.com/news_view.php?uid=202610201645026310",
+        "source": "newsen.com",
+        "pubDate": "Tue, 20 Oct 2026 16:57:00 +0900",
         "category": "etc"
       },
       {
-        "title": "대전 현대아웃렛 화재 '4명 실형'…법원, 하역장·소방시설 관리 책임 인...",
-        "link": "https://www.bzeronews.com/news/articleView.html?idxno=823958",
-        "source": "bzeronews.com",
-        "pubDate": "Fri, 16 Oct 2026 19:14:00 +0900",
+        "title": "친필 사인 유니폼·스파이크 기부 경매부터 미니 팬 사인회까지...류현...",
+        "link": "https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553629779",
+        "source": "sportalkorea.com",
+        "pubDate": "Tue, 20 Oct 2026 14:43:00 +0900",
         "category": "etc"
       },
       {
-        "title": "7명 숨진 현대아울렛 대전점 화재…원·하청 관계자 4명 실형",
-        "link": "https://www.dailian.co.kr/news/view/1702624/?sc=Naver",
-        "source": "dailian.co.kr",
-        "pubDate": "Fri, 16 Oct 2026 18:50:00 +0900",
+        "title": "류현진·배지현 부부, 25일 첫 나눔 플리마켓 개최…수익금 전액 기부",
+        "link": "https://www.news1.kr/sports/baseball/6325907",
+        "source": "news1.kr",
+        "pubDate": "Tue, 20 Oct 2026 14:17:00 +0900",
         "category": "etc"
       }
     ],
@@ -3109,6 +3117,13 @@
     ],
     "ss-cheonan": [
       {
+        "title": "무신사 스탠다드, 창원 매출 나흘 만에 4억5000만원···지방 사업 확대",
+        "link": "http://www.finomy.com/news/articleView.html?idxno=264151",
+        "source": "finomy.com",
+        "pubDate": "Tue, 20 Oct 2026 17:30:00 +0900",
+        "category": "etc"
+      },
+      {
         "title": "신세계백화점, 올들어 MZ세대 관심도 큰폭 상승...\"쇼핑 넘어 놀이터로...",
         "link": "https://www.thebigdata.co.kr/view.php?ud=202610092312199923fdcde0ec8c_23",
         "source": "thebigdata.co.kr",
@@ -3141,13 +3156,6 @@
         "link": "https://www.bntnews.co.kr/article/view/bnt202610080240",
         "source": "bntnews.co.kr",
         "pubDate": "Thu, 08 Oct 2026 16:52:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "핍스모터사이클 ‘낡을수록 더 소중해지는 것’… 배우 김민 등 4인과 함...",
-        "link": "https://www.seoul.co.kr/news/economy/2026/10/08/20261008500212?wlog_tag3=naver",
-        "source": "seoul.co.kr",
-        "pubDate": "Thu, 08 Oct 2026 16:48:00 +0900",
         "category": "etc"
       }
     ],
@@ -3308,49 +3316,56 @@
     ],
     "ss-daegu": [
       {
-        "title": "현대차, '아반떼 N 모노크롬' 공개…29일 국내 출시",
-        "link": "https://www.gpkorea.com/news/articleView.html?idxno=147735",
-        "source": "gpkorea.com",
-        "pubDate": "Tue, 20 Oct 2026 08:22:00 +0900",
+        "title": "신세계 아카데미, 겨울학기 회원 모집...오승환 특강 外",
+        "link": "https://www.slist.kr/news/articleView.html?idxno=775025",
+        "source": "slist.kr",
+        "pubDate": "Wed, 21 Oct 2026 07:44:00 +0900",
         "category": "etc"
       },
       {
-        "title": "신세계 정기인사 임박...정용진 책임경영, 성과·책임 어디까지 나눌까",
-        "link": "http://www.popcornnews.net/news/articleView.html?idxno=136483",
+        "title": "신세계百, 아카데미 겨울학기 회원 모집…문화 특강 마련",
+        "link": "http://www.ftoday.co.kr/news/articleView.html?idxno=367727",
+        "source": "ftoday.co.kr",
+        "pubDate": "Wed, 21 Oct 2026 07:36:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "사주부터 홈파티 요리까지… 신세계 아카데미, 겨울학기 수강생 모집",
+        "link": "https://www.viva100.com/article/20261020501170",
+        "source": "viva100.com",
+        "pubDate": "Wed, 21 Oct 2026 06:02:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "\"연말 체험형 콘텐츠 가득\"…신세계 아카데미 겨울학기 특강",
+        "link": "https://www.news1.kr/industry/distribution/6326366",
+        "source": "news1.kr",
+        "pubDate": "Wed, 21 Oct 2026 06:00:00 +0900",
+        "category": "popup"
+      },
+      {
+        "title": "신세계 아카데미, 오승환·마크 테토 등 명사 특강 확대",
+        "link": "http://www.4th.kr/news/articleView.html?idxno=2120084",
+        "source": "4th.kr",
+        "pubDate": "Wed, 21 Oct 2026 06:00:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "신세계百 아카데미, 겨울학기 접수...명사 강연부터 크리스마스 체험까...",
+        "link": "http://www.popcornnews.net/news/articleView.html?idxno=136640",
         "source": "popcornnews.net",
-        "pubDate": "Tue, 20 Oct 2026 08:00:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "현대차, 고성능 감성에 절제미 더했다…'아반떼 N 모노크롬' 공개",
-        "link": "https://www.apnews.kr/news/articleView.html?idxno=3052251",
-        "source": "apnews.kr",
-        "pubDate": "Tue, 20 Oct 2026 03:04:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "현대자동차·기아, 모빌리티 체험·AI 인재 양성 확대…아반떼 N 특별 모...",
-        "link": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2338867",
-        "source": "webeconomy.co.kr",
-        "pubDate": "Tue, 20 Oct 2026 01:10:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "현대차, '아반떼 N 모노크롬' 공개…고성능 감성에 절제미 더해",
-        "link": "https://www.g-enews.com/view.php?ud=2026101921474172112616b072_1",
-        "source": "g-enews.com",
-        "pubDate": "Mon, 19 Oct 2026 22:04:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "현대차, 고성능 집중 '아반떼 N 모노크롬' 공개",
-        "link": "https://www.ulsanpress.net/news/articleView.html?idxno=584956",
-        "source": "ulsanpress.net",
-        "pubDate": "Mon, 19 Oct 2026 21:42:00 +0900",
+        "pubDate": "Wed, 21 Oct 2026 06:00:00 +0900",
         "category": "etc"
       }
     ],
     "lt-daegu": [
+      {
+        "title": "등산하기 좋은 계절 \"아웃도어 아우터 장만하세요\"",
+        "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=562847",
+        "source": "idaegu.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 21:24:00 +0900",
+        "category": "etc"
+      },
       {
         "title": "롯데백화점·아울렛, 가을 아웃도어 기획전 진행",
         "link": "https://biz.heraldcorp.com/article/10907692?ref=naver",
@@ -3385,16 +3400,16 @@
         "source": "cnbnews.com",
         "pubDate": "Thu, 15 Oct 2026 17:20:00 +0900",
         "category": "open"
-      },
-      {
-        "title": "롯데백화점 대구점, 유엔난민기구와 ‘온덕이네 우체국’ 운영",
-        "link": "https://www.kbmaeil.com/article/20261015500437",
-        "source": "kbmaeil.com",
-        "pubDate": "Thu, 15 Oct 2026 16:06:00 +0900",
-        "category": "etc"
       }
     ],
     "lt-sangin": [
+      {
+        "title": "롯데백화점 국가보훈부와 보훈문화 확산 업무협약, 콘텐츠 제작 사업 추...",
+        "link": "https://www.businesspost.co.kr/BP?command=article_view&num=449825",
+        "source": "businesspost.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 16:42:00 +0900",
+        "category": "etc"
+      },
       {
         "title": "롯데백화점, 보훈부와 업무협약…매장·고객 접점서 '일상 속 보훈' 확산",
         "link": "https://www.ajunews.com/view/20261020084004306",
@@ -3428,13 +3443,6 @@
         "link": "https://www.newsis.com/view/NISX20261012_0003822408",
         "source": "newsis.com",
         "pubDate": "Mon, 12 Oct 2026 15:27:00 +0900",
-        "category": "popup"
-      },
-      {
-        "title": "한식디저트 브랜드 녹태원, 10월 1~11일 롯데백화점 인천점 팝업",
-        "link": "https://www.kdpress.co.kr/news/articleView.html?idxno=208965",
-        "source": "kdpress.co.kr",
-        "pubDate": "Wed, 30 Sep 2026 11:24:00 +0900",
         "category": "popup"
       }
     ],
@@ -3551,6 +3559,20 @@
     ],
     "lt-isiapolis": [
       {
+        "title": "'기다려!' 롯데아울렛 이시아폴리스점 반려견 챌린지",
+        "link": "https://www.newsis.com/view/NISX20261021_0003834235",
+        "source": "newsis.com",
+        "pubDate": "Wed, 21 Oct 2026 08:16:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "등산하기 좋은 계절 \"아웃도어 아우터 장만하세요\"",
+        "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=562847",
+        "source": "idaegu.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 21:24:00 +0900",
+        "category": "etc"
+      },
+      {
         "title": "롯데백화점·아울렛, 가을 아웃도어 기획전 진행",
         "link": "https://biz.heraldcorp.com/article/10907692?ref=naver",
         "source": "biz.heraldcorp.com",
@@ -3577,24 +3599,31 @@
         "source": "imaeil.com",
         "pubDate": "Thu, 15 Oct 2026 14:44:00 +0900",
         "category": "open"
-      },
-      {
-        "title": "대구지역 롯데百·아울렛 '더블 찬스 위크'",
-        "link": "https://www.idaegu.co.kr/news/articleView.html?idxno=562365",
-        "source": "idaegu.co.kr",
-        "pubDate": "Wed, 14 Oct 2026 21:24:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "롯데백화점·아울렛, 대구지역 4개점 ‘더블찬스 위크’진행",
-        "link": "https://biz.heraldcorp.com/article/10902830?ref=naver",
-        "source": "biz.heraldcorp.com",
-        "pubDate": "Wed, 14 Oct 2026 19:47:00 +0900",
-        "category": "open"
       }
     ],
     "ikea-daegu": [],
     "sfm-gyeongsan": [
+      {
+        "title": "[현장] 오후 4시까지 즐기는 여유…매드포갈릭 브런치 한 상",
+        "link": "http://www.newsprime.co.kr/news/article.html?no=751744",
+        "source": "newsprime.co.kr",
+        "pubDate": "Wed, 21 Oct 2026 08:38:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "'매출 감소' 매드포갈릭, '모두의 다이닝'으로 반등 승부수",
+        "link": "https://news.bizwatch.co.kr/article/consumer/2026/10/20/0038",
+        "source": "news.bizwatch.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 16:35:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "[르포] \"매드포갈릭 = 스테이크, 고정관념 깬다\" 매드포갈릭의 브런치 ...",
+        "link": "https://biz.newdaily.co.kr/site/data/html/2026/10/20/2026102000245.html",
+        "source": "biz.newdaily.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 15:32:00 +0900",
+        "category": "etc"
+      },
       {
         "title": "세 집 중 한 집은 반려동물 양육···식품·유통업계 '펫심' 공략",
         "link": "https://www.ajunews.com/view/20261012155206134",
@@ -3611,6 +3640,13 @@
       }
     ],
     "hd-ulsan-nam": [
+      {
+        "title": "무신사 스탠다드, \"창원 첫 매장 나흘만에 매출 4.5억 돌파\"",
+        "link": "http://www.biztribune.co.kr/news/articleView.html?idxno=360931",
+        "source": "biztribune.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 17:24:00 +0900",
+        "category": "etc"
+      },
       {
         "title": "무신사 스탠다드, 경남 첫 매장 '롯데백화점 창원점' 공식 오픈",
         "link": "http://www.biztribune.co.kr/news/articleView.html?idxno=360704",
@@ -3645,13 +3681,6 @@
         "source": "techm.kr",
         "pubDate": "Mon, 12 Oct 2026 11:30:00 +0900",
         "category": "etc"
-      },
-      {
-        "title": "'현대百서 만나는 로블록스', 11일까지 체험형 팝업 운영",
-        "link": "https://www.ksilbo.co.kr/news/articleView.html?idxno=1068992",
-        "source": "ksilbo.co.kr",
-        "pubDate": "Wed, 07 Oct 2026 00:02:00 +0900",
-        "category": "popup"
       }
     ],
     "hd-ulsan-dong": [
@@ -3702,6 +3731,20 @@
     ],
     "ss-centum": [
       {
+        "title": "힐리먼트, 신세계 센텀시티점 팝업스토어 운영",
+        "link": "http://www.apparelnews.co.kr/news/news_view/?idx=228375",
+        "source": "apparelnews.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 15:26:00 +0900",
+        "category": "popup"
+      },
+      {
+        "title": "신세계 센텀시티, 글로벌 커피 브랜드 '% 아라비카' 팝업 운영",
+        "link": "https://www.gukjenews.com/news/articleView.html?idxno=3726932",
+        "source": "gukjenews.com",
+        "pubDate": "Tue, 20 Oct 2026 15:18:00 +0900",
+        "category": "popup"
+      },
+      {
         "title": "'더현대 서울' 성공 방정식 통할까…현대百, 부산서 신세계와 정면승부",
         "link": "https://www.newstopkorea.com/news/articleView.html?idxno=48260",
         "source": "newstopkorea.com",
@@ -3721,16 +3764,16 @@
         "source": "ekn.kr",
         "pubDate": "Mon, 19 Oct 2026 20:02:00 +0900",
         "category": "etc"
-      },
-      {
-        "title": "그레이맨션, 삼청동 넘어 부산·수도권 영토 확장…전국 거점 유통망 본...",
-        "link": "https://www.sentv.co.kr/article/view/sentv202610190124",
-        "source": "sentv.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 14:50:00 +0900",
-        "category": "etc"
       }
     ],
     "lt-centum": [
+      {
+        "title": "무신사 스탠다드, \"창원 첫 매장 나흘만에 매출 4.5억 돌파\"",
+        "link": "http://www.biztribune.co.kr/news/articleView.html?idxno=360931",
+        "source": "biztribune.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 17:24:00 +0900",
+        "category": "etc"
+      },
       {
         "title": "무신사 스탠다드, 경남 첫 매장 '롯데백화점 창원점' 공식 오픈",
         "link": "http://www.biztribune.co.kr/news/articleView.html?idxno=360704",
@@ -3744,20 +3787,6 @@
         "source": "idomin.com",
         "pubDate": "Thu, 15 Oct 2026 14:46:00 +0900",
         "category": "open"
-      },
-      {
-        "title": "대구 '천장 붕괴' 상가 내 판매업자 입건…\"대피지시 안 해\"",
-        "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=856167",
-        "source": "newsworks.co.kr",
-        "pubDate": "Mon, 12 Oct 2026 14:36:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "일정 취소 속 성명·현수막까지…부국제 맴돈 ‘암살자(들)’[31st BIFF]",
-        "link": "https://www.dailian.co.kr/news/view/1700224/?sc=Naver",
-        "source": "dailian.co.kr",
-        "pubDate": "Mon, 12 Oct 2026 10:34:00 +0900",
-        "category": "etc"
       }
     ],
     "ss-osiria": [
@@ -3806,6 +3835,27 @@
     ],
     "lt-dongbusan": [
       {
+        "title": "우니꼬코리아, '멜로우TV 팀나빠, 파티타임!' 팝업스토어 누적 방문객 약...",
+        "link": "https://www.gukjenews.com/news/articleView.html?idxno=3726461",
+        "source": "gukjenews.com",
+        "pubDate": "Tue, 20 Oct 2026 09:50:00 +0900",
+        "category": "popup"
+      },
+      {
+        "title": "우니꼬코리아, 의왕·동부산서 '멜로우TV 팀나빠, 파티타임!' 팝업스토어...",
+        "link": "http://www.e2news.com/news/articleView.html?idxno=335244",
+        "source": "e2news.com",
+        "pubDate": "Tue, 20 Oct 2026 09:46:00 +0900",
+        "category": "popup"
+      },
+      {
+        "title": "우니꼬코리아, ‘멜로우TV 팀나빠, 파티타임!’ 팝업 종료… 누적 방문...",
+        "link": "https://www.segye.com/newsView/20261020506778?OutUrl=naver",
+        "source": "segye.com",
+        "pubDate": "Tue, 20 Oct 2026 09:42:00 +0900",
+        "category": "popup"
+      },
+      {
         "title": "우니꼬코리아, ‘멜로우TV 팀나빠, 파티타임!’ 팝업스토어 성료",
         "link": "https://www.dt.co.kr/article/12090007?ref=naver",
         "source": "dt.co.kr",
@@ -3825,20 +3875,6 @@
         "source": "wikitree.co.kr",
         "pubDate": "Thu, 24 Sep 2026 05:12:00 +0900",
         "category": "etc"
-      },
-      {
-        "title": "울산 백화점, 추석 연휴 24~25일 휴점…마트·아울렛은 단축영업",
-        "link": "https://www.iusm.co.kr/news/articleView.html?idxno=1068269",
-        "source": "iusm.co.kr",
-        "pubDate": "Mon, 21 Sep 2026 17:40:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "롯데아울렛·몰, 추석부터 ‘그랜드 쇼핑 페스타’…F/W 최대 80% 할인",
-        "link": "https://www.seoultimes.news/news/article.html?no=2000100012",
-        "source": "seoultimes.news",
-        "pubDate": "Thu, 17 Sep 2026 16:47:00 +0900",
-        "category": "sale"
       }
     ],
     "ikea-dongbusan": [
@@ -3887,49 +3923,63 @@
     ],
     "lt-busan": [
       {
-        "title": "타건부터 DIY 조합까지 한자리서… 몬스타기어, 롯데백화점 부산본점 팝...",
-        "link": "https://www.ilovepc.co.kr/news/articleView.html?idxno=61028",
-        "source": "ilovepc.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 18:22:00 +0900",
+        "title": "[부산유통가] 롯데百, 대한민국 주류대상 특별기획전···신세계百, '% ...",
+        "link": "https://www.seoulfn.com/news/articleView.html?idxno=640576",
+        "source": "seoulfn.com",
+        "pubDate": "Wed, 21 Oct 2026 08:29:00 +0900",
         "category": "etc"
       },
       {
-        "title": "다섯 살 아들과 놀이공원으로...롯데가 직원 가족에게 선물한 하루",
-        "link": "https://www.insight.co.kr/news/578264",
-        "source": "insight.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 14:06:00 +0900",
+        "title": "[포토뉴스] 재봉틀의 세계",
+        "link": "https://www.busan.com/view/busan/view.php?code=2026102018073357952",
+        "source": "busan.com",
+        "pubDate": "Tue, 20 Oct 2026 18:11:00 +0900",
         "category": "etc"
       },
       {
-        "title": "롯데, 서울·부산서 임직원 가족 축제… 1만7000명 한자리에",
-        "link": "https://www.koreaittimes.com/news/articleView.html?idxno=158265",
-        "source": "koreaittimes.com",
-        "pubDate": "Mon, 19 Oct 2026 12:52:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "롯데백 부산본점, '데카트론' 팝업…부산 명소 담은 한정판 티셔츠 선봬",
-        "link": "https://www.cnbnews.com/news/articleView.html?idxno=1019806",
+        "title": "\"자수 체험해봐요\" 롯데백 부산본점, 소잉팩토리 팝업 진행",
+        "link": "https://www.cnbnews.com/news/articleView.html?idxno=1020163",
         "source": "cnbnews.com",
-        "pubDate": "Mon, 19 Oct 2026 10:48:00 +0900",
+        "pubDate": "Tue, 20 Oct 2026 17:22:00 +0900",
         "category": "popup"
       },
       {
-        "title": "롯데 패밀리 페스티벌, 부산 첫 개최…임직원 가족 2000명 한자리에",
-        "link": "https://www.etoday.co.kr/news/view/2637174",
-        "source": "etoday.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 09:10:00 +0900",
+        "title": "롯데백화점 부산본점, '소잉팩토리' 팝업스토어 운영",
+        "link": "https://www.smartbizn.com/news/articleView.html?idxno=157030",
+        "source": "smartbizn.com",
+        "pubDate": "Tue, 20 Oct 2026 17:22:00 +0900",
+        "category": "popup"
+      },
+      {
+        "title": "[인플루언서 쟁탈전①] '43조 큰손' 팬덤 시장...백화점도 눈치본다",
+        "link": "https://www.insightkorea.co.kr/news/articleView.html?idxno=256810",
+        "source": "insightkorea.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 17:02:00 +0900",
         "category": "etc"
       },
       {
-        "title": "롯데 ‘러브 패밀리 페스티벌’ 부산서 첫 개최",
-        "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20261018.99099004841",
-        "source": "kookje.co.kr",
-        "pubDate": "Mon, 19 Oct 2026 03:05:00 +0900",
-        "category": "etc"
+        "title": "롯데백화점 부산본점, '소잉팩토리' 팝업…미싱·자수 체험 한자리",
+        "link": "https://www.industrynews.co.kr/news/articleView.html?idxno=87826",
+        "source": "industrynews.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 14:00:00 +0900",
+        "category": "popup"
       }
     ],
     "lt-gwangbok": [
+      {
+        "title": "부산경제진흥원, 방송인 션과 청년 250명 만난다…21일 '마음 힐링' 강연",
+        "link": "http://www.newstown.co.kr/news/articleView.html?idxno=719163",
+        "source": "newstown.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 23:21:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "부산시·부산경제진흥원, 청년 마음건강 위한 힐링강연 개최",
+        "link": "https://www.viva100.com/article/20261020500930",
+        "source": "viva100.com",
+        "pubDate": "Tue, 20 Oct 2026 15:42:00 +0900",
+        "category": "etc"
+      },
       {
         "title": "치솟는 외식물가에 '배달 특화' 등 사업전략 다시 짜는 외식업계",
         "link": "https://it.chosun.com/news/articleView.html?idxno=2023092172101",
@@ -3956,20 +4006,6 @@
         "link": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20261013.22006003283",
         "source": "kookje.co.kr",
         "pubDate": "Mon, 12 Oct 2026 19:49:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "[단독] 롯데리아만으론 부족하다…롯데GRS, '자체 식당' 늘리는 까닭",
-        "link": "https://www.news1.kr/industry/distribution/6309433",
-        "source": "news1.kr",
-        "pubDate": "Tue, 06 Oct 2026 06:10:00 +0900",
-        "category": "popup"
-      },
-      {
-        "title": "“한 끼 2만원대로 배부르게”…고물가에 다시 기지개 켜는 뷔페 시장 ...",
-        "link": "https://www.sedaily.com/article/20097791?ref=naver",
-        "source": "sedaily.com",
-        "pubDate": "Mon, 05 Oct 2026 10:01:00 +0900",
         "category": "etc"
       }
     ],
@@ -4020,46 +4056,46 @@
     "ss-masan": [],
     "lt-changwon": [
       {
-        "title": "무신사 스탠다드, 창원점 개점 나흘간 매출 4억5000만원 기록",
-        "link": "https://www.lawissue.co.kr/view.php?ud=202610200840215991204ead0791_12",
-        "source": "lawissue.co.kr",
-        "pubDate": "Tue, 20 Oct 2026 08:42:00 +0900",
+        "title": "롯데백화점 창원점 무신사 오픈 4일만에 4.5억원 매출",
+        "link": "https://www.newsis.com/view/NISX20261020_0003834078",
+        "source": "newsis.com",
+        "pubDate": "Tue, 20 Oct 2026 22:54:00 +0900",
         "category": "open"
       },
       {
-        "title": "무신사 스탠다드 창원점, 나흘 만에 매출 4억5000만 원 돌파",
-        "link": "https://www.news1.kr/industry/distribution/6325284",
-        "source": "news1.kr",
-        "pubDate": "Tue, 20 Oct 2026 08:35:00 +0900",
+        "title": "창원도 '무탠다드' 효과 '톡톡'···'오픈런'에 4.5억 '잭팟'",
+        "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2482391",
+        "source": "enewstoday.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 18:00:00 +0900",
+        "category": "open"
+      },
+      {
+        "title": "LF 닥스골프 경량 다운 판매 15% 증가…무신사 창원점 나흘 만에 4.5억 매...",
+        "link": "https://sateconomy.co.kr/news/view/1065602068811987",
+        "source": "sateconomy.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 17:50:00 +0900",
         "category": "etc"
       },
       {
-        "title": "무신사 스탠다드 창원점, 나흘 만에 4.5억 매출…영업전 오픈런까지",
-        "link": "https://www.cstimes.com/news/articleView.html?idxno=724518",
-        "source": "cstimes.com",
-        "pubDate": "Tue, 20 Oct 2026 08:26:00 +0900",
-        "category": "open"
-      },
-      {
-        "title": "무신사 스탠다드, 영남권 오프라인 확대…창원점 초반 매출 호조",
-        "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=496704",
-        "source": "pinpointnews.co.kr",
-        "pubDate": "Tue, 20 Oct 2026 08:08:00 +0900",
+        "title": "무신사 스탠다드, 창원 매출 나흘 만에 4억5000만원···지방 사업 확대",
+        "link": "http://www.finomy.com/news/articleView.html?idxno=264151",
+        "source": "finomy.com",
+        "pubDate": "Tue, 20 Oct 2026 17:30:00 +0900",
         "category": "etc"
       },
       {
-        "title": "무신사 스탠다드 창원점, 개점 나흘 만에 매출 4.5억 돌파",
-        "link": "https://news.tf.co.kr/read/economy/2378157.htm",
-        "source": "news.tf.co.kr",
-        "pubDate": "Tue, 20 Oct 2026 07:49:00 +0900",
-        "category": "open"
+        "title": "무신사 스탠다드, \"창원 첫 매장 나흘만에 매출 4.5억 돌파\"",
+        "link": "http://www.biztribune.co.kr/news/articleView.html?idxno=360931",
+        "source": "biztribune.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 17:24:00 +0900",
+        "category": "etc"
       },
       {
-        "title": "무신사 스탠다드, 경남 첫 매장 창원에 300평 규모 오픈",
-        "link": "http://www.ktnews.com/news/articleView.html?idxno=149393",
-        "source": "ktnews.com",
-        "pubDate": "Fri, 16 Oct 2026 08:54:00 +0900",
-        "category": "open"
+        "title": "무신사 스탠다드, 경남 롯데百 창원점 누적 매출 4억 5000만원",
+        "link": "https://weekly.hankooki.com/news/articleView.html?idxno=7189771",
+        "source": "weekly.hankooki.com",
+        "pubDate": "Tue, 20 Oct 2026 17:02:00 +0900",
+        "category": "etc"
       }
     ],
     "ss-gimhae": [],
@@ -4250,6 +4286,27 @@
     ],
     "lt-gwangju": [
       {
+        "title": "[충장로 '추억 팔이' 한계, '르네상스'의 길] 충장로엔 백화점들이 있었...",
+        "link": "http://www.gjdream.com/news/articleView.html?idxno=673579",
+        "source": "gjdream.com",
+        "pubDate": "Wed, 21 Oct 2026 00:06:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "[전남광주소식] 롯데백화점, 건강식품 슈퍼위크",
+        "link": "https://www.yna.co.kr/view/AKR20261020102900054?input=1195m",
+        "source": "yna.co.kr",
+        "pubDate": "Tue, 20 Oct 2026 13:56:00 +0900",
+        "category": "etc"
+      },
+      {
+        "title": "[시대포토] 롯데백광주점 \"환절기 건강 챙기세요\"",
+        "link": "https://www.sidae.com/article/2026102013285970410",
+        "source": "sidae.com",
+        "pubDate": "Tue, 20 Oct 2026 13:42:00 +0900",
+        "category": "etc"
+      },
+      {
         "title": "롯데백화점 광주점, 겨울 모피 팝업 운영",
         "link": "https://www.yna.co.kr/view/PYH20261019217600054?input=1196m",
         "source": "yna.co.kr",
@@ -4268,27 +4325,6 @@
         "link": "http://www.kjdaily.com/article.php?aid=1792060572689270004",
         "source": "kjdaily.com",
         "pubDate": "Thu, 15 Oct 2026 19:40:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "롯데百 광주점, '한섬 글로벌 패션 위크' 진행",
-        "link": "https://www.namdonews.com/news/articleView.html?idxno=926232",
-        "source": "namdonews.com",
-        "pubDate": "Thu, 15 Oct 2026 16:08:00 +0900",
-        "category": "etc"
-      },
-      {
-        "title": "[시대포토] 롯데백광주점, 한섬 패션그룹 브랜드 할인 행사",
-        "link": "https://www.sidae.com/article/2026101514421466049",
-        "source": "sidae.com",
-        "pubDate": "Thu, 15 Oct 2026 14:57:00 +0900",
-        "category": "sale"
-      },
-      {
-        "title": "롯데백화점 광주점, 한섬 브랜드 모은 '글로벌 패션 위크'...20일까지",
-        "link": "https://daily.hankooki.com/news/articleView.html?idxno=1415158",
-        "source": "daily.hankooki.com",
-        "pubDate": "Thu, 15 Oct 2026 12:54:00 +0900",
         "category": "etc"
       }
     ],
